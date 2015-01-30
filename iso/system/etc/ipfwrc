@@ -1,0 +1,92 @@
+#!/system/bin/sh
+#
+#
+
+
+. /system/etc/rc.conf
+
+load_ipfw_driver(){
+	inkmod /system/drivers/ipfw.sys 
+
+}
+
+load_ipfw_nat_rules(){
+	ipfw add 00300 nat 10 all from any to any via bge1 
+	ipfw nat 10 config if bge1 
+#	ipfw nat 50 config redirect_port tcp 192.168.1.1:80 80 
+	ipfw nat 60 config redirect_port tcp 192.168.1.1:21 21 
+	echo "ipfw show nat config :"
+	ipfw nat show config
+}
+
+load_ipfw_dummy_rules(){
+	ipfw add pipe 1 ip from any to any out
+	ipfw add pipe 2 ip from any to any in
+	ipfw pipe 1 config bw 64Kbit/s queue 10Kbytes
+	ipfw pipe 2 config bw 64Kbit/s queue 10Kbytes
+}
+
+ipfw_test(){  
+  ipfw -q -f flush
+  ipfw -q add check-state
+  ipfw -q add deny all from any to any frag
+  ipfw -q add deny tcp from any to any established
+  ipfw -q add allow tcp from any to any 80 out via eth setup keep-state
+  ipfw -q add allow tcp from any to 192.0.2.11 53 out via eth setup keep-state
+  ipfw -q add 00611 allow udp from any to 192.0.2.11 53 out via eth keep-state
+}
+
+ipfw_test2(){  
+	ipfw -f flush 
+	ipfw add deny all from 192.168.0.100 to any
+	ipfw -q add 00200 allow tcp from any to any 80 out via mytun setup keep-state
+	ipfw add pass all from any to any
+}
+
+ipfw_test3(){  
+	ipfw -f flush 
+#	ipfw -q add deny all from 192.168.0.100 to any
+	ipfw -q add 320 deny tcp from any to any 80 in via eth
+	ipfw -q add pass all from any to any
+}
+
+load_ipfw_rules(){
+	ipfw_test3
+}
+
+start(){
+	if [  $ENABLE_IPFW = "yes" ] 
+	then		
+
+		load_ipfw_driver
+		load_ipfw_rules
+		load_ipfw_dummy_rules
+		exit
+	else
+		echo "No IPFW Support!"
+	fi
+}
+
+############
+### MAIN ###
+############
+
+case "$1" in
+'start') # "start" service:
+	start
+  ;;
+
+'stop') # "stop" service:
+  stop
+  ;;
+
+'restart') # "restart"  the service:
+  stop
+  start
+  ;;
+
+*) # The default :
+  echo "$0 start | stop"
+esac
+
+

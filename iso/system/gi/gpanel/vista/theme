@@ -1,0 +1,80 @@
+name 				vista
+version_major 			1
+version_minor 			0
+
+placement 			bottom
+tile_img 			fundo.png
+
+tray_icon_w 			20
+tray_icon_h 			20
+tray_space_gap			0
+tray_icons_spacing		0
+
+# order of elements here
+# 's' - desktop Switcher
+# 'b' - taskBar
+# 't' - icon Tray
+# 'c' - Clock
+elements 			sbtc
+
+#--------------------- switcher --------------------------------
+
+ds_tile_idle_img 		barra.png
+ds_tile_pressed_img 		barra-pressionada.png
+
+ds_left_idle_img 		barra-esquerda.png
+ds_right_idle_img 		barra-direita.png
+
+ds_left_pressed_img 		barra-esquerda-pressionada.png
+ds_right_pressed_img 		barra-direita-pressionada.png
+
+ds_right_corner_idle_img 	area-direita-corner.png
+ds_right_corner_pressed_img 	area-direita-corner-pressionada.png
+
+ds_left_corner_idle_img 	area-esquerda-corner.png
+ds_left_corner_pressed_img 	area-esquerda-corner-pressionada.png
+
+#ds_separator_img 		ds_separator.png
+
+ds_font 			HandelGotD-8
+ds_text_color_idle 		FFFFFF
+ds_text_color_pressed 		FFFFFF
+ds_text_padding 		4
+ds_text_align 			center
+
+#--------------------- clock --------------------------------
+
+clock_right_img			fundo.png
+clock_tile_img 			fundo.png
+clock_left_img 			fundo.png
+
+clock_font 			HandelGotD-8
+clock_text_color 		ffffff
+clock_text_padding 		12
+clock_text_align 		center
+
+clock_format 			%I:%M %p
+
+#--------------------- taskbar --------------------------------
+
+tb_right_idle_img 		barra-direita.png
+tb_tile_idle_img 		barra.png
+tb_left_idle_img 		barra-esquerda.png
+
+tb_right_pressed_img 		barra-direita-pressionada.png
+tb_tile_pressed_img 		barra-pressionada.png
+tb_left_pressed_img 		barra-esquerda-pressionada.png
+
+tb_default_icon_img 		tb_default_icon_img.png
+
+tb_font 			HandelGotD-8
+tb_text_color_idle 		FFFFFF
+tb_text_color_pressed 		ffffff
+tb_text_offset_x 		6
+tb_text_offset_y 		0
+tb_text_align 			left
+
+tb_icon_offset_x 		0
+tb_icon_offset_y 		1
+tb_icon_w 			20
+tb_icon_h 			20

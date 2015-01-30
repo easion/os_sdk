@@ -1,0 +1,9 @@
+# /etc/hosts: Local Host Database
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+127.0.0.1       localhost.localdomain   localhost       localhost
+127.0.0.1       localhost   localhost       localhost
+127.0.0.1       NetbasPC   localhost       localhost
+127.0.0.1       box   localhost       localhost
+::1     localhost6.localdomain6 localhost6
+

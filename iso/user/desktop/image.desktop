@@ -1,0 +1,23 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Image Vierer
+
+Name[en_CA]=Image Vierer
+Name[zh_CN]=图像浏览
+Name[zh_HK]=图像浏览
+Name[zh_TW]=图像浏览
+
+Comment=pdf reader
+Comment[zh_CN]=电子图片浏览
+Comment[zh_HK]=电子图片浏览
+Comment[zh_TW]=电子图片浏览
+
+TryExec=/system/bin/imgviewer
+Exec=/system/bin/imgviewer
+Icon=/system/gi/icons/picview.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

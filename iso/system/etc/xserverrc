@@ -1,0 +1,54 @@
+#!/system/bin/sh
+################
+
+
+
+. /system/etc/rc.conf
+. /system/etc/functions.sh
+
+export LANG=zh_CN.GB18030
+#export LANG=zh_CN.utf8 
+#export DISPLAY=:0.0 #uds connect
+
+
+export DISPLAY=:0.0
+Xvesa  -mouse "ps2"  -keybd "kbd" -r -screen  800x600x32 -s 4 -nolisten tcp -fp /system/font/misc/ -auth "/system//etc/X11/Xauthority" -I -shadow & 
+#Xvesa  -mouse "ps2" -keybd "kbd" -screen  1024x768x24 -fp /system/font/misc/ -auth "/system//etc/X11/Xauthority" -I& #-shadow
+
+
+#waveplay /system/res/startup.wav &
+#waitforx
+sleep 2
+proc tcpstat
+proc udsstat
+
+export XFT_DEBUG=255
+export FONTCONFIG_FILE=/system/font/fonts.conf
+export XAUTHORITY=/system//etc/X11/Xauthority
+export FVWM_USERDIR=/system/fvwm
+
+#proc netif
+
+#exec e16 -d  "localhost:0.0" 
+exec jwm -display ":0.0" 
+#exec blackbox  -display "localhost:0.0"
+
+
+
+ps
+#xsetroot -solid \#f5f5f5 
+
+export GTK_DEBUG=1
+export GTK_DATA_PREFIX="/system"
+export GTK_RC_FILES=/user/gtkrc
+dillo #www.linuxdevices.com
+testgtk
+exit 1
+dillo http://groups.google.com/group/netbas
+aterm -T "Bash" -e sh
+exit 1
+export CONFIG_DIR="/user/links/"
+export HOME="/user/"
+testinput
+links  www.osnews.com 
+echo "########### done ###########"

@@ -1,0 +1,110 @@
+#
+# --- xonclock configuration file example ---
+#
+# 1) any comments are followed by '#' symbol
+# 2) if there is no value after '=' then xonclock ignore it and uses
+#    default internal value
+# 3) to get full description of parameter may be set see xonclock manual page
+# 4) to set any parameter use syntax: "param = value"
+#
+
+#
+# path to clock skin
+skin =
+
+#
+# base clock position:
+# (TOP-LEFT | TOP-CENTER | TOP-RIGHT | MIDDLE-LEFT |
+# MIDDLE-CENTER | MIDDLE-RIGHT | BOTTOM-LEFT |
+# BOTTOM-CENTER | BOTTOM-RIGHT)
+position = BOTTOM-RIGHT
+
+#
+# vertical and gorizontal offset (pixels)
+offset-v =
+offset-h =
+
+#
+# length and width of hours hand (pixels)
+hour-length =
+hour-width =
+
+#
+# length and width of minutes hand (pixels)
+minute-length =
+minute-width =
+
+#
+# length and width of seconds hand (pixels)
+second-length =
+second-width =
+
+#
+# colors of clock hands
+color-hour =                  # color in form R/G/B/A
+color-minute =                # color in form R/G/B/A
+color-second = 203/83/93/255  # color in form R/G/B/A
+
+#
+# seconds rendering flag
+show-seconds = true
+
+#
+# how many seconds sleep before render the clock at startup
+sleep =
+
+#
+# date rendering flag
+show-date = true              # (true | false)
+
+#
+# date string params
+date-font =                   # font name
+date-color =                  # color in form R/G/B/A
+date-format = %G-%m-%d        # date-render format
+date-position =               # format the same as for
+                              # position parameter (see above)
+date-offset-v =               # pixels
+date-offset-h =               # pixels
+date-clip-format = %G-%m-%d   # how represent date string when
+                              # copying to clipboard
+
+#
+# turn off override-redirect flag
+no-winredirect = false        # (true | false)
+
+#
+# where the center of clock hands should be
+hands-rotation-axis =         # X/Y pixels
+
+#
+# keep clock on top
+top = false                   # (true | false)
+
+#
+# clock hands overlapping size
+overlap =                     # pixels
+
+#
+# make clock movable
+movable = true                # (true | false)
+
+#
+# use background (for skins with aplpha channel)
+use-background = false        # (true | false)
+
+#
+# microsecond interval to wait until obscured
+# windows have been refreshed (useful only if
+# use-background = true) while retrieving new
+# background
+remerge-sleep = 5000
+
+#
+# to customize time zone
+tz-hour = 0
+tz-min = 0
+
+#
+# alpha channel threshold value
+alpha-threshold = 127

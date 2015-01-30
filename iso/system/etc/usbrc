@@ -1,0 +1,69 @@
+#!/system/bin/sh
+#
+#
+
+. /system/etc/rc.conf
+
+############
+### FUNCTION ###
+############
+
+probe_usb(){
+	inkmod /system/drivers/usb.sys 
+	inkmod /system/drivers/ehci.sys 
+#	inkmod /system/drivers/uhci.sys 
+#	inkmod /system/drivers/ohci.sys 
+}
+
+start(){
+	if [  $ENABLE_USB != "yes" ] 
+	then	
+		exit 1
+	fi
+
+	if [ -e /system/drivers/usb.sys  ] 
+	then 
+		echo "inkmod usb module..."
+		probe_usb
+		scanpci
+	else
+		echo "Error: usb module not found .."
+		return 1
+	fi	
+
+
+}
+
+stop()
+{
+}
+
+
+############
+### MAIN ###
+############
+
+case "$1" in
+'start') # "start" service:
+	start
+  ;;
+
+'stop') # "stop" service:
+  stop
+  ;;
+
+'restart') # "restart"  the service:
+  stop
+  start
+  ;;
+
+*) # The default :
+  echo "$0 start | stop"
+esac
+
+
+
+
+exit
+
+

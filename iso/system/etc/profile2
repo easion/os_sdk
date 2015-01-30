@@ -1,0 +1,21 @@
+
+
+alias rmmod="kdump rmkmod"
+alias insmod="kdump inkmod"
+alias lsmod="kdump lskmod"
+
+alias ps="kdump ps"
+alias dmesg="kdump dmesg"
+alias lsproc="kdump lsproc"
+alias proc="kdump proc"
+alias procw="kdump procw"
+
+PATH="/bin:/sbin:/usr/bin:/usr/sbin:/system/bin"
+HOME="/user/"
+
+#echo profile called
+export PATH
+export HOME
+
+
+

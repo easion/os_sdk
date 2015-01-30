@@ -1,0 +1,23 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=gPDF
+Name[az]=gPDF
+Name[en_CA]=gPDF
+Name[zh_CN]=gPDF
+Name[zh_HK]=gPDF
+Name[zh_TW]=gPDF
+
+Comment=pdf reader
+Comment[zh_CN]=电子书籍阅读
+Comment[zh_HK]=电子书籍阅读
+Comment[zh_TW]=电子书籍阅读
+
+TryExec=/system/bin/xpdf /user/h.pdf
+Exec=/system/bin/xpdf /user/h.pdf
+Icon=/system/gi/icons/pdf.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

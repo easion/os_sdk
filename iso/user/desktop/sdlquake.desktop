@@ -1,0 +1,24 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Quake
+Name[az]=Quake
+Name[en_CA]=Quake
+Name[en_GB]=Quake
+Name[zh_CN]=Quake
+Name[zh_HK]=Quake
+Name[zh_TW]=Quake
+
+Comment=Quake game
+Comment[zh_CN]=Quake 游戏
+Comment[zh_HK]=Quake
+Comment[zh_TW]=Quake
+
+TryExec=/system/bin/sdlquake
+Exec=/system/bin/sdlquake
+Icon=/system/gi/icons/game.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

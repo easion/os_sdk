@@ -1,0 +1,4 @@
+# /etc/hosts: Local Host Database
+inet:NetbasPC
+inet:box
+inet:localhost

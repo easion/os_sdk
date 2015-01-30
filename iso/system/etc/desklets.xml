@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<desklets>
+
+	<!--- 显示配置 -->
+
+	<config>  
+		<fongpath>/system/font</fongpath>
+		<font>gbk/10</font>
+		<text_color>0xffffff </text_color>
+		<clicked_text_color>0xffffff</clicked_text_color>
+		<move_in_text_color>0xff00ff</move_in_text_color>
+		<clicked_tile_img>/system/gi/icons/tile_img1.png</clicked_tile_img>
+		<move_in_tile_img>/system/gi/icons/tile_img2.png</move_in_tile_img>
+		<locale_lang>zh_CN</locale_lang>
+		<icon_dir>/system/gi/icons/</icon_dir>
+		<dir_img>/system/gi/icons/dir.png</dir_img>
+		<file_img>/system/gi/icons/file.png</file_img>
+		<icon_xpos>20</icon_xpos>
+		<icon_ypos>40</icon_ypos>
+		<icon_width>100</icon_width>
+		<icon_height>80</icon_height>
+	</config>
+
+	<!--- 显示的图标内容 -->
+
+	<shells1>
+		<shell name="DiskViewer" state="show">
+		  <command>/system/bin/sdlquake </command>
+		  <icon>/system/gi/icons/pc.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>40</ypos>
+		  <author>None</author>
+		  <desc>关于计算机</desc>
+		</shell>
+
+		<shell name="图片浏览" state="show">
+		  <command>/system/bin/imgviewer</command>
+		  <icon>/system/gi/icons/picview.png</icon>
+		  <xpos>120</xpos>
+		  <ypos>40</ypos>
+		  <author>None</author>
+		  <desc>关于计算机</desc>
+		</shell>
+
+		<shell name="Netsurf" state="hide">
+		  <command>/system/bin/nsfb</command>
+		  <icon>/system/gi/icons/pc.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>40</ypos>
+		  <author>None</author>
+		  <desc>关于计算机</desc>
+		</shell>
+
+		<shell name="終端" state="show">
+		  <command>/system/bin/term</command>
+		  <icon>/system/gi/icons/terminal.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>100</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="Dillo2" state="show">
+		  <command>/system/bin/dillo </command>
+		  <icon>/system/gi/icons/network.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>160</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="Testgtk" state="show">
+		  <command>/system/bin/testgtk</command>
+		  <icon>/system/gi/icons/gtk.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>220</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="Links" state="show">
+		  <command>/system/bin/links</command>
+		  <icon>/system/gi/icons/links2.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>280</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="Bochs模拟器" state="hide">
+		  <command>/bochs/bochs -q -f /bochs/linux/bochsrc</command>
+		  <icon>/bochs/bochs.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>340</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="fltetris" state="hide">
+		  <command>/system/bin/fltetris</command>
+		  <icon>/system/gi/icons/links2.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>280</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="FLTK测试" state="show">
+		  <command>/system/bin/input</command>
+		  <icon>/system/gi/icons/vnc.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>340</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="fire" state="show">
+		  <command>/system/bin/fire</command>
+		  <icon>/system/gi/icons/game.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>400</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="gPDF" state="show">
+		  <command>/system/bin/xpdf  /user/doc.pdf</command>
+		  <icon>/system/gi/icons/pdf.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>460</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+		<shell name="about" state="hide">
+		  <command>/system/bin/about</command>
+		  <icon>/system/gi/icons/vnc.png</icon>
+		  <xpos>20</xpos>
+		  <ypos>460</ypos>
+		  <author>None</author>
+		  <desc>关于...</desc>	 
+		</shell> 
+
+
+
+	</shells>
+
+	<!--- 
+	 /system/bin/emelfm =計算機  /system/gi/icons/pc.png  20  40
+	/system/bin/term = 終端  /system/gi/icons/terminal.png  20  100
+	/system/bin/dillo  = Dillo2  /system/gi/icons/network.png  20  160
+	/system/bin/testgtk=GTK /system/gi/icons/gtk.png 20 220
+	/system/bin/links /www/index.html= Links  /system/gi/icons/links2.png  20  280
+	/bochs/bochs -q -f /bochs/linux/bochsrc=Bochs /bochs/bochs.png 20 340
+	#dosbox=Dosbox /system/gi/icons/dosbox.png 20 400
+	#SDLvncviewer 192.168.16.1=Vnc客户端 /system/gi/icons/vnc.png 20 400
+	/system/bin/buttons =FLTK2 /system/gi/icons/vnc.png 20 400
+	lbreakout2 =lbreakout2 /system/gi/icons/vnc.png 20 460
+	-->
+
+</desklets>
+

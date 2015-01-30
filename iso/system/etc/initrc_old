@@ -1,0 +1,240 @@
+#!/bin/sh
+#
+#
+
+g_nw=800
+g_nh=600
+g_dpp=32
+host_ip="dhcp"
+shell=/bin/sh
+
+
+probe_pci(){
+	inkmod /system/drivers/pci32.dll
+}
+
+probe_usb(){
+	echo "loading usb modules ...\n"
+	inkmod /system/drivers/usb.sys
+}
+
+
+probe_gi(){
+	inkmod /system/servers/ps2.sys 
+	inkmod /system/servers/vbe.sys 
+	inkmod /system/servers/gi.sys vbe
+}
+
+
+probe_bsp(){
+#	inkmod /system/servers/es1371.sys
+}
+
+
+nce_setup_resolution(){
+
+	echo "Please choose NCE Windows system resolution:"
+	echo " 1  800x600"
+	echo " 2  1024x768"
+	echo " 3  1280x1024"
+	echo " 4  640x480"
+	echo " 5  Exit."
+	echo -n "Choice: [1] "
+	read in
+
+	case "$in" in
+	""|1|2)
+
+	if [ "$in" = 2 ]
+	then
+
+		g_nw=1024
+		g_nh=768
+	else
+		g_nw=800
+		g_nh=600
+	fi
+
+	;;
+
+	3)
+		g_nw=1280
+		g_nh=1024
+	;;
+
+	4)
+		g_nw=640
+		g_nh=480
+	;;
+
+	5)
+	echo "error input ..."
+	exit 0
+	;;
+	esac
+
+}
+
+nce_setup_depth(){
+
+	echo "Please choose NCE Windows system depth:"
+	echo " 1  16"
+	echo " 2  24"
+	echo " 3  32"
+	echo " 4  8"
+	echo " 5  Exit."
+	echo -n "Choice: [3] "
+	read in
+
+	case "$in" in
+	1)
+		g_dpp=16	
+	;;
+
+	2)
+		g_dpp=24	
+	;;
+
+	""|3)
+		g_dpp=32
+	;;
+
+	4)
+		g_dpp=8
+	;;
+
+	5)
+	echo "error input ..."
+	exit 0
+	;;
+	esac
+
+}
+
+load_gui(){
+
+	if [ -e /bin/nced.app ] || [ -e /bin/giwm ]
+	then 
+		echo "inkmod fb module..."
+		#inkmod /system/servers/fb.sys vbe
+	else
+		echo "gui prog not found .."
+		return 1
+	fi
+
+	if [ -n "$debugport" ]
+	then
+		echo "debug mode"
+	else
+		nce_setup_resolution
+		nce_setup_depth
+	fi
+	
+
+	cd /bin
+#	/bin/zen &
+	/bin/giwm 
+#	/bin/term
+#	/bin/landmine
+	/bin/ncewm &
+
+	if  [ -n "$debugport" ];then
+		/bin/nced.app
+	else
+		/bin/nced.app -w$g_nw -h$g_nh -d$g_dpp
+	fi
+}
+
+load_xynth(){
+
+	if [ -e /bin/xy ] 
+	then 
+		echo "inkmod xynth windows system..."
+	else
+		echo "xynth prog not found .."
+		return 1
+	fi
+
+	/bin/xy
+}
+
+load_network(){
+	inkmod /system/drivers/pcnet32.dll 
+	inkmod /system/drivers/ne2000.dll 
+
+	ifconfig eth  up
+
+	if [ -e /etc/net.sh ] && [ -e /system/servers/lwip.gz ]
+	then
+		echo "start network ...\n"
+		/etc/net.sh start
+	fi
+}
+
+load_procfs()
+{
+	inkmod /system/servers/procfs.sys
+	mount procfs z:
+}
+
+load_system_service()
+{
+#/bin/telnetd &
+#/bin/boa &
+}
+
+
+
+
+probe_pci
+probe_usb
+probe_gi
+probe_bsp
+
+#load_procfs
+export PYTHONHOME="/system/"
+#if [  -e /bin/bash ]
+#then
+#	shell=/bin/bash
+#fi
+
+#$shell
+
+if [ -z "$DISNET" ] 
+then
+	if [ -n $IPADDR ];then
+		host_ip=$IPADDR
+	fi
+	load_network $host_ip
+fi
+
+
+if  [ -z "$USECONSOLE" ]
+then 
+	if [ -z $tty ];	then 
+	tty="default"
+	fi
+
+	if [ -z "$xynth" ]; then
+		load_gui
+	else
+		load_xynth
+	fi
+
+fi
+
+load_system_service
+
+
+while [ -n $shell ]
+do
+	$shell
+done
+
+#for myfile in /bin/*; do
+#echo "find $myfile ok"
+#done
+
+exit
+
+

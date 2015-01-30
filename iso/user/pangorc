@@ -1,0 +1,4 @@
+[Pango]
+ModuleFiles=/programs/gtk/pango/pango.modules
+[PangoX]
+AliasFiles=/programs/gtk/pango/pangox.aliases

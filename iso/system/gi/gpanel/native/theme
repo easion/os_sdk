@@ -1,0 +1,85 @@
+name 				Pucko Modern Green
+author 				weakhead
+version_major 			1
+version_minor 			0
+
+placement 			bottom
+tile_img 			tile.png
+separator_img			tb-tile.png
+
+tray_icon_w 			16
+tray_icon_h 			16
+
+# order of elements here:
+# 's' - desktop Switcher
+# 'b' - taskBar
+# 't' - icon Tray
+# 'c' - Clock
+elements 			sbtc
+
+#--------------------- clock --------------------------------
+
+clock_right_img 		tile.png
+clock_tile_img 			tile.png
+clock_left_img 			tile.png
+
+clock_font 			Arial-9:bold
+clock_text_color 		2F3817
+clock_text_offset_x 		0
+clock_text_offset_y 		0
+clock_text_padding 		4
+clock_text_align 		center
+
+clock_space_gap 		0
+clock_format 			%H:%M
+
+#--------------------- taskbar --------------------------------
+
+tb_right_idle_img 		tb-lr.png
+tb_tile_idle_img 		tb-tile.png
+tb_left_idle_img 		tb-lr.png
+
+tb_right_pressed_img 		tb-right-active.png
+tb_tile_pressed_img 		tb-tile-active.png
+tb_left_pressed_img 		tb-left-active.png
+
+tb_default_icon_img 		tb_default_icon_img.png
+
+tb_font 			Atial-9
+tb_text_color_idle 		2F3817
+tb_text_color_pressed 		2F3817
+tb_text_offset_x 		5
+tb_text_offset_y 		1
+tb_text_align 			left
+
+tb_icon_offset_x 		0
+tb_icon_offset_y 		1
+tb_icon_w 			16
+tb_icon_h 			16
+
+tb_space_gap 			0
+
+#--------------------- switcher --------------------------------
+
+ds_left_corner_idle_img 	tile.png
+ds_right_corner_idle_img 	tile.png
+
+ds_left_corner_pressed_img 	tile.png
+ds_right_corner_pressed_img 	tile.png
+
+ds_right_idle_img 		tile.png
+ds_tile_idle_img 		tile.png
+ds_left_idle_img 		tile.png
+
+ds_right_pressed_img 		tile.png
+ds_tile_pressed_img 		tile.png
+ds_left_pressed_img 		tile.png
+
+ds_font 			Arial-9:bold
+ds_text_color_idle 		B2B2B2
+ds_text_color_pressed 		2F3817
+ds_text_offset_x 		0
+ds_text_offset_y 		0
+ds_text_padding 		1
+ds_text_align 			center
+ds_space_gap 			3

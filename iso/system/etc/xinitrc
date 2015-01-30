@@ -1,0 +1,20 @@
+#!/system/bin/sh
+#
+#
+
+
+. /system/etc/rc.conf
+
+
+ # dillo /usr/share/doc/dsl/getting_started.html &>/dev/null &
+ # torsmo 2>/dev/null &
+
+echo "jwm start .."
+
+export DISPLAY=0.0.0.0:0
+
+
+
+#[ -f ".$DESKTOP.inc" ] && ~/".$DESKTOP.inc"
+#exec "${DESKTOP:=jwm}" #2>/dev/null
+exec jwm

@@ -1,0 +1,29 @@
+<JWM>
+	<Tray  autohide="false" insert="right" x="0" y="-1" border="1" height="28" >
+
+		<!-- Additional TrayButton attribute: label -->
+		<TrayButton label="Start" >root:3</TrayButton>
+
+	<!--	<TrayButton popup="Run commandline" icon="gexec.xpm">exec:gexec</TrayButton> -->
+		<TrayButton popup="Show Desktop" icon="windows.xpm">showdesktop</TrayButton>
+		<TrayButton label="Term" icon="xterm.xpm">exec:/bin/aterm -T "Bash" -e /system/bin/sh</TrayButton>
+
+		<!-- Additional Pager attributes; width, height -->
+		<Pager/>
+
+		<!-- Additional TaskList attribute: maxwidth -->
+		<TaskList/>
+
+		<Dock/>
+
+		<!-- Additional Swallow attribute: height
+
+		<Swallow name="blinky">
+			blinkydelayed -bg "#DCDAD5"
+		</Swallow>
+
+			 -->
+
+		<Clock>minixcal</Clock>
+	</Tray>
+</JWM>

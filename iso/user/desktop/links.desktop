@@ -1,0 +1,23 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Links2
+
+Name[en_CA]=Links2
+Name[zh_CN]=Links2
+Name[zh_HK]=Links2
+Name[zh_TW]=Links2
+
+Comment=Links2 browser
+Comment[zh_CN]=Links2 browser
+Comment[zh_HK]=Links2 browser
+Comment[zh_TW]=Links2 browser
+
+TryExec=/system/bin/links
+Exec=/system/bin/links
+Icon=/system/gi/icons/links2.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

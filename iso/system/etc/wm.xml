@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<giwm>
+
+	<!--- 显示配置 -->
+
+	<cursor>  
+		<arrow>/system/gi/cursor/arrow0.png</arrow>
+		<ibeam>/system/gi/cursor/xterm0.png</ibeam>
+		<wait>/system/gi/cursor/left_ptr_watch0.png</wait>
+		<cross>/system/gi/cursor/cross0.png</cross>
+		<up_arrow>/system/gi/cursor/top_side0.png</up_arrow>
+		<size1>/system/gi/cursor/left_side0.png</size1>
+		<size2>/system/gi/cursor/top_left_corner0.png</size2>
+		<size3>/system/gi/cursor/top_right_corner0.png</size3>
+		<size4>/system/gi/cursor/bottom_left_corner0.png</size4>
+		<size5>/system/gi/cursor/bottom_right_corner0.png</size5>
+		<no>/system/gi/cursor/no.png</no>
+		<none>/system/gi/cursor/no.png</none>
+		<app>/system/gi/cursor/pencil0.png</app>
+		<help>/system/gi/cursor/question_arrow0.png</help>
+		<hand>/system/gi/cursor/hand10.png</hand>
+		<move>/system/gi/cursor/plus0.png</move>
+		<watch>/system/gi/cursor/watch0.png</watch>
+	</cursor>
+
+	<!--- 显示配置 -->
+
+	<config>  
+		<default_icon_img>/system/gi/gpanel/native/appblue.png</default_icon_img>
+		<touch_conf>/system/gi/touch.conf</touch_conf>
+		<charset>gbk</charset>
+		<basecolor>0x0c0c0c</basecolor>
+		<themedir>/system/gi/theme</themedir>
+		<fontsize>18</fontsize>
+		<font>/system/font/gbk.ttf</font>
+		<bg_color>0x0000cc</bg_color>
+		<wallpaper>/system/gi/78.jpg</wallpaper>
+		<text_color>0x000000</text_color>
+		<scale_image>true</scale_image>
+		<!--- classic  haszi1 imetal royale striped -->
+		<style>haszi1</style>
+	</config>
+
+	<!--- 显示的图标内容 -->
+
+	<launch>
+
+		<prog name="面板程序" state="run">
+		  <command>/system/bin/gpanel</command>		 
+		  <desc>关于..</desc>
+		</prog>	
+
+		<prog name="gdesklets" state="run">
+		  <command>/system/bin/gdesklets</command>		 
+		  <desc>关于..</desc>
+		</prog>	
+
+		<prog name="ewl_embed_test" state="stop">
+		  <command>/system/bin/ewl_simple_test</command>		 
+		  <desc>关于..</desc>
+		</prog>	
+
+
+		<prog name="gclock" state="run">
+		  <command>/system/bin/gclock</command>		 
+		  <desc>关于..</desc>
+		</prog>	
+
+		<prog name="Dock" state="stop">
+		  <command>/system/bin/gbar -isize 48 -pos top  -zoomf 1.2 -jumpf 1.2  -above-desk -bpress -dblclk 0  -nofont</command>		 
+		  <desc>关于..</desc>
+		</prog>	
+		
+	</launch>
+
+	<!--- 
+	
+	-->
+
+</giwm>
+

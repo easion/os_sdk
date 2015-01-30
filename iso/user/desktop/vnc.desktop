@@ -1,0 +1,24 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Vnc
+Name[az]=Vnc
+Name[en_CA]=Vnc
+Name[en_GB]=Vnc
+Name[zh_CN]=Vnc连接
+Name[zh_HK]=Vnc
+Name[zh_TW]=Vnc
+
+Comment=Vnc
+Comment[zh_CN]=Vnc
+Comment[zh_HK]=Vnc
+Comment[zh_TW]=Vnc
+
+TryExec=/system/bin/SDLvncviewer
+Exec=/system/bin/SDLvncviewer
+Icon=/system/gi/icons/vnc.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

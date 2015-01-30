@@ -1,0 +1,67 @@
+#!/system/bin/sh
+#
+#
+
+. /system/etc/rc.conf
+
+############
+### FUNCTION ###
+############
+
+probe_driver(){
+	inkmod /system/servers/ps2.sys 
+	inkmod /system/servers/kbd.sys 
+	inkmod /system/servers/sb16.dll 
+	inkmod /system/servers/es1371.sys 
+
+
+}
+
+start(){
+
+	if [ $ENABLE_GUI != "xorg" ]
+	then
+		exit 1
+	fi
+
+	if [ -e /system//etc/startx ] 
+	then 
+		echo "inkmod x11 windows system..."
+	else
+		echo "x11 prog not found .."
+		return 1
+	fi
+
+	/system//etc/startx
+	exit 1
+
+
+}
+
+############
+### MAIN ###
+############
+
+case "$1" in
+'start') # "start" service:
+	probe_driver
+	start
+  ;;
+
+'stop') # "stop" service:
+  stop
+  ;;
+
+'restart') # "restart"  the service:
+  stop
+  start
+  ;;
+
+*) # The default :
+  echo "$0 start | stop"
+esac
+
+
+exit
+
+

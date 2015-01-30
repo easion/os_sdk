@@ -1,0 +1,15 @@
+#!/system/bin/sh
+#
+#
+
+
+. /system/etc/rc.conf
+. /system/etc/functions.sh
+
+export XINITRC="/system//etc/xinitrc"
+export XSERVERRC="/system//etc/xserverrc"
+export DISPLAY=127.0.0.1:0.0
+
+xinit /system//etc/xinitrc -- /system//etc/xserverrc
+echo "xorg exit ..."
+exit 1

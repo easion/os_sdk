@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<giwm>
+	
+
+	<!--- 显示配置 -->
+
+	<menu>  
+		<game name="游戏" type="dir">
+			<item>Dosbox</item>
+		</game>
+		<charset>gbk</charset>		
+		<!--- classic  haszi1 imetal royale striped -->
+		<style>haszi1</style>
+	</menu>
+
+	
+	<!--- 
+	
+	-->
+
+</giwm>
+

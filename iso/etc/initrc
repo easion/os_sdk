@@ -1,0 +1,134 @@
+#!/system/bin/sh
+#
+#
+
+
+
+export SYSROOT=/system/
+export APPSROOT=/programs/
+export SHELL=/system/bin/sh
+
+. /system/etc/rc.conf
+. /system/etc/functions.sh
+
+
+probe_pci(){
+	inkmod /system//drivers/pci32.dll
+}
+
+
+# Set our operating platform
+PLATFORM=`cat /system/etc/platform`
+echo "PLATFORM:${PLATFORM}"
+
+HOME=/user/
+PATH=/system/:/bin:/user/bin:/system//bin:/programs/bin
+export HOME PATH
+
+
+# Set our current version
+
+############
+### FUNCTION ###
+############
+
+if [ "$RC_INTERACTIVE" = "yes" ] ; then
+        echo -e "Press ${GOOD}I${NORMAL} to enter interactive boot mode"
+        echo
+fi
+
+
+
+echo
+cat /system//etc/RELEASE.txt
+echo
+echo
+echo -e "Welcome to ${GOOD}Netbas ${version} ${NORMAL} on the '${PLATFORM}' platform..."
+echo
+
+
+
+case "$PLATFORM" in
+'CDROM')
+  get_bootparam /debug=1
+  get_bootparam atapi
+  get_bootparam atapi
+  get_bootparam atapi
+  get_bootparam /fsroot=/dev/atapi,r
+  /system//etc/rc.cdrom
+  ;;
+'embedded')
+  /system//etc/rc.embedded
+  ;;
+  *)
+  echo "uknow platform"
+esac
+
+
+
+probe_pci
+# Mount memory file system if it exists
+echo -E "Mounting filesystems..."
+mount ramfs /tmp -t ramfs
+mkdir  /tmp/ft2
+mkdir  /tmp/cache
+mkdir  /tmp/font
+mkdir  /tmp/fontconfig
+mkdir  /tmp/fontconfig/etc
+mkdir /tmp/e
+mkdir /tmp/e/entropy
+mkdir /tmp/font/.AppleDouble
+
+# Mount /. If it fails run a fsck.
+if [ ! "$PLATFORM" = "cdrom" ] ; then
+        echo -E "Boot From CDROM .."
+fi
+
+
+#nanox.sh
+
+/system//etc/usbrc start
+
+/system//etc/netrc start
+/system//etc/ipfwrc start
+
+#tcpspeed&
+#sh
+pidof telnetd
+#kill `pidof telnetd`
+
+#sleep 100
+#ps | grep telnetd
+/system//etc/xorgrc start
+copy  /system/font/arial.ttf /tmp/font/arial.ttf
+#copy /system/font/t1/Times-Roman.pfa /tmp/font/Times-Roman.pfa
+#copy  /etc/initrc /ramfs/init.sh
+proc netif
+/system//etc/girc start
+/system//etc/ncerc start
+
+
+
+#minicron 1800 none "ping www.zaobao.com"
+
+
+if [ -e /system//etc/xynthrc ]
+then
+	/system//etc/xynthrc start
+fi
+
+
+if [ -e bash ]
+then
+	DEFAULT_SHELL="bash"
+fi
+
+while [ -n $DEFAULT_SHELL ]
+do
+	$DEFAULT_SHELL
+done
+
+
+exit
+
+

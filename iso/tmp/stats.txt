@@ -1,0 +1,734 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU  330   @ 1.60GHz
+stepping	: 2
+cpu MHz		: 1600.042
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl tm2 ssse3 cx16 xtpr lahf_lm
+bogomips	: 3203.74
+clflush size	: 64
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU  330   @ 1.60GHz
+stepping	: 2
+cpu MHz		: 1600.042
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl tm2 ssse3 cx16 xtpr lahf_lm
+bogomips	: 3201.06
+clflush size	: 64
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU  330   @ 1.60GHz
+stepping	: 2
+cpu MHz		: 1600.042
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl tm2 ssse3 cx16 xtpr lahf_lm
+bogomips	: 3200.00
+clflush size	: 64
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 28
+model name	: Intel(R) Atom(TM) CPU  330   @ 1.60GHz
+stepping	: 2
+cpu MHz		: 1600.042
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe lm constant_tsc arch_perfmon pebs bts pni monitor ds_cpl tm2 ssse3 cx16 xtpr lahf_lm
+bogomips	: 3201.05
+clflush size	: 64
+power management:
+
+MemTotal:      2065948 kB
+MemFree:       1891840 kB
+Buffers:         11520 kB
+Cached:         132012 kB
+SwapCached:          0 kB
+Active:          28228 kB
+Inactive:       124428 kB
+HighTotal:     1169984 kB
+HighFree:      1026100 kB
+LowTotal:       895964 kB
+LowFree:        865740 kB
+SwapTotal:           0 kB
+SwapFree:            0 kB
+Dirty:              24 kB
+Writeback:           0 kB
+AnonPages:        9008 kB
+Mapped:           4208 kB
+Slab:            13884 kB
+SReclaimable:     9716 kB
+SUnreclaim:       4168 kB
+PageTables:        256 kB
+NFS_Unstable:        0 kB
+Bounce:              0 kB
+WritebackTmp:        0 kB
+CommitLimit:   1032972 kB
+Committed_AS:    11472 kB
+VmallocTotal:   114680 kB
+VmallocUsed:      3136 kB
+VmallocChunk:   111500 kB
+search gateway.2wire.net
+nameserver 192.168.1.254
+eth0      Link encap:Ethernet  HWaddr 00:30:18:A2:C4:09  
+          inet addr:192.168.1.67  Bcast:192.168.1.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:601 errors:0 dropped:1256669302 overruns:0 frame:0
+          TX packets:34 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:36629 (35.7 KiB)  TX bytes:3100 (3.0 KiB)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lp 9036 0 - Live 0xf8b05000
+ossusb 53960 0 - Live 0xf8b0c000
+hdaudio 127784 0 - Live 0xf88df000
+osscore 555732 2 ossusb,hdaudio, Live 0xf8a08000
+intel_agp 22972 1 - Live 0xf8849000
+agpgart 25396 1 intel_agp, Live 0xf8866000
+ohci_hcd 19076 0 - Live 0xf8857000
+scsi_wait_scan 2176 0 - Live 0xf8847000
+sg 24500 0 - Live 0xf8850000
+parport_pc 28440 1 - Live 0xf8834000
+parport 29012 2 lp,parport_pc, Live 0xf883e000
+PID   USER     COMMAND
+    1 root     init                  
+    2 root     [kthreadd]
+    3 root     [migration/0]
+    4 root     [ksoftirqd/0]
+    5 root     [migration/1]
+    6 root     [ksoftirqd/1]
+    7 root     [migration/2]
+    8 root     [ksoftirqd/2]
+    9 root     [migration/3]
+   10 root     [ksoftirqd/3]
+   11 root     [events/0]
+   12 root     [events/1]
+   13 root     [events/2]
+   14 root     [events/3]
+   15 root     [khelper]
+   16 root     [kblockd/0]
+   17 root     [kblockd/1]
+   18 root     [kblockd/2]
+   19 root     [kblockd/3]
+   20 root     [kacpid]
+   21 root     [kacpi_notify]
+   22 root     [ata/0]
+   23 root     [ata/1]
+   24 root     [ata/2]
+   25 root     [ata/3]
+   26 root     [ata_aux]
+   27 root     [ksuspend_usbd]
+   28 root     [khubd]
+   29 root     [kseriod]
+   30 root     [pdflush]
+   31 root     [pdflush]
+   32 root     [kswapd0]
+   33 root     [aio/0]
+   34 root     [aio/1]
+   35 root     [aio/2]
+   36 root     [aio/3]
+   37 root     [nfsiod]
+   38 root     [scsi_eh_0]
+   39 root     [usb-storage]
+   41 root     [scsi_eh_1]
+   42 root     [usb-storage]
+   44 root     [kpsmoused]
+   45 root     [rpciod/0]
+   46 root     [rpciod/1]
+   47 root     [rpciod/2]
+   48 root     [rpciod/3]
+   49 root     [kirqd]
+   68 root     /sbin/udevd --daemon 
+ 1167 root     /sbin/udhcpc -b -i eth0 -h dev -p /var/run/udhcpc.eth0.pid 
+ 1300 root     [loop0]
+ 1319 root     [loop1]
+ 1338 root     [loop2]
+ 1357 root     [loop3]
+ 1378 root     [loop4]
+ 1397 root     [loop5]
+ 1418 root     [loop6]
+ 1437 root     [loop7]
+ 1456 root     [loop8]
+ 1475 root     [loop9]
+ 1494 root     [loop10]
+ 1513 root     [loop11]
+ 1532 root     [loop12]
+ 1551 root     [loop13]
+ 1570 root     [loop14]
+ 1589 root     [loop15]
+ 1608 root     [loop16]
+ 1627 root     [loop17]
+ 1646 root     [loop18]
+ 1665 root     [loop19]
+ 1684 root     [loop20]
+ 1703 root     [loop21]
+ 1722 root     [loop22]
+ 1741 root     [loop23]
+ 1760 root     [loop24]
+ 1779 root     [loop25]
+ 1798 root     [loop26]
+ 1817 root     [loop27]
+ 1836 root     [loop28]
+ 1855 root     [loop29]
+ 1874 root     [loop30]
+ 1893 root     [loop31]
+ 1912 root     [loop32]
+ 1931 root     [loop33]
+ 1950 root     [loop34]
+ 1969 root     [loop35]
+ 4522 tc       -sh 
+ 4563 tc       /bin/sh /home/tc/.xsession 
+ 4583 root     Xvesa -br -screen 1024x768x32 -shadow -mouse /dev/input/mice,5 -nolisten tcp -I 
+ 4590 tc       flwm 
+ 4597 tc       wbar -bpress -config /usr/local/tce.wbar 
+ 5397 tc       /usr/bin/aterm 
+ 5398 tc       sh 
+ 5449 tc       fluid stats.fl 
+ 5453 tc       sh -c g++ -lfltk -o stats stats.cxx 2>&1 && ./stats 
+ 5459 tc       ./stats 
+ 5475 tc       sh -c ps ax | tee /tmp/stats.txt >> stats.txt 
+ 5476 tc       ps ax 
+ 5477 tc       tee /tmp/stats.txt 
+ L1 I cache: 32K, L1 D cache: 24K
+CPU: L2 cache: 512K
+CPU: Physical Processor ID: 0
+CPU: Processor Core ID: 1
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#1.
+CPU1: Intel(R) Atom(TM) CPU  330   @ 1.60GHz stepping 02
+checking TSC synchronization [CPU#0 -> CPU#1]: passed.
+Booting processor 2/3 ip 6000
+Initializing CPU#2
+Calibrating delay using timer specific routine.. 3200.00 BogoMIPS (lpj=5332815)
+CPU: L1 I cache: 32K, L1 D cache: 24K
+CPU: L2 cache: 512K
+CPU: Physical Processor ID: 0
+CPU: Processor Core ID: 1
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#2.
+CPU2: Intel(R) Atom(TM) CPU  330   @ 1.60GHz stepping 02
+checking TSC synchronization [CPU#0 -> CPU#2]: passed.
+Booting processor 3/1 ip 6000
+Initializing CPU#3
+Calibrating delay using timer specific routine.. 3201.05 BogoMIPS (lpj=5332888)
+CPU: L1 I cache: 32K, L1 D cache: 24K
+CPU: L2 cache: 512K
+CPU: Physical Processor ID: 0
+CPU: Processor Core ID: 0
+Intel machine check architecture supported.
+Intel machine check reporting enabled on CPU#3.
+CPU3: Intel(R) Atom(TM) CPU  330   @ 1.60GHz stepping 02
+checking TSC synchronization [CPU#0 -> CPU#3]: passed.
+Brought up 4 CPUs
+Total of 4 processors activated (12806.87 BogoMIPS).
+net_namespace: 632 bytes
+NET: Registered protocol family 16
+No dock devices found.
+ACPI: bus type pci registered
+PCI: Found Intel Corporation 945G/GZ/P/PL Express Memory Controller Hub with MMCONFIG support.
+PCI: Using MMCONFIG for extended config space
+PCI: Using configuration type 1 for base access
+Setting up standard PCI resources
+ACPI: EC: Look up EC in DSDT
+ACPI: Interpreter enabled
+ACPI: (supports S0 S1 S4 S5)
+ACPI: Using IOAPIC for interrupt routing
+ACPI: PCI Root Bridge [PCI0] (0000:00)
+pci 0000:00:1f.0: Force enabled HPET at 0xfed00000
+pci 0000:00:1f.0: quirk: region 0400-047f claimed by ICH6 ACPI/GPIO/TCO
+pci 0000:00:1f.0: quirk: region 0480-04bf claimed by ICH6 GPIO
+PCI: Transparent bridge - 0000:00:1e.0
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PEX0._PRT]
+ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.HUB0._PRT]
+ACPI: PCI Interrupt Link [LNKA] (IRQs 5 7 9 *10 11 12 14 15)
+ACPI: PCI Interrupt Link [LNKB] (IRQs 5 7 9 10 11 12 14 15) *0, disabled.
+ACPI: PCI Interrupt Link [LNKC] (IRQs 5 7 *9 10 11 12 14 15)
+ACPI: PCI Interrupt Link [LNKD] (IRQs 5 7 9 10 *11 12 14 15)
+ACPI: PCI Interrupt Link [LNKE] (IRQs 5 7 9 10 11 12 14 15) *0, disabled.
+ACPI: PCI Interrupt Link [LNKF] (IRQs 5 7 9 10 11 12 14 15) *0, disabled.
+ACPI: PCI Interrupt Link [LNK0] (IRQs 5 7 9 10 11 12 14 15) *0, disabled.
+ACPI: PCI Interrupt Link [LNK1] (IRQs *5 7 9 10 11 12 14 15)
+Linux Plug and Play Support v0.97 (c) Adam Belay
+pnp: PnP ACPI init
+ACPI: bus type pnp registered
+pnp 00:07: IRQ 4 override to edge, high
+pnp 00:08: IRQ 3 override to edge, high
+pnp: PnP ACPI: found 16 devices
+ACPI: ACPI bus type pnp unregistered
+PnPBIOS: Disabled by ACPI PNP
+SCSI subsystem initialized
+libata version 3.00 loaded.
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+PCI: Using ACPI for IRQ routing
+hpet clockevent registered
+system 00:01: ioport range 0x4d0-0x4d1 has been reserved
+system 00:01: ioport range 0x290-0x29f has been reserved
+system 00:01: ioport range 0x290-0x297 has been reserved
+system 00:01: ioport range 0x880-0x88f has been reserved
+system 00:0c: ioport range 0x400-0x4bf could not be reserved
+system 00:0e: iomem range 0xe0000000-0xefffffff could not be reserved
+system 00:0f: iomem range 0xf0000-0xfffff could not be reserved
+system 00:0f: iomem range 0x7f6e0000-0x7f6fffff could not be reserved
+system 00:0f: iomem range 0x0-0x9ffff could not be reserved
+system 00:0f: iomem range 0x100000-0x7f6dffff could not be reserved
+system 00:0f: iomem range 0xfec00000-0xfec00fff could not be reserved
+system 00:0f: iomem range 0xfed13000-0xfed1dfff could not be reserved
+system 00:0f: iomem range 0xfed20000-0xfed8ffff could not be reserved
+system 00:0f: iomem range 0xfee00000-0xfee00fff could not be reserved
+system 00:0f: iomem range 0xffb00000-0xffb7ffff could not be reserved
+system 00:0f: iomem range 0xfff00000-0xffffffff could not be reserved
+system 00:0f: iomem range 0xe0000-0xeffff has been reserved
+PCI: Bridge: 0000:00:1c.0
+  IO window: d000-dfff
+  MEM window: 0xfdd00000-0xfddfffff
+  PREFETCH window: 0x00000000fde00000-0x00000000fdefffff
+PCI: Bridge: 0000:00:1e.0
+  IO window: e000-efff
+  MEM window: 0xfdc00000-0xfdcfffff
+  PREFETCH window: 0x00000000fdb00000-0x00000000fdbfffff
+ACPI: PCI Interrupt 0000:00:1c.0[A] -> GSI 16 (level, low) -> IRQ 16
+PCI: Setting latency timer of device 0000:00:1c.0 to 64
+PCI: Setting latency timer of device 0000:00:1e.0 to 64
+NET: Registered protocol family 2
+IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+TCP: Hash tables configured (established 131072 bind 65536)
+TCP reno registered
+NET: Registered protocol family 1
+checking if image is initramfs... it is
+Switched to high resolution mode on CPU 2
+Switched to high resolution mode on CPU 1
+Switched to high resolution mode on CPU 3
+Switched to high resolution mode on CPU 0
+Freeing initrd memory: 8067k freed
+highmem bounce pool size: 64 pages
+fuse init (API version 7.9)
+msgmni has been set to 1749
+io scheduler noop registered
+io scheduler deadline registered (default)
+pci 0000:00:02.0: Boot video device
+PCI: Setting latency timer of device 0000:00:1c.0 to 64
+assign_interrupt_mode Found MSI capability
+Allocate Port Service[0000:00:1c.0:pcie00]
+Allocate Port Service[0000:00:1c.0:pcie02]
+Allocate Port Service[0000:00:1c.0:pcie03]
+input: Power Button (FF) as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+ACPI: Power Button (FF) [PWRF]
+input: Power Button (CM) as /devices/LNXSYSTM:00/device:00/PNP0C0C:00/input/input1
+ACPI: Power Button (CM) [PWRB]
+ACPI: ACPI0007:00 is registered as cooling_device0
+ACPI: ACPI0007:01 is registered as cooling_device1
+ACPI: ACPI0007:02 is registered as cooling_device2
+ACPI: ACPI0007:03 is registered as cooling_device3
+ACPI: LNXTHERM:01 is registered as thermal_zone0
+ACPI: Thermal Zone [THRM] (30 C)
+isapnp: Scanning for PnP cards...
+isapnp: No Plug & Play device found
+Real Time Clock Driver v1.12ac
+Non-volatile memory driver v1.2
+Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing disabled
+serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+serial8250: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+00:07: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+00:08: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+FDC 0 is a post-1991 82077
+brd: module loaded
+loop: module loaded
+pcnet32.c:v1.35 21.Apr.2008 tsbogend@alpha.franken.de
+e100: Intel(R) PRO/100 Network Driver, 3.5.23-k4-NAPI
+e100: Copyright(c) 1999-2006 Intel Corporation
+ThunderLAN driver v1.15
+TLAN: 0 devices installed, PCI: 0  EISA: 0
+via-rhine: Broken BIOS detected, avoid_D3 enabled.
+PPP generic driver version 2.4.2
+PPP Deflate Compression module registered
+NET: Registered protocol family 24
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+r8169 Gigabit Ethernet driver 2.2LK loaded
+ACPI: PCI Interrupt 0000:01:00.0[A] -> GSI 16 (level, low) -> IRQ 16
+PCI: Setting latency timer of device 0000:01:00.0 to 64
+r8169 0000:01:00.0: no MSI. Back to INTx.
+eth0: RTL8168c/8111c at 0xf8830000, 00:30:18:a2:c4:09, XID 3c4000c0 IRQ 16
+dmfe: Davicom DM9xxx net driver, version 1.36.4 (2002-01-17)
+winbond-840.c:v1.01-e (2.4 port) Sep-11-2006  Donald Becker <becker@scyld.com>
+  http://www.scyld.com/network/drivers.html
+Uniform Multi-Platform E-IDE driver
+ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+ide_generic: please use "probe_mask=0x3f" module parameter for probing all legacy ISA IDE ports
+Probing IDE interface ide0...
+Probing IDE interface ide1...
+ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+ide1 at 0x170-0x177,0x376 on irq 15
+Driver 'sd' needs updating - please use bus_type methods
+ata_piix 0000:00:1f.2: version 2.12
+ACPI: PCI Interrupt 0000:00:1f.2[B] -> GSI 19 (level, low) -> IRQ 19
+ata_piix 0000:00:1f.2: MAP [ P0 P2 IDE IDE ]
+PCI: Unable to reserve I/O region #1:8@1f0 for device 0000:00:1f.2
+ata_piix 0000:00:1f.2: failed to request/iomap BARs for port 0 (errno=-16)
+PCI: Unable to reserve I/O region #3:8@170 for device 0000:00:1f.2
+ata_piix 0000:00:1f.2: failed to request/iomap BARs for port 1 (errno=-16)
+ata_piix 0000:00:1f.2: no available native port
+ACPI: PCI Interrupt 0000:00:1d.7[A] -> GSI 23 (level, low) -> IRQ 23
+PCI: Setting latency timer of device 0000:00:1d.7 to 64
+ehci_hcd 0000:00:1d.7: EHCI Host Controller
+ehci_hcd 0000:00:1d.7: new USB bus registered, assigned bus number 1
+ehci_hcd 0000:00:1d.7: debug port 1
+PCI: cache line size of 32 is not supported by device 0000:00:1d.7
+ehci_hcd 0000:00:1d.7: irq 23, io mem 0xfdfff000
+ehci_hcd 0000:00:1d.7: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 8 ports detected
+USB Universal Host Controller Interface driver v3.0
+ACPI: PCI Interrupt 0000:00:1d.0[A] -> GSI 23 (level, low) -> IRQ 23
+PCI: Setting latency timer of device 0000:00:1d.0 to 64
+uhci_hcd 0000:00:1d.0: UHCI Host Controller
+uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+uhci_hcd 0000:00:1d.0: irq 23, io base 0x0000fe00
+usb usb2: configuration #1 chosen from 1 choice
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 2 ports detected
+ACPI: PCI Interrupt 0000:00:1d.1[B] -> GSI 19 (level, low) -> IRQ 19
+PCI: Setting latency timer of device 0000:00:1d.1 to 64
+uhci_hcd 0000:00:1d.1: UHCI Host Controller
+uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 3
+uhci_hcd 0000:00:1d.1: irq 19, io base 0x0000fd00
+usb usb3: configuration #1 chosen from 1 choice
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 2 ports detected
+ACPI: PCI Interrupt 0000:00:1d.2[C] -> GSI 18 (level, low) -> IRQ 18
+PCI: Setting latency timer of device 0000:00:1d.2 to 64
+uhci_hcd 0000:00:1d.2: UHCI Host Controller
+uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 4
+uhci_hcd 0000:00:1d.2: irq 18, io base 0x0000fc00
+usb usb4: configuration #1 chosen from 1 choice
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 2 ports detected
+usb 1-4: new high speed USB device using ehci_hcd and address 2
+ACPI: PCI Interrupt 0000:00:1d.3[D] -> GSI 16 (level, low) -> IRQ 16
+PCI: Setting latency timer of device 0000:00:1d.3 to 64
+uhci_hcd 0000:00:1d.3: UHCI Host Controller
+uhci_hcd 0000:00:1d.3: new USB bus registered, assigned bus number 5
+uhci_hcd 0000:00:1d.3: irq 16, io base 0x0000fb00
+usb usb5: configuration #1 chosen from 1 choice
+hub 5-0:1.0: USB hub found
+hub 5-0:1.0: 2 ports detected
+usb 1-4: configuration #1 chosen from 1 choice
+Initializing USB Mass Storage driver...
+usb 1-5: new high speed USB device using ehci_hcd and address 3
+usb 1-5: configuration #1 chosen from 1 choice
+scsi0 : SCSI emulation for USB Mass Storage devices
+usb-storage: device found at 2
+usb-storage: waiting for device to settle before scanning
+scsi1 : SCSI emulation for USB Mass Storage devices
+usb-storage: device found at 3
+usb-storage: waiting for device to settle before scanning
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+serio: i8042 KBD port at 0x60,0x64 irq 1
+serio: i8042 AUX port at 0x60,0x64 irq 12
+mice: PS/2 mouse device common for all mice
+input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+cpuidle: using governor ladder
+cpuidle: using governor menu
+usbcore: registered new interface driver hiddev
+usbcore: registered new interface driver usbhid
+usbhid: v2.6:USB HID core driver
+ip_tables: (C) 2000-2006 Netfilter Core Team
+TCP cubic registered
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+Starting balanced_irq
+Using IPI No-Shortcut mode
+Freeing unused kernel memory: 284k freed
+input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input3
+parport_pc 00:09: reported by Plug and Play ACPI
+parport0: PC-style at 0x378, irq 7 [PCSPP,TRISTATE]
+usb-storage: device scan complete
+usb-storage: device scan complete
+scsi 0:0:0:0: Direct-Access     TOSHIBA  MK1503GAL        0014 PQ: 0 ANSI: 0
+scsi 1:0:0:0: Direct-Access     LEXAR    JD FIREFLY       1100 PQ: 0 ANSI: 0 CCS
+sd 1:0:0:0: [sda] 3932160 512-byte hardware sectors (2013 MB)
+sd 1:0:0:0: [sda] Write Protect is off
+sd 1:0:0:0: [sda] Mode Sense: 43 00 00 00
+sd 1:0:0:0: [sda] Assuming drive cache: write through
+sd 1:0:0:0: [sda] 3932160 512-byte hardware sectors (2013 MB)
+sd 1:0:0:0: [sda] Write Protect is off
+sd 1:0:0:0: [sda] Mode Sense: 43 00 00 00
+sd 1:0:0:0: [sda] Assuming drive cache: write through
+ sda: sda1
+sd 1:0:0:0: [sda] Attached SCSI removable disk
+sd 0:0:0:0: [sdb] 29297520 512-byte hardware sectors (15000 MB)
+sd 0:0:0:0: [sdb] Write Protect is off
+sd 0:0:0:0: [sdb] Mode Sense: 03 00 00 00
+sd 0:0:0:0: [sdb] Assuming drive cache: write through
+sd 0:0:0:0: [sdb] 29297520 512-byte hardware sectors (15000 MB)
+sd 0:0:0:0: [sdb] Write Protect is off
+sd 0:0:0:0: [sdb] Mode Sense: 03 00 00 00
+sd 0:0:0:0: [sdb] Assuming drive cache: write through
+ sdb:<5>sd 1:0:0:0: Attached scsi generic sg0 type 0
+ sdb1 sdb2
+sd 0:0:0:0: [sdb] Attached SCSI disk
+sd 0:0:0:0: Attached scsi generic sg1 type 0
+ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+r8169: eth0: link up
+r8169: eth0: link up
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+ISO 9660 Extensions: RRIP_1991A
+Linux agpgart interface v0.103
+agpgart: Detected an Intel 945G Chipset.
+agpgart: Detected 7932K stolen memory.
+agpgart: AGP aperture is 256M @ 0xd0000000
+ACPI: PCI Interrupt 0000:00:1b.0[A] -> GSI 16 (level, low) -> IRQ 16
+sys_init_module: 'hdaudio'->init suspiciously returned 1, it should follow 0/-E convention
+sys_init_module: loading module anyway...
+Pid: 5309, comm: modprobe Not tainted 2.6.26-tinycore #1
+ [<c01372ca>] sys_init_module+0x1625/0x173e
+ [<c012a2b8>] autoremove_wake_function+0x0/0x2b
+ [<f8a080b4>] oss_strncpy+0x0/0x23 [osscore]
+ [<c0102bf2>] syscall_call+0x7/0xb
+ [<c0350000>] rtl8139_init_one+0x801/0x897
+ =======================
+usbcore: registered new interface driver ossusb
+lp0: using parport0 (interrupt-driven).
+EXT2-fs warning: maximal mount count reached, running e2fsck is recommended
+rootfs on / type rootfs (rw)
+/proc on /proc type proc (rw)
+sysfs on /sys type sysfs (rw)
+devpts on /dev/pts type devpts (rw,mode=600)
+tmpfs on /dev/shm type tmpfs (rw)
+/dev/sdb2 on /mnt/sdb2 type ext2 (rw,nosuid,nodev,relatime,errors=continue)
+/dev/loop0 on /tmp/tcloop/MPlayer-svn-gtk1 type iso9660 (ro)
+/dev/loop1 on /tmp/tcloop/OSS type iso9660 (ro)
+/dev/loop2 on /tmp/tcloop/X_headers type iso9660 (ro)
+/dev/loop3 on /tmp/tcloop/Xorg-7.4 type cramfs (ro)
+/dev/loop4 on /tmp/tcloop/ace-of-penguins type iso9660 (ro)
+/dev/loop5 on /tmp/tcloop/advcomp type cramfs (ro)
+/dev/loop6 on /tmp/tcloop/beaver type iso9660 (ro)
+/dev/loop7 on /tmp/tcloop/cdrtools type cramfs (ro)
+/dev/loop8 on /tmp/tcloop/compiletc type iso9660 (ro)
+/dev/loop9 on /tmp/tcloop/coreutils-6.12 type iso9660 (ro)
+/dev/loop10 on /tmp/tcloop/epdfview-0.1.6 type iso9660 (ro)
+/dev/loop11 on /tmp/tcloop/expat-2.0.1 type iso9660 (ro)
+/dev/loop12 on /tmp/tcloop/expat2 type cramfs (ro)
+/dev/loop13 on /tmp/tcloop/fluid type iso9660 (ro)
+/dev/loop14 on /tmp/tcloop/fontconfig-2.6.0 type iso9660 (ro)
+/dev/loop15 on /tmp/tcloop/fontconfig type cramfs (ro)
+/dev/loop16 on /tmp/tcloop/glib-2.16.4 type iso9660 (ro)
+/dev/loop17 on /tmp/tcloop/glib1 type iso9660 (ro)
+/dev/loop18 on /tmp/tcloop/glib2 type cramfs (ro)
+/dev/loop19 on /tmp/tcloop/graphics-2.6.26 type iso9660 (ro)
+/dev/loop20 on /tmp/tcloop/graphics-libs-1 type iso9660 (ro)
+/dev/loop21 on /tmp/tcloop/gtk+-2.12.11 type iso9660 (ro)
+/dev/loop22 on /tmp/tcloop/gtk1 type iso9660 (ro)
+/dev/loop23 on /tmp/tcloop/libxml2-2.6.32 type iso9660 (ro)
+/dev/loop24 on /tmp/tcloop/libxml2 type cramfs (ro)
+/dev/loop25 on /tmp/tcloop/links-2.1 type iso9660 (ro)
+/dev/loop26 on /tmp/tcloop/mtpaint-3.21 type cramfs (ro)
+/dev/loop27 on /tmp/tcloop/ogg-vorbis-1.2.0 type iso9660 (ro)
+/dev/loop28 on /tmp/tcloop/openssl-0.9.8h type cramfs (ro)
+/dev/loop29 on /tmp/tcloop/opera-9.51 type iso9660 (ro)
+/dev/loop30 on /tmp/tcloop/pixman type cramfs (ro)
+/dev/loop31 on /tmp/tcloop/poppler-0.10.0 type iso9660 (ro)
+/dev/loop32 on /tmp/tcloop/sstrip type iso9660 (ro)
+/dev/loop33 on /tmp/tcloop/ttf-bitstream-vera-1.10 type iso9660 (ro)
+/dev/loop34 on /tmp/tcloop/xchat-2.8.6 type iso9660 (ro)
+/dev/loop35 on /tmp/tcloop/xmms-1.2.11 type iso9660 (ro)
+/dev/sdb1 on /mnt/sdb1 type ext2 (rw,nosuid,nodev,relatime,errors=continue)
+Filesystem            Size  Used Avail Use% Mounted on
+tmpfs                1009M     0 1009M   0% /dev/shm
+/dev/sdb2             4.1G  357M  3.5G  10% /mnt/sdb2
+/dev/loop0            4.5M  4.5M     0 100% /tmp/tcloop/MPlayer-svn-gtk1
+/dev/loop1            3.9M  3.9M     0 100% /tmp/tcloop/OSS
+/dev/loop2            1.2M  1.2M     0 100% /tmp/tcloop/X_headers
+/dev/loop3             67M   67M     0 100% /tmp/tcloop/Xorg-7.4
+/dev/loop4            566K  566K     0 100% /tmp/tcloop/ace-of-penguins
+/dev/loop5            340K  340K     0 100% /tmp/tcloop/advcomp
+/dev/loop6            504K  504K     0 100% /tmp/tcloop/beaver
+/dev/loop7            4.2M  4.2M     0 100% /tmp/tcloop/cdrtools
+/dev/loop8             17M   17M     0 100% /tmp/tcloop/compiletc
+/dev/loop9            2.8M  2.8M     0 100% /tmp/tcloop/coreutils-6.12
+/dev/loop10           438K  438K     0 100% /tmp/tcloop/epdfview-0.1.6
+/dev/loop11           424K  424K     0 100% /tmp/tcloop/expat-2.0.1
+/dev/loop12           144K  144K     0 100% /tmp/tcloop/expat2
+/dev/loop13           718K  718K     0 100% /tmp/tcloop/fluid
+/dev/loop14           554K  554K     0 100% /tmp/tcloop/fontconfig-2.6.0
+/dev/loop15           224K  224K     0 100% /tmp/tcloop/fontconfig
+/dev/loop16           1.1M  1.1M     0 100% /tmp/tcloop/glib-2.16.4
+/dev/loop17           594K  594K     0 100% /tmp/tcloop/glib1
+/dev/loop18           2.0M  2.0M     0 100% /tmp/tcloop/glib2
+/dev/loop19           600K  600K     0 100% /tmp/tcloop/graphics-2.6.26
+/dev/loop20           1.5M  1.5M     0 100% /tmp/tcloop/graphics-libs-1
+/dev/loop21           3.4M  3.4M     0 100% /tmp/tcloop/gtk+-2.12.11
+/dev/loop22           2.2M  2.2M     0 100% /tmp/tcloop/gtk1
+/dev/loop23           956K  956K     0 100% /tmp/tcloop/libxml2-2.6.32
+/dev/loop24           1.2M  1.2M     0 100% /tmp/tcloop/libxml2
+/dev/loop25           2.2M  2.2M     0 100% /tmp/tcloop/links-2.1
+/dev/loop26           476K  476K     0 100% /tmp/tcloop/mtpaint-3.21
+/dev/loop27           1.9M  1.9M     0 100% /tmp/tcloop/ogg-vorbis-1.2.0
+/dev/loop28           2.2M  2.2M     0 100% /tmp/tcloop/openssl-0.9.8h
+/dev/loop29            11M   11M     0 100% /tmp/tcloop/opera-9.51
+/dev/loop30           244K  244K     0 100% /tmp/tcloop/pixman
+/dev/loop31           1.2M  1.2M     0 100% /tmp/tcloop/poppler-0.10.0
+/dev/loop32           360K  360K     0 100% /tmp/tcloop/sstrip
+/dev/loop33           714K  714K     0 100% /tmp/tcloop/ttf-bitstream-vera-1.10
+/dev/loop34           1.6M  1.6M     0 100% /tmp/tcloop/xchat-2.8.6
+/dev/loop35          1000K 1000K     0 100% /tmp/tcloop/xmms-1.2.11
+/dev/sdb1             9.8G  535M  9.2G   6% /mnt/sdb1
+quiet
+waitusb=5
+host=dev
+restore=UUID=f064c708-dee1-47d8-a1ff-5ce22a21c6a9/tc_backup
+tz=PDT+8PDT,M3.2.0/2,M11.1.0/2
+settime
+nolocal
+tce=UUID=f064c708-dee1-47d8-a1ff-5ce22a21c6a9/tcZ
+max_loop=100
+desktop=flwm
+ace-of-penguins
+advcomp
+beaver
+cdrtools
+compiletc
+coreutils-6.12
+epdfview-0.1.6
+expat-2.0.1
+expat2
+fluid
+flwm
+fontconfig
+fontconfig-2.6.0
+glib-2.16.4
+glib1
+glib2
+graphics-2.6.26
+graphics-libs-1
+gtk+-2
+gtk+-2.12.11
+gtk1
+libxml2
+libxml2-2.6.32
+links-2.1
+mkisofs-tools
+MPlayer-svn-gtk1
+mtpaint-3.21
+ogg-vorbis-1.2.0
+openssl-0.9.8h
+opera-9.51
+opera_flash10
+OSS
+pixman
+poppler-0.10.0
+sstrip
+ttf-bitstream-vera-1.10
+xchat-2.8.6
+xmms-1.2.11
+Xorg-7.4
+X_headers

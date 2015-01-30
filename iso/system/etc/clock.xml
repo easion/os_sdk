@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="gbk"?>
+<gclock>
+	
+
+	<!--- 显示配置 -->
+
+	<config>  
+		<winx>0</winx>
+		<winy>0</winy>
+		<width>150</width>
+		<height>150</height>
+		<hourPivotX >3</hourPivotX>
+		<hourPivotY >9</hourPivotY>
+		<minutePivotX >3</minutePivotX>
+		<minutePivotY >9</minutePivotY>
+		<secondPivotX >23</secondPivotX>
+		<secondPivotY >23</secondPivotY>
+		<drawsecond>0</drawsecond>
+		<clockface>/system/gi/clock/clockface.png</clockface>
+		<centerface>/system/gi/clock/centerface.png</centerface>
+		<!--- transface>/system/gi/clock/transface.png -->
+		<hourhand>/system/gi/clock/hourhand.png</hourhand>
+		<minutehand>/system/gi/clock/minutehand.png</minutehand>
+		<secondhand>/system/gi/clock/secondhand.png</secondhand>
+	</config>	
+
+	<!--- 
+		width=300
+		height=300
+		hourPivotX = 3
+		hourPivotY = 15
+		minutePivotX = 3
+		minutePivotY = 15
+		secondPivotX = 0
+		secondPivotY = 0
+		drawsecond=1
+		clockface=/system/gi/clock1/clockface.png
+		centerface=/system/gi/clock1/centerface.png
+		#transface=/system/gi/clock1/transface.png
+		hourhand=/system/gi/clock1/hourhand.png
+		minutehand=/system/gi/clock1/minutehand.png
+		secondhand=/system/gi/clock1/secondhand.png	
+	-->
+
+</gclock>
+

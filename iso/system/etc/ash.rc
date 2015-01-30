@@ -1,0 +1,10 @@
+
+
+
+export USER=easion
+#export PS1="${USER}@${HOSTNAME}:${PWD}#"
+export PS1="${USER}@${HOSTNAME}#"
+#export PS1="\e[32;40m\w> "
+#echo -e "\e[32;40m\w> "
+
+

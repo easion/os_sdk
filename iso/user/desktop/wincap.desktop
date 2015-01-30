@@ -1,0 +1,24 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=wincap
+Name[az]=wincap
+Name[en_CA]=wincap
+Name[en_GB]=wincap
+Name[zh_CN]=截屏
+Name[zh_HK]=wincap
+Name[zh_TW]=wincap
+
+Comment=wincap
+Comment[zh_CN]=wincap
+Comment[zh_HK]=wincap
+Comment[zh_TW]=wincap
+
+TryExec=/system/bin/wincap
+Exec=/system/bin/wincap
+Icon=/system/gi/icons/pc.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

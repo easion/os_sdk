@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+<!-- IMPORTANT, ONLY EDIT /etc/xdg/templates/_root_.jwmrc -->
+<!-- jwm menu for Netbas -->
+<RootMenu label="Menu" labeled="false" height="24" onroot="3">
+
+
+<Menu label="Apps" icon="pc24.png" height="16">
+ <Separator/> 
+<Program label="Beaver Editor" icon="window.xpm">beaver </Program>
+<Program label="File Browser" icon="window.xpm">emelfm</Program>
+ <Separator/> 
+<Program label="ATerm 1.0.1" icon="xterm.xpm">aterm </Program>
+<Program label="asclock " icon="window.xpm">asclock</Program>
+ <Separator/> 
+<Program label="SDL Test " icon="window.xpm">testbitmap</Program>
+<Program label="QEMU " icon="window.xpm">qemu -L /programs/qemu/ -no-acpi -m 64  -fda /fdos32.img -boot a  -localtime</Program>
+ <Separator/> 
+<Program label="XHello " icon="window.xpm">xhello</Program>
+ <Separator/> 
+
+</Menu>
+
+
+<Menu label="System" icon="utility24.png" height="16">
+ <Separator/> 
+<Program label="Help " icon="window.xpm">links /www/index.html</Program>
+ <Separator/> 
+<Program label="Kernel View " icon="window.xpm">/system/bin/setup.sh</Program>
+<Program label="Process Viewer" icon="window.xpm">/system/bin/proc.sh</Program>
+<Program label="Kernel Log " icon="window.xpm">/system/bin/klog.sh</Program>
+<Program label="CALENDAR " icon="window.xpm">Xdialog --stdout --title "CALENDAR" --calendar "Please choose a date..." 0 0 0 0 0</Program>
+ <Separator/> 
+<Program label="HardInfo " icon="window.xpm">/system/bin/setup.sh</Program>
+<Program label="Torsmo " icon="network.xpm">torsmo</Program>
+ <Separator/> 
+</Menu>
+
+<Separator/>
+
+<Menu label="Network" icon="word24.png" height="16">
+ <Separator/> 
+<Program label="Start Webserver " icon="pdisk.xpm">thttpd -d /www/ -C /etc/thttpd.conf -D</Program>
+<Program label="Start Telnetd " icon="pdisk.xpm">telnetd</Program>
+<Program label="Start UIP/Tap" icon="pdisk.xpm">uip</Program>
+ <Separator/> 
+<Program label="Dillo Browser" icon="window.xpm">dillo</Program>
+<Program label="Links2.2 " icon="window.xpm">links </Program>
+ <Separator/> 
+<Program label="IP Viewer " icon="network.xpm">Xdialog --title "NETWORK" --textbox "/proc/netif" 0 0  </Program>
+ <Separator/> 
+
+</Menu>
+
+<Separator/>
+
+<Menu label="Run .." icon="pc24.png" height="16">
+/system/bin/run.sh
+</Menu>
+
+<Menu label="Power" icon="shutdown24.png" height="16">
+<Program label="Reboot" icon="window.xpm">Xdialog --title "Reboot " --yesno "Reboot the system ?"</Program>
+<Restart label="Shutdown" icon="window.xpm"/>
+</Menu>
+
+</RootMenu>
+
+<Group>
+<Class>Gaim</Class>
+<Option>sticky</Option>
+</Group>
+
+<Group>
+<Class>xmms</Class>
+<Option>icon:xmms.xpm</Option>
+</Group>
+
+
+<!-- Additional tray attributes: autohide, width, border, layer, layout -->
+<!-- Tray definition moved to separate file: .jwmrc_tray -->
+<Include>/system/etc/jwmrc_tray</Include>
+
+<!-- Visual Styles -->
+
+<!--	<BorderStyle>
+<Font>fixed</Font>
+<Width>4</Width>
+<Height>19</Height>
+<Foreground>black</Foreground>
+<Background>gray90</Background>
+<ActiveForeground>white</ActiveForeground>
+<ActiveBackground>#4A5966</ActiveBackground>
+</BorderStyle> -->
+
+<!-- new for jwm 2.0, replaces borderstyle above -->
+<WindowStyle>
+<Font>fixed</Font>
+<Width>3</Width>
+<Height>22</Height>
+<Active>
+<Text>black</Text>
+<Title>#ffda51:#ffa100</Title>
+<Corner>white</Corner>
+<Outline>black</Outline>
+</Active>
+<Inactive>
+<Text>#aaaaaa</Text>
+<Title>#fffa71:#ffda51</Title>
+<Corner>#aaaaaa</Corner>
+<Outline>gray70</Outline>
+</Inactive>
+</WindowStyle>
+
+
+<PagerStyle>
+<Outline>black</Outline>
+<Foreground>#ffc100</Foreground>
+<Background>#ffc100</Background>
+<ActiveForeground>#ff8100</ActiveForeground>
+<ActiveBackground>#ffa100</ActiveBackground>
+</PagerStyle>
+
+<MenuStyle>
+<Font>fixed</Font>
+<Foreground>black</Foreground>
+<Background>#ffda51</Background>
+<ActiveForeground>black</ActiveForeground>
+<ActiveBackground>#ffda51:#ffa100</ActiveBackground>
+</MenuStyle>
+
+<PopupStyle>
+<Font>fixed</Font>
+<Outline>black</Outline>
+<Foreground>black</Foreground>
+<Background>yellow</Background>
+</PopupStyle>
+
+<!-- <Icons> -->
+<!--	<IconPath>$HOME/.icons</IconPath> -->
+<IconPath>/system/res/icons</IconPath>
+<IconPath>/system/res/pixmaps</IconPath>
+
+<!-- </Icons> -->
+
+<StartupCommand>
+</StartupCommand>
+
+<!-- Virtual Desktops -->
+<!-- Name tags can be contained within Desktops for desktop names. -->
+   <Desktops count="3">
+
+      <!-- Default background. Note that a Background tag can be
+           contained within a Desktop tag to give a specific background
+           for that desktop.
+       -->
+      <Background type="tile">/user/wall.png</Background>
+
+   </Desktops>
+<!-- Double click speed (in milliseconds) -->
+<DoubleClickSpeed>400</DoubleClickSpeed>
+
+<!-- Double click delta (in pixels) -->
+<DoubleClickDelta>3</DoubleClickDelta>
+
+<!-- The focus model (sloppy or click) -->
+<FocusModel>sloppy</FocusModel>
+
+<!-- The snap mode (none, screen, or border) -->
+<SnapMode distance="10">border</SnapMode>
+
+<!-- The move mode (outline or opaque) -->
+<MoveMode>opaque</MoveMode>
+
+<!-- The resize mode (outline or opaque) -->
+<ResizeMode>opaque</ResizeMode>
+
+<!-- Key bindings -->
+<Key key="Up">up</Key>
+<Key key="Down">down</Key>
+<Key key="Right">right</Key>
+<Key key="Left">left</Key>
+<Key key="h">left</Key>
+<Key key="j">down</Key>
+<Key key="k">up</Key>
+<Key key="l">right</Key>
+<Key key="Return">select</Key>
+<Key key="Escape">escape</Key>
+
+<Key mask="A" key="Tab">next</Key>
+<Key mask="A" key="F4">close</Key>
+<Key mask="A" key="#">desktop#</Key>
+<Key mask="A" key="F1">root:3</Key>
+<Key mask="A" key="F2">window</Key>
+
+<!-- <Include>/system/etc/jwm/themes/jwm_default</Include> -->
+<Include>/system/etc/jwm/jwmrc_theme</Include>
+<Include>/system/etc/jwm/jwmrc_personal</Include>
+</JWM>

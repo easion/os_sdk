@@ -1,0 +1,24 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Terminal
+Name[az]=Terminal
+Name[en_CA]=Terminal
+Name[en_GB]=Terminal
+Name[zh_CN]=终端
+Name[zh_HK]=终端
+Name[zh_TW]=终端
+
+Comment=Terminal
+Comment[zh_CN]=使用命令行接口进行人机交互
+Comment[zh_HK]=使用命令行接口进行人机交互
+Comment[zh_TW]=使用命令行接口进行人机交互
+
+TryExec=/system/bin/term
+Exec=/system/bin/term
+Icon=/system/gi/icons/terminal.png
+Type=Application
+Categories=GIX;Utility;System;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+OnlyShowIn=GIX;

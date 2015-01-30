@@ -1,0 +1,64 @@
+#!/system/bin/sh
+#
+#
+
+. /system//etc/rc.conf
+
+############
+### FUNCTION ###
+############
+
+probe_driver(){
+	inkmod /system/servers/ps2.sys 
+#	inkmod /system/servers/vbe.sys 
+#	inkmod /system/servers/gi.sys -w800 -h600 -d16 -g/dev/vbe
+}
+
+start(){
+
+	if [ $ENABLE_GUI != "nce" ]
+	then
+		exit 1
+	fi
+
+	if [ -e nced.app ] 
+	then 
+		echo "inkmod xynth windows system..."
+	else
+		echo "xynth prog not found .."
+		return 1
+	fi
+
+	export SDL_VIDEODRIVER=xynth
+
+	ncewm&
+	nced.app
+}
+
+############
+### MAIN ###
+############
+
+case "$1" in
+'start') # "start" service:
+	probe_driver
+	start
+  ;;
+
+'stop') # "stop" service:
+  stop
+  ;;
+
+'restart') # "restart"  the service:
+  stop
+  start
+  ;;
+
+*) # The default :
+  echo "$0 start | stop"
+esac
+
+
+exit
+
+

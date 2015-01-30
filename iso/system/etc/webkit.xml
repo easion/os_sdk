@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webkit>
+
+	<!--- webkit配置 -->
+
+	<config>  		
+		<homeURL>http://solidot.org/</homeURL>
+		<searchURL>http://google.com/search</searchURL>
+		<searchVar>q</searchVar>
+		<fontName>方正细黑_GBK</fontName>
+
+		<minFontSize>9</minFontSize>
+		<windowleft>10</windowleft>
+		<windowtop>10</windowtop>
+		<windowwidth>640</windowwidth>
+		<windowheight>480</windowheight>
+
+		<bookMarkCommand>OWBAddressBook/AddressBook -%s</bookMarkCommand>
+		<cookiePath>PROGDIR:cookieCollection.txt</cookiePath>		
+		<iconsPath>/system/gi/webkit/</iconsPath>		
+		<bookmarkFile>/system/gi/webkit/bookmark.xml</bookmarkFile>		
+		<active_a>0.66</active_a>
+		<active_r>1.0</active_r>
+		<active_g>1.0</active_g>
+		<active_b>1.0</active_b>
+
+		<progress_a>0.33</progress_a>
+		<progress_r>0.77</progress_r>
+		<progress_g>0.84</progress_g>
+		<progress_b>0.94</progress_b>
+		
+	</config>
+	
+
+	<!--- 
+	
+	-->
+
+</webkit>
+

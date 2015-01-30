@@ -1,0 +1,29 @@
+
+------------------------------------------------------------------------------
+*** IMPORTANT NOTE ***
+
+The kernel only mounts the root filesystem as read-only, so don't alarm if you
+see error messages trying to create/write some files.
+
+This floppy image includes the "BusyBox" tool (http://www.busybox.net), which
+allows the use of the must basic UNIX/Linux system commands in very reduced
+sized filesystems. The current limitations of the kernel makes that not all of
+the following commands are supported, but the work is in progress.
+
+	[, ash, awk, basename, bunzip2, bzcat, cal, cat, chgrp, chmod, chown,
+	chroot, chvt, clear, cmp, cp, cut, date, dd, deallocvt, df, dirname,
+	dmesg, du, echo, egrep, env, expr, false, fdisk, fgrep, find, free,
+	getty, grep, gunzip, gzip, halt, head, hexdump, hostname, id, init,
+	kill, killall, ln, login, ls, mesg, mkdir, mkfifo, mknod, more, mount,
+	mv, openvt, passwd, pidof, poweroff, ps, pwd, readlink, reboot, renice,
+	reset, rm, rmdir, sed, sh, sleep, sort, strings, stty, su, sync, tail,
+	tar, tee, test, time, top, touch, tr, true, tty, umount, uname, uniq,
+	unzip, uptime, vi, vlock, wc, which, whoami, xargs, yes, zcat
+
+
+Happy "poor" hacking! ;-)
+
+Jordi Sanfeliu <mikaku@fiwix.org>
+http://www.fiwix.org
+------------------------------------------------------------------------------
+

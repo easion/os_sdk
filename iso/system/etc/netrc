@@ -1,0 +1,91 @@
+#!/system/bin/sh
+#
+#
+
+
+. /system/etc/rc.conf
+
+load_network(){
+	inkmod /system/drivers/pcnet32.dll 
+	inkmod /system/drivers/ne2000.dll 
+	inkmod /system/drivers/tunif.dll 
+
+	scanpci
+
+	if [ $ETHGET = "dhcp" ]
+	then
+		ifconfig eth  up dhcp default
+	else
+		ifconfig eth $IPADDR $IPMASK $IPGW  up default
+	fi
+
+#	proc netif
+#	ifconfig
+#	ifconfig eth  down
+
+	if [ -e /system//etc/net.sh ] 
+	then
+		echo "start network ...\n"
+		/system//etc/net.sh start
+	fi
+
+}
+
+start_servers()
+{
+echo "start_servers  .."
+
+#	thttpd -d /www/ -C /system//etc/thttpd.conf -D&
+#	telnetd &
+#	poll &
+#	ftpd &
+#	uip &
+#	vtund -s &
+#	ftp ftp.gnu.org
+
+}
+
+
+
+start(){
+	if [ -z "$DISNET" ] 
+	then
+		if [ -n $IPADDR ];then
+			host_ip=$IPADDR
+		fi
+
+		load_network $host_ip
+
+#		load_ipfw
+
+	start_servers
+
+#	ifconfig mytun  192.168.100.1 255.255.255.0 0.0.0.0 up
+
+
+		exit
+	fi
+}
+
+############
+### MAIN ###
+############
+
+case "$1" in
+'start') # "start" service:
+	start
+  ;;
+
+'stop') # "stop" service:
+  stop
+  ;;
+
+'restart') # "restart"  the service:
+  stop
+  start
+  ;;
+
+*) # The default :
+  echo "$0 start | stop"
+esac
+

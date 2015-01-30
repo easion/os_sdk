@@ -1,0 +1,78 @@
+#!/system/bin/sh
+#
+#
+
+
+############
+### FUNCTION ###
+############
+
+probe_gi(){
+	inkmod /system/servers/ps2.sys 
+	inkmod /system/servers/vbe.sys 
+	inkmod /system/servers/gi.sys -w800 -h600 -d16  -g/dev/vbe
+#	inkmod /system/servers/gi.sys -w1024 -h768  -g/dev/vbe
+	proc module
+}
+
+start(){
+
+	if [ -e /system/bin/giwm ] || [ -e /system/bin/gi ]
+	then 
+		echo "inkmod fb module..."
+	else
+		echo "Error: giwm program not found .."
+		return 1
+	fi	
+
+	NETSURFRES=$HOME/netsurf/
+	LIBCHARSET_ALIAS_DIR=/system/etc/
+	BXSHARE=/bochs/
+	export BXSHARE
+	export NETSURFRES
+	export LIBCHARSET_ALIAS_DIR
+
+	export FONTCONFIG_FILE="/system/font/fonts.conf"
+
+	cd /
+
+	lsproc
+#	/system/bin/evfs&
+	/system/bin/giwm
+	/system/bin/jwm
+}
+
+stop()
+{
+}
+
+
+############
+### MAIN ###
+############
+
+case "$1" in
+'start') # "start" service:
+	probe_gi
+	start
+  ;;
+
+'stop') # "stop" service:
+  stop
+  ;;
+
+'restart') # "restart"  the service:
+  stop
+  start
+  ;;
+
+*) # The default :
+  echo "$0 start | stop"
+esac
+
+
+
+
+exit
+
+
