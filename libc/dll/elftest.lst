@@ -1,0 +1,617 @@
+
+elftest:     file format elf32-i386
+elftest
+architecture: i386, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x08048080
+
+Program Header:
+    LOAD off    0x00000080 vaddr 0x08048080 paddr 0x08048080 align 2**5
+         filesz 0x000114dc memsz 0x00015bb8 flags rwx
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         0000b8a7  08048080  08048080  00000080  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .rodata       00000bbf  08053940  08053940  0000b940  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  2 .data         00004558  08055000  08055000  0000d000  2**5
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .ctors        00000004  08059558  08059558  00011558  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          000046d8  08059560  08059560  00011560  2**5
+                  ALLOC
+  5 .comment      00001432  00000000  00000000  00011560  2**0
+                  CONTENTS, READONLY
+  6 .debug_aranges 00000e60  00000000  00000000  00012998  2**3
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_pubnames 00001eaa  00000000  00000000  000137f8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_info   0001ef6f  00000000  00000000  000156a2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_abbrev 00006527  00000000  00000000  00034611  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_line   00015ded  00000000  00000000  0003ab38  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_frame  00002508  00000000  00000000  00050928  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_str    00002880  00000000  00000000  00052e30  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    0000636a  00000000  00000000  000556b0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_macinfo 0043ff3a  00000000  00000000  0005ba1a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_ranges 000006a8  00000000  00000000  0049b954  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .note.GNU-stack 00000000  00000000  00000000  0049bffc  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+08048080 l    d  .text	00000000 
+08053940 l    d  .rodata	00000000 
+08055000 l    d  .data	00000000 
+08059558 l    d  .ctors	00000000 
+08059560 l    d  .bss	00000000 
+00000000 l    d  .comment	00000000 
+00000000 l    d  .debug_aranges	00000000 
+00000000 l    d  .debug_pubnames	00000000 
+00000000 l    d  .debug_info	00000000 
+00000000 l    d  .debug_abbrev	00000000 
+00000000 l    d  .debug_line	00000000 
+00000000 l    d  .debug_frame	00000000 
+00000000 l    d  .debug_str	00000000 
+00000000 l    d  .debug_loc	00000000 
+00000000 l    d  .debug_macinfo	00000000 
+00000000 l    d  .debug_ranges	00000000 
+00000000 l    d  .note.GNU-stack	00000000 
+00000000 l    d  *ABS*	00000000 
+00000000 l    d  *ABS*	00000000 
+00000000 l    d  *ABS*	00000000 
+00000000 l    df *ABS*	00000000 crt0.S
+00000000 l    df *ABS*	00000000 elftest.c
+08059560 l     O .bss	00000004 ___brk_addr_test
+00000000 l    df *ABS*	00000000 errno.c
+00000000 l    df *ABS*	00000000 join.c
+080488d5 l     F .text	00000083 join_extricate_func
+00000000 l    df *ABS*	00000000 manager.c
+08059564 l     O .bss	00000004 terminated_children
+08059568 l     O .bss	00000004 main_thread_exiting
+08048b85 l     F .text	0000004c pthread_kill_all_threads
+08048bd1 l     F .text	000000ef pthread_start_thread
+08048cc0 l     F .text	00000038 pthread_start_thread_event
+08048cf8 l     F .text	000000f8 pthread_free
+08048df0 l     F .text	00000109 pthread_reap_children
+0805956c l     O .bss	00000004 pthread_threads_counter
+00000000 l    df *ABS*	00000000 pthread.c
+08059400 l     O .data	00000004 current_rtmin
+08059404 l     O .data	00000004 current_rtmax
+08049877 l     F .text	00000005 pthread_handle_sigdebug
+08059584 l     O .bss	00000004 current_level
+08049b0c l     F .text	00000192 pthread_initialize
+0804a15f l     F .text	00000066 pthread_handle_sigrestart
+0804a093 l     F .text	000000cc pthread_handle_sigcancel
+0804a1c5 l     F .text	000000ec pthread_onexit_process
+00000000 l    df *ABS*	00000000 ptlongjmp.c
+0804a4a0 l     F .text	00000097 pthread_cleanup_upto
+00000000 l    df *ABS*	00000000 semaphore.c
+0804a6b6 l     F .text	000000af new_sem_extricate_func
+00000000 l    df *ABS*	00000000 signals.c
+0804ace0 l     F .text	00000005 pthread_null_sighandler
+0804ace5 l     F .text	000000b2 pthread_sighandler_rt
+080595a0 l     O .bss	00000100 sighandler
+0804b032 l     F .text	000000d3 pthread_sighandler
+00000000 l    df *ABS*	00000000 specific.c
+080596a0 l     O .bss	00002000 pthread_keys
+0805b6a0 l     O .bss	00000018 pthread_keys_mutex
+0804b4b2 l     F .text	00000053 libc_internal_tsd_address
+0804b505 l     F .text	00000053 libc_internal_tsd_get
+0804b558 l     F .text	0000005b libc_internal_tsd_set
+00000000 l    df *ABS*	00000000 spinlock.c
+0804b770 l     F .text	00000047 wait_node_dequeue
+0804b7b7 l     F .text	0000005c __pthread_acquire
+0804b813 l     F .text	00000030 wait_node_free
+0805b6c0 l     O .bss	00000004 wait_node_free_list_spinlock
+0805b6bc l     O .bss	00000004 wait_node_free_list
+00000000 l    df *ABS*	00000000 wrapsyscall.c
+00000000 l    df *ABS*	00000000 cancel.c
+00000000 l    df *ABS*	00000000 events.c
+00000000 l    df *ABS*	00000000 mutex.c
+0805b6c4 l     O .bss	00000018 once_masterlock
+0805b6dc l     O .bss	0000000c once_finished
+0805b6e8 l     O .bss	00000004 fork_generation
+0804cd37 l     F .text	00000035 pthread_once_cancelhandler
+00000000 l    df *ABS*	00000000 condvar.c
+0804d5d8 l     F .text	000000ad cond_extricate_func
+00000000 l    df *ABS*	00000000 __uClibc_main.c
+0805b6f4 l     O .bss	00000004 been_there_done_that.1814
+00000000 l    df *ABS*	00000000 errno.c
+00000000 l    df *ABS*	00000000 stdio.c
+08053af4 l     O .rodata	00000016 __PRETTY_FUNCTION__.3050
+08059420 l     O .data	000000c0 _stdio_streams
+0805b700 l     O .bss	00002000 _fixed_buffers
+08053e08 l     O .rodata	00000018 __stdio_mutex_initializer.3241
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 printf.c
+0804e220 l     F .text	00000034 _charpad
+08053e20 l     O .rodata	0000000d __PRETTY_FUNCTION__.2606
+08053e2d l     O .rodata	0000000c prefix.2582
+08053e39 l     O .rodata	00000007 spec_base.2581
+0804e254 l     F .text	000005d9 _do_one_spec
+00000000 l    df *ABS*	00000000 string.c
+00000000 l    df *ABS*	00000000 string.c
+00000000 l    df *ABS*	00000000 string.c
+00000000 l    df *ABS*	00000000 string.c
+00000000 l    df *ABS*	00000000 termios.c
+00000000 l    df *ABS*	00000000 termios.c
+00000000 l    df *ABS*	00000000 tcgetattr.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 socketcalls.c
+00000000 l    df *ABS*	00000000 sigaction.c
+0804ee90 l       .text	00000000 __restore_rt
+0804ef30 l       .text	00000000 __restore
+00000000 l    df *ABS*	00000000 sigaddset.c
+00000000 l    df *ABS*	00000000 sigdelset.c
+00000000 l    df *ABS*	00000000 sigempty.c
+00000000 l    df *ABS*	00000000 sigfillset.c
+00000000 l    df *ABS*	00000000 sigismem.c
+00000000 l    df *ABS*	00000000 signal.c
+00000000 l    df *ABS*	00000000 sigsetops.c
+00000000 l    df *ABS*	00000000 atexit.c
+00000000 l    df *ABS*	00000000 atexit.c
+00000000 l    df *ABS*	00000000 atexit.c
+00000000 l    df *ABS*	00000000 abort.c
+0805d708 l     O .bss	00000004 been_there_done_that
+08059520 l     O .data	00000018 mylock
+00000000 l    df *ABS*	00000000 system.c
+00000000 l    df *ABS*	00000000 malloc.c
+0804f750 l     F .text	00000648 __malloc_alloc
+0804fd98 l     F .text	00000050 __malloc_largebin_index
+00000000 l    df *ABS*	00000000 calloc.c
+00000000 l    df *ABS*	00000000 free.c
+08050718 l     F .text	000000de __malloc_trim
+080507f6 l     F .text	000000c9 malloc_init_state
+00000000 l    df *ABS*	00000000 waitpid.c
+00000000 l    df *ABS*	00000000 wait.c
+00000000 l    df *ABS*	00000000 getpagesize.c
+00000000 l    df *ABS*	00000000 longjmp.c
+00000000 l    df *ABS*	00000000 pread_write.c
+08050df0 l     F .text	000000fc __fake_pread_write
+00000000 l    df *ABS*	00000000 _exit.c
+00000000 l    df *ABS*	00000000 vfork.S
+08050fa1 l       .text	00000000 __syscall_error
+00000000 l    df *ABS*	00000000 sbrk.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+080510ec l     F .text	0000004d __syscall_open
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+08051266 l     F .text	0000003d __syscall_kill
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+080512f1 l     F .text	00000033 __syscall_geteuid
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+0805161c l     F .text	0000004a __syscall_wait4
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+0805170a l     F .text	0000003d __syscall_sched_getparam
+00000000 l    df *ABS*	00000000 syscalls.c
+08051769 l     F .text	00000045 __syscall_sched_setscheduler
+00000000 l    df *ABS*	00000000 syscalls.c
+080517c3 l     F .text	0000003f __syscall_sched_getscheduler
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 syscalls.c
+00000000 l    df *ABS*	00000000 __longjmp.S
+00000000 l    df *ABS*	00000000 clone.S
+00000000 l    df *ABS*	00000000 setjmp.S
+00000000 l    df *ABS*	00000000 brk.c
+00000000 l    df *ABS*	00000000 sysconf.c
+00000000 l    df *ABS*	00000000 exec.c
+00000000 l    df *ABS*	00000000 __assert.c
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 stdio.c
+080524fc l     F .text	0000007e _stdio_WRITE
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 stdio.c
+080540b8 l     O .rodata	0000000e __PRETTY_FUNCTION__.3090
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 printf.c
+00000000 l    df *ABS*	00000000 printf.c
+080540eb l     O .rodata	0000000e __PRETTY_FUNCTION__.2576
+00000000 l    df *ABS*	00000000 printf.c
+08054122 l     O .rodata	00000014 type_codes
+08054136 l     O .rodata	0000000a type_sizes
+08053044 l     F .text	00000042 _promoted_size
+08053086 l     F .text	00000059 _is_equal_or_bigger_arg
+08054140 l     O .rodata	00000010 __PRETTY_FUNCTION__.2614
+08054150 l     O .rodata	00000014 qual_chars.2613
+08054164 l     O .rodata	00000010 spec_and_mask.2612
+08054174 l     O .rodata	00000010 spec_or_mask.2611
+08054184 l     O .rodata	00000009 spec_ranges.2610
+0805418d l     O .rodata	00000015 spec_chars.2609
+080541a2 l     O .rodata	00000008 spec_flags.2608
+00000000 l    df *ABS*	00000000 wstring.c
+00000000 l    df *ABS*	00000000 sigjmp.c
+00000000 l    df *ABS*	00000000 getdtablesize.c
+00000000 l    df *ABS*	00000000 syscalls.c
+080536f0 l     F .text	00000045 __syscall_execve
+00000000 l    df *ABS*	00000000 ctype.c
+00000000 l    df *ABS*	00000000 stdio.c
+00000000 l    df *ABS*	00000000 stdio.c
+080544e0 l     O .rodata	0000000e __PRETTY_FUNCTION__.3053
+0804a537 g     F .text	0000005b longjmp
+0804eaac g     F .text	00000023 __libc_tcdrain
+08053ac4 g     O .rodata	00000004 __linuxthreads_pthread_threads_max
+08059408 g     O .data	00000004 __libc_internal_tsd_set
+0804ed30 g     F .text	0000015b __libc_sigaction
+08050eec g     F .text	00000030 __libc_pread
+080515b4 g     F .text	0000003d __socketcall
+0804d19e g     F .text	0000019c pthread_mutex_timedlock
+0804c19c  w    F .text	00000029 waitpid
+08051a98 g     F .text	0000001b __longjmp
+08051668 g     F .text	0000003f __libc_fsync
+08051a7d g     F .text	0000001a getrlimit
+08051369 g     F .text	00000037 ioctl
+0804c3b0  w    F .text	00000033 pause
+0804d575 g     F .text	00000063 pthread_cond_signal
+0804cb5c g     F .text	0000000a __pthread_mutexattr_destroy
+080511e4  w    F .text	00000033 __getpid
+08059580 g     O .bss	00000004 __pthread_exit_code
+08051b98  w    F .text	0000063c sysconf
+0804e1f0 g     F .text	00000030 printf
+080594e4 g     O .data	00000004 stdout
+080536bc g     F .text	00000031 getdtablesize
+080499c5 g     F .text	0000001f __pthread_restart_new
+0804cb82  w    F .text	00000014 pthread_mutexattr_gettype
+0805257a g     F .text	000003c9 _stdio_fwrite
+0804c055  w    F .text	00000033 recv
+0804c0ac  w    F .text	0000002d connect
+0805d724 g     O .bss	00000004 __linuxthreads_initial_report_events
+0804cc3d g     F .text	000000fa __pthread_once
+0804a399 g     F .text	00000104 pthread_create
+0804efcc g     F .text	00000047 sigemptyset
+0804d33a g     F .text	00000164 __pthread_mutex_lock
+0804b6ea g     F .text	00000083 pthread_getspecific
+0804a5dd g     F .text	00000028 __new_sem_destroy
+0804f232 g     F .text	00000047 __sigdelset
+080482e9 g     F .text	00000051 process
+08049a45 g     F .text	00000023 __pthread_find_self
+080512e4 g     F .text	0000000d geteuid
+0804cb82  w    F .text	00000014 pthread_mutexattr_getkind_np
+08048540 g     F .text	00000132 pthread_exit
+0804a8b9 g     F .text	00000267 sem_timedwait
+08051574 g     F .text	0000003d munmap
+08059574 g     O .bss	00000004 __pthread_manager_thread_bos
+080516f0 g     F .text	0000001a sched_getparam
+08052990 g     F .text	000001d4 _uintmaxtostr
+08050d94  w    F .text	0000005b _longjmp
+0805d7c0 g     O .bss	000000f0 __exit_function_table
+0804d4fb g     F .text	0000001c pthread_condattr_setpshared
+080513e5 g     F .text	00000063 __libc_fcntl
+0805b6fc g     O .bss	00000004 _h_errno
+0804a65e g     F .text	00000058 __new_sem_init
+0804d19e g     F .text	0000019c __pthread_mutex_timedlock
+08051060  w    F .text	00000045 __write
+08059554 g     O .data	00000004 __ctype_b
+080497d7 g     F .text	00000035 __pthread_manager_event
+0804819b g     F .text	0000014e main2
+0804cb66 g     F .text	0000001c __pthread_mutexattr_settype
+0805b6f8  w    O .bss	00000004 errno
+0804cab8 g     F .text	00000005 __linuxthreads_create_event
+080519e8 g     F .text	0000003d __rt_sigsuspend
+0804eb84 g     F .text	0000002d __libc_accept
+0804f31c g     F .text	00000084 __exit_handler
+080536f0  w    F .text	00000045 execve
+0804981a g     F .text	0000000a __libc_current_sigrtmax
+0804d4d4 g     F .text	0000000a pthread_condattr_init
+08050d88  w    F .text	0000000a getpagesize
+080511e4  w    F .text	00000033 getpid
+080593f8 g     O .data	00000004 __pthread_suspend
+080511e4 g     F .text	00000033 __libc_getpid
+0804b3c3 g     F .text	000000ef pthread_key_delete
+0804c9e2 g     F .text	0000006f _pthread_cleanup_pop
+08048110 g     F .text	00000032 sighld
+0804ba97 g     F .text	00000106 __pthread_lock
+0804ea04 g     F .text	00000039 memcpy
+0804809c g     F .text	0000000a testa
+0804c671 g     F .text	000000e3 pthread_cancel
+080521d4 g     F .text	000000b2 execl
+0804cba9 g     F .text	0000001c __pthread_mutexattr_setpshared
+08059570 g     O .bss	00000004 __pthread_initial_thread_bos
+0804cb5c g     F .text	0000000a pthread_mutexattr_destroy
+08049fcb g     F .text	000000c8 __pthread_reset_main_thread
+08051139 g     F .text	00000022 creat
+08052944 g     F .text	0000004a _stdio_lseek
+08049866 g     F .text	00000011 pthread_equal
+08053860 g     F .text	000000c7 _stdio_adjpos
+08052c84 g     F .text	000000d0 _ppfs_init
+08051878 g     F .text	0000003d __libc_nanosleep
+0804cad0 g     F .text	0000003a __pthread_mutex_init
+08049810 g     F .text	0000000a __libc_current_sigrtmin
+080593f0 g     O .data	00000004 __pthread_sig_debug
+0804a5dd  w    F .text	00000028 sem_destroy
+0804c270  w    F .text	000001c3 system
+0804fde8 g     F .text	000007de malloc
+0804ead0 g     F .text	00000022 isatty
+0804a557 g     F .text	0000005b siglongjmp
+08051748 g     F .text	00000021 sched_setscheduler
+0804a765 g     F .text	00000154 __new_sem_post
+08049c9e g     F .text	00000258 __pthread_initialize_manager
+0804bff0  w    F .text	0000003f recvfrom
+0804ab20  w    F .text	000001b5 sem_wait
+0804c22e  w    F .text	00000023 tcdrain
+08050d94 g     F .text	0000005b __libc_longjmp
+0804a765  w    F .text	00000154 sem_post
+080517b0 g     F .text	00000013 sched_getscheduler
+0804c610 g     F .text	00000061 pthread_testcancel
+08048b04 g     F .text	00000081 __pthread_manager_sighandler
+08053adc g     O .rodata	00000007 __linuxthreads_version
+0804cabd g     F .text	00000005 __linuxthreads_death_event
+0804c7ba g     F .text	0000008f _pthread_cleanup_pop_restore
+0805d70c g     O .bss	00000004 ___brk_addr
+08053ae4 g     O .rodata	00000004 __linuxthreads_pthread_keys_max
+0804a2b1  w    F .text	000000a0 pthread_kill_other_threads_np
+08053634 g     F .text	00000036 mempcpy
+080522e4 g     F .text	00000069 fflush
+0804cb82 g     F .text	00000014 __pthread_mutexattr_gettype
+0804a595 g     F .text	00000018 sem_unlink
+08050f1c g     F .text	00000030 __libc_pwrite
+08051018 g     F .text	00000045 __libc_read
+08051ab4 g     F .text	00000071 __clone
+0804a2b1 g     F .text	000000a0 __pthread_kill_other_threads_np
+08049ef6 g     F .text	0000000d __pthread_initialize
+0804cb66 g     F .text	0000001c __pthread_mutexattr_setkind_np
+0804c4db  w    F .text	00000045 lseek
+0804ef3c g     F .text	00000046 sigaddset
+08053ae8 g     O .rodata	00000004 __linuxthreads_pthread_key_2ndlevel_size
+0805b6ec g     O .bss	00000004 __environ
+0805153b g     F .text	00000037 mmap
+0804b886 g     F .text	0000012e __pthread_alt_unlock
+08048958 g     F .text	00000150 pthread_detach
+0804bf49  w    F .text	00000033 send
+0804f3f0 g     F .text	0000019c abort
+0805366c g     F .text	0000004e __sigjmp_save
+08055000 g     O .data	00004000 __pthread_handles
+08051b28 g     F .text	00000021 __sigsetjmp
+080512a4 g     F .text	0000003f pipe
+0804ea88 g     F .text	00000023 strnlen
+080513a0 g     F .text	00000045 __syscall_fcntl
+0804c0fc  w    F .text	0000002d accept
+08049824 g     F .text	0000003d __libc_allocate_rtsig
+0805d8c0 g     O .bss	00000378 __malloc_state
+08049a68 g     F .text	000000a4 pthread_getschedparam
+0804f1ed g     F .text	00000045 __sigaddset
+08051324 g     F .text	00000045 __syscall_ioctl
+0804c8dd g     F .text	00000094 pthread_setcancelstate
+0805940c g     O .data	00000004 __libc_internal_tsd_get
+0804c442  w    F .text	0000003d nanosleep
+080499e4 g     F .text	00000061 __pthread_wait_for_restart_signal
+0805b6fc  w    O .bss	00000004 h_errno
+080505c8 g     F .text	0000014d calloc
+0804d03c g     F .text	00000162 __pthread_mutex_unlock
+080515f4 g     F .text	00000028 wait4
+0805147c g     F .text	0000003d setrlimit
+0805d704 g     O .bss	00000004 __exit_cleanup
+0804d4de g     F .text	0000000a pthread_condattr_destroy
+0804c14c  w    F .text	00000045 write
+0805b6ec  w    O .bss	00000004 environ
+0804e1c0 g     F .text	0000002d fprintf
+0805124c g     F .text	0000001a kill
+080524b0 g     F .text	0000004b fputs_unlocked
+0804cd6c g     F .text	000002d0 __pthread_mutex_trylock
+0804b5b3 g     F .text	00000137 __pthread_destroy_specifics
+0804cb66  w    F .text	0000001c pthread_mutexattr_setkind_np
+08053aec g     O .rodata	00000004 __libc_internal_tsd_address
+080594ec g     O .data	00000004 _stdio_openlist
+0805d710 g     O .bss	00000004 __pthread_nonstandard_stacks
+0804d517 g     F .text	0000005e pthread_cond_broadcast
+0804cc3d g     F .text	000000fa pthread_once
+0804cbed g     F .text	00000050 __pthread_once_fork_child
+0804bb9d g     F .text	00000131 __pthread_alt_lock
+08048ab0 g     F .text	00000054 __pthread_manager_adjust_prio
+08053738 g     F .text	00000125 fseeko
+08059200 g     O .data	000001e0 __pthread_manager_thread
+0804987c g     F .text	00000012 __pthread_setconcurrency
+0804f0a4 g     F .text	0000010b bsd_signal
+08053738 g     F .text	00000125 fseek
+08049f03 g     F .text	000000c8 pthread_setschedparam
+0804c754 g     F .text	00000066 __pthread_perform_cleanup
+0804b352 g     F .text	00000071 pthread_key_create
+08049861 g     F .text	00000005 __pthread_initialize_minimal
+080594e0 g     O .data	00000004 stdin
+0804ab20 g     F .text	000001b5 __new_sem_wait
+0804c1ec  w    F .text	0000002b wait
+0804987c  w    F .text	00000012 pthread_setconcurrency
+0804a65e  w    F .text	00000058 sem_init
+0804cb0a g     F .text	0000003f __pthread_mutex_destroy
+0804cb82 g     F .text	00000014 __pthread_mutexattr_getkind_np
+08059000 g     O .data	00000004 __pthread_handles_num
+0805b6f0 g     O .bss	00000004 __progname
+08048080 g     F .text	0000001b _start
+0804a5ad g     F .text	00000018 sem_close
+0804ae9c g     F .text	00000084 pthread_kill
+0804f0a4  w    F .text	0000010b signal
+0804c2b2  w    F .text	00000045 read
+080593e4 g     O .data	00000004 __pthread_manager_request
+0805b6b8 g     O .bss	00000004 __pthread_has_cas
+08053ad8 g     O .rodata	00000004 __linuxthreads_pthread_sizeof_descr
+0804bef9  w    F .text	0000002d sendmsg
+0804be94  w    F .text	0000003f sendto
+0805d700 g     O .bss	00000004 __exit_count
+0804dc3c g     F .text	00000498 __stdio_validate_FILE
+08051838 g     F .text	0000003f sched_get_priority_max
+0804af58 g     F .text	000000da pthread_sigmask
+0804f27c g     F .text	000000a0 on_exit
+08050d94  w    F .text	0000005b __libc_siglongjmp
+08051a40 g     F .text	0000003d __ugetrlimit
+0804b843 g     F .text	00000043 __pthread_compare_and_swap
+08059508 g     O .data	00000018 mylock
+0804ec88 g     F .text	00000033 __libc_send
+0804d4a0 g     F .text	00000021 pthread_cond_init
+0804f014 g     F .text	00000047 sigfillset
+080593f4 g     O .data	00000004 __pthread_restart
+0804cb96  w    F .text	00000013 pthread_mutexattr_getpshared
+080480a6 g     F .text	0000000a testb
+08051218 g     F .text	00000033 __libc_pause
+0804a605  w    F .text	00000059 sem_trywait
+0804ad97 g     F .text	0000015b sigaction
+0804cb49 g     F .text	00000013 __pthread_mutexattr_init
+0804db64 g     F .text	0000003a __uClibc_init
+08052b64 g     F .text	0000005c _store_inttype
+08050d88 g     F .text	0000000a __getpagesize
+08059538 g     O .data	00000018 __malloc_lock
+0804dc0d g     F .text	0000002f __uClibc_main
+08050fb0 g     F .text	00000066 sbrk
+0805115c g     F .text	0000003f __libc_close
+0804d4e8 g     F .text	00000013 pthread_condattr_getpshared
+0804c971 g     F .text	00000071 _pthread_cleanup_push_defer
+0804f1b0 g     F .text	0000003d __sigismember
+080514bc g     F .text	0000003d gettimeofday
+0805955c g       *ABS*	00000000 __bss_start
+080510a8 g     F .text	00000044 __libc_open
+0804ea40 g     F .text	00000021 memset
+0804833a g     F .text	0000015f main
+08051900 g     F .text	0000004a __syscall_rt_sigaction
+0804cb66  w    F .text	0000001c pthread_mutexattr_settype
+08051448 g     F .text	00000033 getppid
+0804eaf4 g     F .text	0000008d tcgetattr
+0804ec18 g     F .text	0000003f __libc_recvfrom
+0805d714 g     O .bss	00000008 __pthread_threads_events
+0804f58c g     F .text	000001c3 __libc_system
+0804cba9  w    F .text	0000001c pthread_mutexattr_setpshared
+080518b8 g     F .text	00000045 poll
+0805d71c g     O .bss	00000004 __pthread_last_event
+0804e0d4 g     F .text	00000023 __stdio_init_mutex
+0804ec58 g     F .text	0000002d __libc_recvmsg
+0804d03c g     F .text	00000162 pthread_mutex_unlock
+0805d728 g     O .bss	00000004 __pthread_manager_reader
+08059020 g     O .data	000001e0 __pthread_initial_thread
+080484a0 g     F .text	0000004b __h_errno_location
+080541e0 g     O .rodata	00000300 __C_ctype_b_data
+08050f90 g     F .text	0000001f __vfork
+08053634  w    F .text	00000036 __mempcpy
+08053ad0 g     O .rodata	00000004 __pthread_offsetof_descr
+0804a605 g     F .text	00000059 __new_sem_trywait
+0804c48b  w    F .text	00000045 msync
+08050d30 g     F .text	00000029 __libc_waitpid
+0804b9b4 g     F .text	000000e3 __pthread_unlock
+0804a5c5 g     F .text	00000018 sem_open
+0804e0f7 g     F .text	00000051 _stdio_term
+080594e8 g     O .data	00000004 stderr
+0805957c g     O .bss	00000004 __pthread_exit_requested
+08059578 g     O .bss	00000004 __pthread_manager_thread_tos
+08050f90  w    F .text	0000001f vfork
+08059550 g     O .data	00000004 __C_ctype_b
+0804cbd9 g     F .text	00000014 __pthread_once_fork_parent
+08052db8 g     F .text	00000289 _ppfs_setargs
+0804f05c g     F .text	00000046 sigismember
+0804cac2 g     F .text	00000005 __linuxthreads_reap_event
+0804c52b  w    F .text	0000003f fsync
+08048ef9 g     F .text	000008de __pthread_manager
+0805119c g     F .text	00000045 __libc_lseek
+0804988e g     F .text	0000000a __pthread_getconcurrency
+0804bcce g     F .text	000001c5 __pthread_alt_timedlock
+0804ca51 g     F .text	00000066 _pthread_cleanup_push
+0804c359  w    F .text	00000030 pread
+0804a351 g     F .text	00000048 pthread_self
+0804c849 g     F .text	00000094 pthread_setcanceltype
+0804cbc5 g     F .text	00000014 __pthread_once_fork_prepare
+0804cb49 g     F .text	00000013 pthread_mutexattr_init
+08050d5c g     F .text	0000002b __libc_wait
+0805234d g     F .text	00000111 fflush_unlocked
+080480b0 g     F .text	00000060 mybrk
+08048142 g     F .text	00000059 sleep2
+0805955c g       *ABS*	00000000 _edata
+0805dc38 g       *ABS*	00000000 _end
+08053ac8 g     O .rodata	00000004 __pthread_threads_max
+0804cb0a g     F .text	0000003f pthread_mutex_destroy
+0805d740 g     O .bss	00000080 _sigintr
+08052d54 g     F .text	00000061 _ppfs_prepargs
+08051b98 g     F .text	0000063c __sysconf
+0804d33a g     F .text	00000164 pthread_mutex_lock
+0804ad97 g     F .text	00000105 __sigaction
+0804a580 g     F .text	00000015 __new_sem_getvalue
+0804a580  w    F .text	00000015 sem_getvalue
+0804d685 g     F .text	0000020a pthread_cond_wait
+080484eb g     F .text	0000004b __errno_location
+080593fc g     O .data	00000004 __pthread_timedsuspend
+0804f3a0 g     F .text	0000004e exit
+0804e148 g     F .text	00000075 _stdio_init
+0804ef84 g     F .text	00000046 sigdelset
+08051b4c g     F .text	0000004a brk
+0804cd6c g     F .text	000002d0 pthread_mutex_trylock
+080594f0 g     O .data	00000018 _stdio_openlist_lock
+0804ecbc g     F .text	0000002d __libc_sendmsg
+0805b6f8 g     O .bss	00000004 _errno
+0804d4c1 g     F .text	00000013 pthread_cond_destroy
+0804cb96 g     F .text	00000013 __pthread_mutexattr_getpshared
+08050f4c g     F .text	0000003c _exit
+08049898 g     F .text	0000012d __pthread_timedsuspend_new
+080593ec g     O .data	00000004 __pthread_sig_cancel
+080593e8 g     O .data	00000004 __pthread_sig_restart
+08053ad4 g     O .rodata	00000004 __pthread_offsetof_pid
+0804ebe4 g     F .text	00000033 __libc_recv
+080593e0 g     O .data	00000004 __pthread_main_thread
+080514fc g     F .text	0000003f _mmap
+0804cad0 g     F .text	0000003a pthread_mutex_init
+0804ea64 g     F .text	00000024 strlen
+0804db9e g     F .text	0000006f __uClibc_start_main
+0804c3ec  w    F .text	00000044 open
+08051ab4  w    F .text	00000071 clone
+0805194c g     F .text	0000004a __rt_sigprocmask
+08051060 g     F .text	00000045 __libc_write
+080508bf g     F .text	000001d8 __malloc_consolidate
+080530df g     F .text	00000555 _ppfs_parsespec
+08052288 g     F .text	0000005c __assert
+0804ecec g     F .text	0000003f __libc_sendto
+08052460 g     F .text	00000050 fputs
+08053acc g     O .rodata	00000004 __pthread_sizeof_handle
+08053af0 g     O .rodata	00000004 __pthread_provide_wrappers
+080516a8 g     F .text	00000045 __libc_msync
+0805d720 g     O .bss	00000004 __pthread_threads_debug
+0804bfa0  w    F .text	0000002d recvmsg
+0804c56d  w    F .text	00000063 fcntl
+08051804 g     F .text	00000033 sched_yield
+08048672 g     F .text	00000263 pthread_join
+0804988e  w    F .text	0000000a pthread_getconcurrency
+0804d88f g     F .text	000002d3 pthread_cond_timedwait
+0804b105 g     F .text	00000184 sigwait
+0804c302  w    F .text	00000030 pwrite
+0804c5c3  w    F .text	0000003f close
+0804ebb4 g     F .text	0000002d __libc_connect
+0804e82d g     F .text	000001d5 vfprintf
+0804b28c g     F .text	000000c6 pthread_setspecific
+08051a25 g     F .text	0000001b sigsuspend
+08052bc0 g     F .text	000000c3 _load_inttype
+0804af20 g     F .text	00000038 raise
+08050a97 g     F .text	00000296 free
+08051996 g     F .text	00000051 sigprocmask
+
+

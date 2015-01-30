@@ -1,0 +1,6 @@
+d:/jicamasdk/bin/libc/ansi/stdio/setbuffe.o \
+  d:/jicamasdk/bin/libc/ansi/stdio/setbuffe.o:  \
+ d:/jicamasdk/bin/libc/ansi/stdio/setbuffe.c \
+  d:/jicamasdk/bin/include/stdio.h d:/jicamasdk/bin/include/sys/version.h \
+  d:/jicamasdk/bin/include/sys/djtypes.h \
+  d:/jicamasdk/bin/include/sys/jicama.h d:/jicamasdk/bin/include/stdlib.h

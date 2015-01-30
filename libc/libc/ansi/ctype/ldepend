@@ -1,0 +1,38 @@
+ct_flags.o: ct_flags.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+ct_lower.o: ct_lower.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+ct_upper.o: ct_upper.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isalnum.o: isalnum.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isalpha.o: isalpha.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isascii.o: isascii.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/ctype.h /menuetos/include/inlines/ctype.ha \
+  /menuetos/include/inlines/ctype.hd
+iscntrl.o: iscntrl.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isdigit.o: isdigit.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isgraph.o: isgraph.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+islower.o: islower.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isprint.o: isprint.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+ispunct.o: ispunct.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isspace.o: isspace.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isupper.o: isupper.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+isxdigit.o: isxdigit.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+toascii.o: toascii.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/ctype.h /menuetos/include/inlines/ctype.ha \
+  /menuetos/include/inlines/ctype.hd
+tolower.o: tolower.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd
+toupper.o: toupper.c /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd

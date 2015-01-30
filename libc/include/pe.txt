@@ -1,0 +1,18 @@
+/*format coff-go32-exe or coff-go32*/
+OUTPUT_FORMAT("coff-go32-exe")
+ENTRY(_start)
+SECTIONS
+{   .text 0x1000:	/* code */
+    {   code = .; _code = .;
+	*(.text)
+	. = ALIGN(4096); }
+    .data :		/* data */
+    {	data = .; _data = .;
+	*(.data)
+	. = ALIGN(4096); }
+    .bss :		/* BSS */
+    {	bss = .; _bss = .;
+	*(.bss)
+	*(COMMON) /* what is this? do I need it? */
+	. = ALIGN(4096);
+	end = .; _end = .; }}

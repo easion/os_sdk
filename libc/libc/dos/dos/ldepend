@@ -1,0 +1,88 @@
+bdos.o: bdos.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+delay.o: delay.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/menuet/os.h
+fexistp.o: fexistp.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h
+getcbrk.o: getcbrk.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+getdate.o: getdate.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+getdfree.o: getdfree.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/assert.h
+getdinfo.o: getdinfo.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/assert.h
+getdos_v.o: getdos_v.c /home/jarek/menuetos/include/libc/bss.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+getftime.o: getftime.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/assert.h
+gettime.o: gettime.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+gettimeo.o: gettimeo.c /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/assert.h
+osflavor.o: osflavor.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+osmajor.o: osmajor.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+osminor.o: osminor.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+remotdrv.o: remotdrv.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+remothdl.o: remothdl.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+setcbrk.o: setcbrk.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+setdate.o: setdate.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+setftime.o: setftime.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/assert.h
+settime.o: settime.c /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h

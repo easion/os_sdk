@@ -1,0 +1,89 @@
+debug.o: debug.c /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/regex.h utils.h \
+  /home/jarek/menuetos/include/assert.h regex2.h debug.ih
+regcomp.o: regcomp.c /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/regex.h utils.h \
+  /home/jarek/menuetos/include/assert.h regex2.h cclass.h cname.h \
+  regcomp.ih
+regerror.o: regerror.c /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/regex.h utils.h \
+  /home/jarek/menuetos/include/assert.h regerror.ih
+regexec.o: regexec.c /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/regex.h utils.h \
+  /home/jarek/menuetos/include/assert.h regex2.h engine.c engine.ih
+regfree.o: regfree.c /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/regex.h utils.h \
+  /home/jarek/menuetos/include/assert.h regex2.h
+split.o: split.c /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h

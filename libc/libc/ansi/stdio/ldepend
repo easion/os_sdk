@@ -1,0 +1,383 @@
+allocfil.o: allocfil.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/local.h \
+  /menuetos/include/libc/stdiohk.h
+clearerr.o: clearerr.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+doprnt.o: doprnt.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/sys/types.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/ctype.h \
+  /menuetos/include/inlines/ctype.ha /menuetos/include/inlines/ctype.hd \
+  /menuetos/include/locale.h /menuetos/include/stdlib.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/string.h \
+  /menuetos/include/sys/movedata.h /menuetos/include/math.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/stdiohk.h /menuetos/include/libc/local.h
+doscan.o: doscan.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/ctype.h /menuetos/include/inlines/ctype.ha \
+  /menuetos/include/inlines/ctype.hd /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/local.h
+fclose.o: fclose.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/types.h \
+  /menuetos/include/sys/stat.h /menuetos/include/stdlib.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h
+feof.o: feof.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+ferror.o: ferror.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+fflush.o: fflush.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/errno.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/limits.h \
+  /menuetos/include/sys/types.h /menuetos/include/sys/stat.h \
+  /menuetos/include/stdlib.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/io.h
+fgetc.o: fgetc.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+fgetpos.o: fgetpos.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/errno.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/limits.h
+fgets.o: fgets.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+filbuf.o: filbuf.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/types.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/unistd.h /menuetos/include/string.h \
+  /menuetos/include/sys/movedata.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/libc/stdiohk.h /menuetos/include/io.h
+flsbuf.o: flsbuf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/sys/types.h /menuetos/include/stdlib.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/io.h
+fopen.o: fopen.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/sys/types.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/fcntl.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/file.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/libc/local.h
+fprintf.o: fprintf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+fputc.o: fputc.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+fputs.o: fputs.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+fread.o: fread.c /menuetos/include/libc/stubs.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/unistd.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h
+freopen.o: freopen.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/sys/types.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/fcntl.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/file.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h
+frlist.o: frlist.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/local.h
+fscanf.o: fscanf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+fseek.o: fseek.c /menuetos/include/libc/stubs.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/unistd.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h
+fsetpos.o: fsetpos.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/errno.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/limits.h
+ftell.o: ftell.c /menuetos/include/libc/stubs.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/unistd.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h
+fwalk.o: fwalk.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/local.h
+fwrite.o: fwrite.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+getc.o: getc.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+getchar.o: getchar.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+gets.o: gets.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h
+getw.o: getw.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+perror.o: perror.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/errno.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/limits.h
+printf.o: printf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+putc.o: putc.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+putchar.o: putchar.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+puts.o: puts.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h
+putw.o: putw.c /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+remove.o: remove.c /menuetos/include/libc/stubs.h /menuetos/include/io.h \
+  /menuetos/include/sys/types.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/errno.h \
+  /menuetos/include/limits.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/menuet/os.h
+_rename.o: _rename.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/errno.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/limits.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/assert.h
+rename.o: rename.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/libc/bss.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/ctype.h /menuetos/include/inlines/ctype.ha \
+  /menuetos/include/inlines/ctype.hd /menuetos/include/errno.h \
+  /menuetos/include/limits.h /menuetos/include/io.h \
+  /menuetos/include/sys/types.h /menuetos/include/sys/stat.h \
+  /menuetos/include/dir.h
+rewind.o: rewind.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/unistd.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h
+scanf.o: scanf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+setbuf.o: setbuf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+setbuffe.o: setbuffe.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/stdlib.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h
+setlineb.o: setlineb.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h
+setvbuf.o: setvbuf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+sprintf.o: sprintf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/limits.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+sscanf.o: sscanf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h \
+  /menuetos/include/libc/unconst.h
+stdaux.o: stdaux.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/stdiohk.h
+stderr.o: stderr.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/stdiohk.h
+stdin.o: stdin.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/stdiohk.h
+stdiohk.o: stdiohk.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/local.h
+stdout.o: stdout.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/stdiohk.h
+stdprn.o: stdprn.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h /menuetos/include/libc/stdiohk.h
+tmpfile.o: tmpfile.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/stdio.h /menuetos/include/sys/version.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/string.h \
+  /menuetos/include/sys/movedata.h /menuetos/include/stdlib.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/file.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+tmpnam.o: tmpnam.c /menuetos/include/libc/stubs.h \
+  /menuetos/include/string.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/sys/movedata.h /menuetos/include/stdlib.h \
+  /menuetos/include/dos.h /menuetos/include/pc.h \
+  /menuetos/include/inlines/pc.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/unistd.h \
+  /menuetos/include/sys/types.h /menuetos/include/errno.h \
+  /menuetos/include/limits.h /menuetos/include/libc/bss.h
+ungetc.o: ungetc.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h
+vfprintf.o: vfprintf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+vprintf.o: vprintf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/libc/file.h \
+  /menuetos/include/fcntl.h /menuetos/include/sys/types.h \
+  /menuetos/include/libc/dosio.h /menuetos/include/libc/ttyprvt.h \
+  /menuetos/include/termios.h /menuetos/include/unistd.h
+vsprintf.o: vsprintf.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdarg.h /menuetos/include/limits.h \
+  /menuetos/include/libc/file.h /menuetos/include/fcntl.h \
+  /menuetos/include/sys/types.h /menuetos/include/libc/dosio.h \
+  /menuetos/include/libc/ttyprvt.h /menuetos/include/termios.h \
+  /menuetos/include/unistd.h

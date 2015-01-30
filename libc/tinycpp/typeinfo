@@ -1,0 +1,95 @@
+
+#include <string.h>
+namespace __cxxabiv1 {
+        class __class_type_info;
+}
+
+namespace std {
+        class type_info {
+        public:
+	type_info(){};
+                virtual ~type_info();
+                bool operator==(const type_info &x) const {
+                        if (!strcmp(__type_name, x.__type_name))
+                                return true;
+                        else
+                                return false;
+                }
+
+                bool operator!=(const type_info &) const;
+                bool before(const type_info &) const;
+                const char *name() const { return __type_name; }
+
+                virtual bool __is_pointer_p() const;
+                virtual bool __is_function_p() const;
+                virtual bool __do_catch(const type_info *, void **, unsigned int) const;
+                virtual bool __do_upcast(const __cxxabiv1::__class_type_info *, void **) const;
+
+        protected:
+                const char *__type_name;
+                explicit type_info(const char* name) : __type_name(name) {}
+
+        private:
+                type_info(const type_info &rhs);
+                type_info &operator=(const type_info &rhs);
+        };
+}
+
+namespace __cxxabiv1 {
+        class __fundamental_type_info : public std::type_info {
+        public:
+                virtual ~__fundamental_type_info();
+        };
+
+        class __array_type_info : public std::type_info {};
+
+        class __function_type_info : public std::type_info {};
+
+        class __enum_type_info : public std::type_info {};
+
+        class __class_type_info : public std::type_info {
+        public:
+                virtual ~__class_type_info();
+
+                virtual bool __do_upcast(const __cxxabiv1::__class_type_info *info, void **) const;
+        };
+
+        class __si_class_type_info : public __class_type_info {
+        public:
+                const __class_type_info *__base_type;
+
+                virtual ~__si_class_type_info();
+
+                virtual bool __do_upcast(const __cxxabiv1::__class_type_info *info, void **) const;
+        };
+
+        class __pbase_type_info : public std::type_info {
+        public:
+                unsigned int __flags;
+                const std::type_info *__pointee;
+
+                enum __masks {
+                        __const_mask = 0x01,
+                        __volatile_mask = 0x02,
+                        __restrict_mask = 0x04,
+                        __incomplete_mask = 0x08,
+                        __incomplete_class_mask = 0x10
+                };
+
+                virtual ~__pbase_type_info();
+
+                virtual bool __do_upcast(const __cxxabiv1::__class_type_info *info, void **) const;
+                virtual bool __is_pointer_p() const;
+        };
+
+        class __pointer_type_info : public __pbase_type_info {
+        public:
+                virtual ~__pointer_type_info();
+        };
+
+        class __vmi_class_type_info : public std::type_info {
+        public:
+                virtual ~__vmi_class_type_info();
+        };
+}
+

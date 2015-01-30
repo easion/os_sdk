@@ -1,0 +1,13 @@
+cfmakraw.o: cfmakraw.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/stddef.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/termios.h \
+  /home/jarek/menuetos/include/sys/exceptn.h
+cfstspd.o: cfstspd.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/stddef.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/termios.h

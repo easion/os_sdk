@@ -1,0 +1,38 @@
+d:/jicamasdk/bin/netbaslibc/dirent/opendir.o \
+  d:/jicamasdk/bin/netbaslibc/dirent/opendir.o:  \
+ d:/jicamasdk/bin/netbaslibc/dirent/opendir.c \
+  d:/jicamasdk/uclibc/include/errno.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/bits/errno.h \
+  d:/jicamasdk/uclibc/include/bits/errno_values.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/fcntl.h \
+  d:/jicamasdk/uclibc/include/bits/fcntl.h \
+  d:/jicamasdk/uclibc/include/unistd.h \
+  d:/jicamasdk/uclibc/include/bits/posix_opt.h \
+  d:/jicamasdk/uclibc/include/bits/confname.h \
+  d:/jicamasdk/uclibc/include/bits/getopt.h \
+  d:/jicamasdk/uclibc/include/sys/dir.h \
+  d:/jicamasdk/uclibc/include/dirent.h \
+  d:/jicamasdk/uclibc/include/bits/dirent.h \
+  d:/jicamasdk/uclibc/include/bits/posix1_lim.h \
+  d:/jicamasdk/uclibc/include/bits/local_lim.h \
+  d:/jicamasdk/uclibc/include/linux/limits.h \
+  d:/jicamasdk/uclibc/include/sys/stat.h \
+  d:/jicamasdk/uclibc/include/bits/stat.h \
+  d:/jicamasdk/bin/netbaslibc/dirent/dirstream.h

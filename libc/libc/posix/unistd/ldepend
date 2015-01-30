@@ -1,0 +1,288 @@
+access.o: access.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/io.h /home/jarek/menuetos/include/dir.h \
+  /home/jarek/menuetos/include/errno.h
+alarm.o: alarm.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/time.h \
+  /home/jarek/menuetos/include/time.h
+chdir.o: chdir.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/libc/dosio.h
+chown.o: chown.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+close.o: close.c /home/jarek/menuetos/include/menuet/os.h
+ctermid.o: ctermid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h
+dup2.o: dup2.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+dup.o: dup.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+execl.o: execl.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h
+execle.o: execle.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h \
+  /home/jarek/menuetos/include/libc/dosexec.h
+execlp.o: execlp.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h \
+  /home/jarek/menuetos/include/libc/dosexec.h
+execlpe.o: execlpe.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h \
+  /home/jarek/menuetos/include/libc/dosexec.h
+execv.o: execv.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h
+execve.o: execve.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h
+execvp.o: execvp.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h
+execvpe.o: execvpe.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/process.h
+fork.o: fork.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+fpathcon.o: fpathcon.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/limits.h
+getcwd.o: getcwd.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+getegid.o: getegid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+geteuid.o: geteuid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+getgid.o: getgid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+getgroup.o: getgroup.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+getlogin.o: getlogin.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+getopt.o: getopt.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/libc/unconst.h
+getpgrp.o: getpgrp.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+getpid.o: getpid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/libc/bss.h \
+  /home/jarek/menuetos/include/menuet/os.h
+getppid.o: getppid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+getuid.o: getuid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+isatty.o: isatty.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+link.o: link.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/utime.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+lseek.o: lseek.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+pathconf.o: pathconf.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/limits.h
+pause.o: pause.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+pipe.o: pipe.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+read.o: read.c /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/unistd.h /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+rmdir.o: rmdir.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+setgid.o: setgid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+setpgid.o: setpgid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+setsid.o: setsid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+setuid.o: setuid.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+sleep.o: sleep.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/menuet/os.h
+sysconf.o: sysconf.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/fcntl.h
+ttyname.o: ttyname.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+write.o: write.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/fcntl.h /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/libc/bss.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/menuet/console.h

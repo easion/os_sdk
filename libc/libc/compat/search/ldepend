@@ -1,0 +1,2 @@
+insque.o: insque.c /home/jarek/menuetos/include/search.h
+remque.o: remque.c /home/jarek/menuetos/include/search.h

@@ -1,0 +1,155 @@
+_chmod.o: _chmod.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/assert.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/fcntl.h
+_close.o: _close.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/fsext.h \
+  /home/jarek/menuetos/include/stdarg.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/menuet/os.h
+_creat.o: _creat.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/sys/fsext.h \
+  /home/jarek/menuetos/include/stdarg.h
+crlf2nl.o: crlf2nl.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+dosio.o: dosio.c /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/libc/bss.h
+doslock.o: doslock.c /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+dosunloc.o: dosunloc.c /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/assert.h
+fmode.o: fmode.c /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/io.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+lock.o: lock.c /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/assert.h
+_open.o: _open.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/sys/fsext.h \
+  /home/jarek/menuetos/include/stdarg.h \
+  /home/jarek/menuetos/include/menuet/os.h
+putpath.o: putpath.c /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/assert.h
+_read.o: _read.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/fsext.h \
+  /home/jarek/menuetos/include/stdarg.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/menuet/os.h
+setmode.o: setmode.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/sys/exceptn.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/assert.h
+tell.o: tell.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/unistd.h
+unlock.o: unlock.c /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/assert.h
+_write.o: _write.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/sys/fsext.h \
+  /home/jarek/menuetos/include/stdarg.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/menuet/os.h

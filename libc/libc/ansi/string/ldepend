@@ -1,0 +1,57 @@
+memchr.o: memchr.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/libc/unconst.h /menuetos/include/assert.h
+memcmp.o: memcmp.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/assert.h
+memcpy.o: memcpy.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/stdlib.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h
+strcat.o: strcat.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strchr.o: strchr.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/libc/unconst.h
+strcmp.o: strcmp.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strcoll.o: strcoll.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strcpy.o: strcpy.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strcspn.o: strcspn.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strerror.o: strerror.c /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h /menuetos/include/sys/djtypes.h \
+  /menuetos/include/string.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/errno.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/limits.h /menuetos/include/libc/unconst.h
+strlen.o: strlen.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strncat.o: strncat.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strncmp.o: strncmp.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strncpy.o: strncpy.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strpbrk.o: strpbrk.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/libc/unconst.h
+strrchr.o: strrchr.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/libc/unconst.h
+strspn.o: strspn.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strstr.o: strstr.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h \
+  /menuetos/include/libc/unconst.h
+strtok.o: strtok.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+strxfrm.o: strxfrm.c /menuetos/include/string.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/sys/movedata.h
+syserr1.o: syserr1.c syserr1.h
+syserr2.o: syserr2.c /menuetos/include/errno.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/limits.h syserr1.h

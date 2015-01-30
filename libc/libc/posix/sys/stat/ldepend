@@ -1,0 +1,127 @@
+chmod.o: chmod.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/io.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+filelen.o: filelen.c /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+fixpath.o: fixpath.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+fstat.o: fstat.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/libc/bss.h xstat.h
+is_exec.o: is_exec.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+mkdir.o: mkdir.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+mkfifo.o: mkfifo.c /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+stat.o: stat.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/stddef.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/dir.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/libc/bss.h xstat.h
+st_loss.o: st_loss.c /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h xstat.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/errno.h
+umask.o: umask.c /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+xstat.o: xstat.c /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/libc/bss.h xstat.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/sys/stat.h

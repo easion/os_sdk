@@ -1,0 +1,66 @@
+
+
+MY_TARGET_IN := $(MY_TARGET)
+MY_TARGETDIR_IN := $(MY_TARGETDIR)
+MY_SRCDIR_IN := $(MY_SRCDIR)
+MY_OBJS_IN := $(MY_OBJS)
+MY_CFLAGS_IN := $(MY_CFLAGS)
+MY_CPPFLAGS_IN := $(MY_CPPFLAGS)
+MY_LDFLAGS_IN := $(MY_LDFLAGS)
+MY_INCLUDES_IN := $(MY_INCLUDES)
+MY_LIBS_IN := $(MY_LIBS)
+MY_LIBPATHS_IN := $(MY_LIBPATHS)
+MY_DEPS_IN := $(MY_DEPS)
+MY_LINKSCRIPT_IN := $(MY_LINKSCRIPT)
+MY_GLUE_IN := $(MY_GLUE)
+
+# create a new version in the target directory
+_TEMP_OBJS := $(addprefix $(MY_TARGETDIR_IN)/,$(MY_OBJS_IN))
+
+ALL_OBJS := $(ALL_OBJS) $(_TEMP_OBJS)
+
+# add to the global deps
+ALL_DEPS := $(ALL_DEPS) $(_TEMP_OBJS:.o=.d)
+
+ifeq ($(MY_LINKSCRIPT_IN), )
+	APPS_LDSCRIPT=$(SDKDIR)/bin/templates/app.ld
+	MY_LINKSCRIPT_IN := $(APPS_LDSCRIPT)
+endif
+
+LIBS_BUILD_DIR=
+MY_LIBS_IN+=-L$(SDKDIR)/uclibc/lib -lc  -lgcc
+#LCFLAG =  -nostdlib -nostdinc   -Ttext 0x1000  
+
+$(MY_TARGET_IN): MY_LDFLAGS_IN:=$(MY_LDFLAGS_IN)
+$(MY_TARGET_IN): MY_LIBS_IN:=$(MY_LIBS_IN)
+$(MY_TARGET_IN): MY_LIBPATHS_IN:=$(MY_LIBPATHS_IN)
+$(MY_TARGET_IN): MY_LINKSCRIPT_IN:=$(MY_LINKSCRIPT_IN)
+$(MY_TARGET_IN): MY_GLUE_IN:=$(MY_GLUE_IN)
+$(MY_TARGET_IN): _TEMP_OBJS:=$(_TEMP_OBJS)
+$(MY_TARGET_IN):: $(_TEMP_OBJS) $(MY_DEPS_IN) $(MY_GLUE_IN)
+	@$(MKDIR)
+	@echo linking1 $@
+	$(LD) $(LCFLAG)  $(GLOBAL_LDFLAGS) $(MY_LDFLAGS_IN) --script=$(MY_LINKSCRIPT_IN) -L $(LIBGCC_PATH) -L \
+	$(LIBS_BUILD_DIR) $(MY_LIBPATHS_IN) -o $@ $(MY_GLUE_IN)  $(_TEMP_OBJS) $(MY_LIBS_IN) $(LIBGCC)
+	@echo creating listing file $@.lst
+	$(STRIP) $@
+	@$(OBJDUMP) -afx $@ > $@.lst
+
+include  $(SDKDIR)/bin/templates/compile.mk
+
+
+
+MY_TARGET :=
+MY_TARGETDIR :=
+MY_SRCDIR :=
+MY_OBJS :=
+MY_CFLAGS :=
+MY_CPPFLAGS :=
+MY_LDFLAGS :=
+MY_INCLUDES :=
+MY_LIBS :=
+MY_LIBPATHS :=
+MY_DEPS :=
+MY_LINKSCRIPT := 
+MY_GLUE :=
+

@@ -1,0 +1,38 @@
+closedir.o: closedir.c /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/dirent.h dirstruc.h \
+  /home/jarek/menuetos/include/dir.h
+odflags.o: odflags.c /home/jarek/menuetos/include/dirent.h
+opendir.o: opendir.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/dirent.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/stat.h dirstruc.h \
+  /home/jarek/menuetos/include/dir.h
+readdir.o: readdir.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/dirent.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd dirstruc.h \
+  /home/jarek/menuetos/include/dir.h
+rewinddi.o: rewinddi.c /home/jarek/menuetos/include/dirent.h dirstruc.h \
+  /home/jarek/menuetos/include/dir.h
+seekdir.o: seekdir.c /home/jarek/menuetos/include/dirent.h
+telldir.o: telldir.c /home/jarek/menuetos/include/dirent.h dirstruc.h \
+  /home/jarek/menuetos/include/dir.h

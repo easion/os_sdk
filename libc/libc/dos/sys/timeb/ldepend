@@ -1,0 +1,5 @@
+ftime.o: ftime.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/timeb.h

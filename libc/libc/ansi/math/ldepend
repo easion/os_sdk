@@ -1,0 +1,13 @@
+acosh.o: acosh.c /menuetos/include/math.h
+asinh.o: asinh.c /menuetos/include/math.h
+atanh.o: atanh.c /menuetos/include/math.h
+cosh.o: cosh.c /menuetos/include/math.h
+frexp.o: frexp.c /menuetos/include/math.h
+huge_val.o: huge_val.c /menuetos/include/libc/ieee.h
+hypot.o: hypot.c /menuetos/include/float.h /menuetos/include/math.h \
+  /menuetos/include/errno.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/limits.h
+ldexp.o: ldexp.c /menuetos/include/math.h
+sinh.o: sinh.c /menuetos/include/math.h
+tanh.o: tanh.c /menuetos/include/math.h

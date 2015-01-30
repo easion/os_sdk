@@ -1,0 +1,66 @@
+ifdef DJDIR
+ASMFMT = coff
+else
+ASMFMT = elf
+endif
+
+.SUFFIXES: .asm;
+
+CC = i386-elf-gcc
+GPP = i386-elf-gpp
+AS = i386-elf-as
+NASM = nasm
+CPP = i386-elf-cpp
+
+DEBUG = 0
+
+.c.o:
+	$(CC) $*.c $*.o $(CFLAGS) -DDEBUG=$(DEBUG) -fno-merge-constants -fwritable-strings
+
+.cpp.o:
+	$(GPP) $*.cpp $*.o $(CPPFLAGS) -fwritable-strings -fno-merge-constants
+
+.asm.o:
+	$(NASM) $*.asm -o $*.o -f $(ASMFMT)
+	
+.s.o:
+	$(CPP) -nostdinc -I$(MENUETDEV)/include $*.s -o $*.sx $(CSFLAGS) -DMENUETDEV=$(MENUETDEV) -D__DEV_CONFIG_H=\"$(MENUETDEV)/config.h\"
+	as $*.sx -o $*.o
+	rm -f $*.sx
+
+ATHIS_LIBC_OBJS += $(subst .c,.o,$(filter %.c,$(THIS_SRCS))) \
+	$(subst .s,.o,$(filter %.s,$(THIS_SRCS))) \
+	$(subst .cpp,.o,$(filter %.cpp,$(THIS_SRCS)))
+
+THIS_LIBC_OBJS = $(addprefix $(CURDIR)/,$(ATHIS_LIBC_OBJS))
+
+export MENUET_LIBC_OBJS += $(THIS_LIBC_OBJS)
+
+all: making check_ldepend $(ATHIS_LIBC_OBJS)
+	@$(MENUET_LIBC_TOPDIR)/m_echo $(MENUET_LIBC_TOPDIR)/tmp_make $(THIS_LIBC_OBJS) 
+	
+making:
+	@echo --- Making in $(CURDIR) ---
+
+clean:
+	rm -f $(ATHIS_LIBC_OBJS)
+	@echo # nothing > ./ldepend
+
+ifdef DJDIR	
+depend:
+	echo $(THIS_SRCS) > __tmp.1
+	mmkdep @__tmp.1 > ./ldepend
+	rm -f __tmp.1
+else
+depend:
+	mmkdep $(THIS_SRCS) > ./ldepend
+endif
+
+ifeq ($(wildcard ./ldepend),)
+check_ldepend:
+	echo Warning: ldepend not present in $(CURDIR)
+else
+check_ldepend:
+
+include ldepend
+endif

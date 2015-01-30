@@ -1,0 +1,24 @@
+creat.o: creat.c /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h
+fcntl.o: fcntl.c /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/fcntl.h
+open.o: open.c /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/libc/dosio.h

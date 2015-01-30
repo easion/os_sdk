@@ -1,0 +1,8 @@
+include ../make.inc
+
+OBJS = pthread.o sem.o pthread_attr.o pthread_cond.o pthread_mutex.o file.o
+
+build: $(OBJS)
+
+clean:
+	rm *.o -rf

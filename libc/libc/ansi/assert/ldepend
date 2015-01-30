@@ -1,0 +1,9 @@
+assert.o: assert.c /menuetos/include/assert.h \
+  /menuetos/include/menuet/os.h
+unimplemented.o: unimplemented.c /menuetos/include/assert.h \
+  /menuetos/include/menuet/os.h
+debug.o: debug.c /menuetos/include/menuet/os.h /menuetos/include/stdlib.h \
+  /menuetos/include/sys/djtypes.h /menuetos/include/dos.h \
+  /menuetos/include/pc.h /menuetos/include/inlines/pc.h \
+  /menuetos/include/stdarg.h /menuetos/include/stdio.h \
+  /menuetos/include/sys/version.h

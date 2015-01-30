@@ -1,0 +1,79 @@
+findfirs.o: findfirs.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dir.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+findnext.o: findnext.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dir.h \
+  /home/jarek/menuetos/include/libc/dosio.h
+fnmerge.o: fnmerge.c /home/jarek/menuetos/include/dir.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h
+fnsplit.o: fnsplit.c /home/jarek/menuetos/include/dir.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h
+ftreewlk.o: ftreewlk.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/dir.h
+ftw.o: ftw.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/errno.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/sys/stat.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/dirent.h /home/jarek/menuetos/include/io.h \
+  /home/jarek/menuetos/include/ftw.h
+getdisk.o: getdisk.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/dir.h
+setdisk.o: setdisk.c /home/jarek/menuetos/include/dir.h
+srchpath.o: srchpath.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/stdlib.h \
+  /home/jarek/menuetos/include/dos.h /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/ctype.h \
+  /home/jarek/menuetos/include/inlines/ctype.ha \
+  /home/jarek/menuetos/include/inlines/ctype.hd \
+  /home/jarek/menuetos/include/limits.h \
+  /home/jarek/menuetos/include/dir.h

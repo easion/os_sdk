@@ -1,0 +1,9 @@
+bcmp.o: bcmp.c /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h
+bcopy.o: bcopy.c /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h
+bzero.o: bzero.c /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/movedata.h

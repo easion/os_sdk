@@ -1,0 +1,39 @@
+rawclock.o: rawclock.c /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/libc/farptrgs.h \
+  /home/jarek/menuetos/include/menuet/os.h
+select.o: select.c /home/jarek/menuetos/include/libc/stubs.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h \
+  /home/jarek/menuetos/include/stdio.h \
+  /home/jarek/menuetos/include/menuet/os.h \
+  /home/jarek/menuetos/include/sys/version.h \
+  /home/jarek/menuetos/include/bits/stdio.h \
+  /home/jarek/menuetos/include/string.h \
+  /home/jarek/menuetos/include/sys/movedata.h \
+  /home/jarek/menuetos/include/libc/file.h \
+  /home/jarek/menuetos/include/fcntl.h \
+  /home/jarek/menuetos/include/libc/dosio.h \
+  /home/jarek/menuetos/include/libc/ttyprvt.h \
+  /home/jarek/menuetos/include/termios.h \
+  /home/jarek/menuetos/include/unistd.h \
+  /home/jarek/menuetos/include/libc/local.h \
+  /home/jarek/menuetos/include/sys/fsext.h \
+  /home/jarek/menuetos/include/stdarg.h
+settimeo.o: settimeo.c /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/assert.h \
+  /home/jarek/menuetos/include/errno.h /home/jarek/menuetos/include/dos.h \
+  /home/jarek/menuetos/include/pc.h \
+  /home/jarek/menuetos/include/inlines/pc.h
+utimes.o: utimes.c /home/jarek/menuetos/include/sys/time.h \
+  /home/jarek/menuetos/include/time.h \
+  /home/jarek/menuetos/include/sys/djtypes.h \
+  /home/jarek/menuetos/include/sys/types.h \
+  /home/jarek/menuetos/include/utime.h
