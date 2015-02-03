@@ -1,0 +1,116 @@
+XChgProp.lo: XChgProp.c /usr/include/X11/extensions/XI.h \
+  /usr/include/X11/extensions/XIproto.h /usr/include/X11/Xproto.h \
+  /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h \
+  /usr/include/X11/X.h /usr/include/X11/Xlibint.h \
+  /usr/local/lib/gcc-lib/i686-pc-linux-gnu/3.0/include/X11/Xlib.h \
+  /usr/include/sys/types.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/time.h \
+  /usr/local/lib/gcc-lib/i686-pc-linux-gnu/3.0/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/X11/Xfuncproto.h \
+  /usr/local/lib/gcc-lib/i686-pc-linux-gnu/3.0/include/X11/Xosdefs.h \
+  /usr/include/X11/XlibConf.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h /usr/include/X11/Xfuncs.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/stdlib.h /usr/include/alloca.h \
+  /usr/include/X11/extensions/XInput.h \
+  /usr/include/X11/extensions/extutil.h \
+  /usr/include/X11/extensions/Xext.h XIint.h
+
+/usr/include/X11/extensions/XI.h:
+
+/usr/include/X11/extensions/XIproto.h:
+
+/usr/include/X11/Xproto.h:
+
+/usr/include/X11/Xmd.h:
+
+/usr/include/X11/Xprotostr.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/X11/Xlibint.h:
+
+/usr/local/lib/gcc-lib/i686-pc-linux-gnu/3.0/include/X11/Xlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/local/lib/gcc-lib/i686-pc-linux-gnu/3.0/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/local/lib/gcc-lib/i686-pc-linux-gnu/3.0/include/X11/Xosdefs.h:
+
+/usr/include/X11/XlibConf.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/X11/Xfuncs.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/X11/extensions/XInput.h:
+
+/usr/include/X11/extensions/extutil.h:
+
+/usr/include/X11/extensions/Xext.h:
+
+XIint.h:

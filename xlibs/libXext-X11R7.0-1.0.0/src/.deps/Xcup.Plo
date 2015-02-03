@@ -1,0 +1,101 @@
+Xcup.lo Xcup.lo: Xcup.c d:/jicamasdk/xwin/exports/include/X11/Xlibint.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/xwin/exports/include/X11/X.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xfuncproto.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xosdefs.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xproto.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xmd.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xprotostr.h \
+  d:/jicamasdk/uclibc/include/errno.h \
+  d:/jicamasdk/uclibc/include/bits/errno.h \
+  d:/jicamasdk/uclibc/include/bits/errno_values.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xfuncs.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/xwin/exports/include/X11/extensions/Xcupstr.h \
+  d:/jicamasdk/xwin/exports/include/X11/extensions/Xcup.h \
+  d:/jicamasdk/xwin/exports/include/X11/extensions/Xext.h \
+  d:/jicamasdk/xwin/exports/include/X11/extensions/extutil.h
+
+d:/jicamasdk/xwin/exports/include/X11/Xlibint.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xlib.h:
+
+d:/jicamasdk/uclibc/include/sys/types.h:
+
+d:/jicamasdk/uclibc/include/features.h:
+
+d:/jicamasdk/uclibc/include/sys/cdefs.h:
+
+d:/jicamasdk/uclibc/include/bits/uClibc_config.h:
+
+d:/jicamasdk/uclibc/include/bits/types.h:
+
+d:/jicamasdk/uclibc/include/stddef.h:
+
+d:/jicamasdk/uclibc/include/bits/kernel_types.h:
+
+d:/jicamasdk/uclibc/include/time.h:
+
+d:/jicamasdk/uclibc/include/endian.h:
+
+d:/jicamasdk/uclibc/include/bits/endian.h:
+
+d:/jicamasdk/uclibc/include/sys/select.h:
+
+d:/jicamasdk/uclibc/include/bits/select.h:
+
+d:/jicamasdk/uclibc/include/bits/sigset.h:
+
+d:/jicamasdk/uclibc/include/bits/time.h:
+
+d:/jicamasdk/uclibc/include/sys/sysmacros.h:
+
+d:/jicamasdk/xwin/exports/include/X11/X.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xfuncproto.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xosdefs.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xproto.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xmd.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xprotostr.h:
+
+d:/jicamasdk/uclibc/include/errno.h:
+
+d:/jicamasdk/uclibc/include/bits/errno.h:
+
+d:/jicamasdk/uclibc/include/bits/errno_values.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xfuncs.h:
+
+d:/jicamasdk/uclibc/include/string.h:
+
+d:/jicamasdk/uclibc/include/stdlib.h:
+
+d:/jicamasdk/uclibc/include/alloca.h:
+
+d:/jicamasdk/xwin/exports/include/X11/extensions/Xcupstr.h:
+
+d:/jicamasdk/xwin/exports/include/X11/extensions/Xcup.h:
+
+d:/jicamasdk/xwin/exports/include/X11/extensions/Xext.h:
+
+d:/jicamasdk/xwin/exports/include/X11/extensions/extutil.h:

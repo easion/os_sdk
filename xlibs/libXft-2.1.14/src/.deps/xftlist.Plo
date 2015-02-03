@@ -1,0 +1,219 @@
+xftlist.lo xftlist.o: xftlist.c xftint.h ../config.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/wchar.h \
+  d:/jicamasdk/uclibc/include/bits/wchar.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/ctype.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_touplow.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xlib.h \
+  d:/jicamasdk/xwin/exports/include/X11/X.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xfuncproto.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xosdefs.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xutil.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xmd.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xlibint.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xproto.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xprotostr.h \
+  d:/jicamasdk/uclibc/include/errno.h \
+  d:/jicamasdk/uclibc/include/bits/errno.h \
+  d:/jicamasdk/uclibc/include/bits/errno_values.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xfuncs.h ../include/X11/Xft/Xft.h \
+  d:/jicamasdk/uclibc/include/freetype2/ft2build.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftheader.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/internal/internal.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/freetype.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftconfig.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftoption.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftstdlib.h \
+  d:/jicamasdk/uclibc/include/limits.h \
+  d:/jicamasdk/uclibc/include/bits/wordsize.h \
+  d:/jicamasdk/uclibc/include/bits/posix1_lim.h \
+  d:/jicamasdk/uclibc/include/bits/local_lim.h \
+  d:/jicamasdk/uclibc/include/linux/limits.h \
+  d:/jicamasdk/uclibc/include/bits/posix2_lim.h \
+  d:/jicamasdk/uclibc/include/setjmp.h \
+  d:/jicamasdk/uclibc/include/bits/setjmp.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/fterrors.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/ftmoderr.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/fterrdef.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/fttypes.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/ftsystem.h \
+  d:/jicamasdk/uclibc/include/freetype2/freetype/ftimage.h \
+  d:/jicamasdk/xwin/exports/include/fontconfig/fontconfig.h \
+  d:/jicamasdk/uclibc/include/sys/stat.h \
+  d:/jicamasdk/uclibc/include/bits/stat.h \
+  d:/jicamasdk/uclibc/include/unistd.h \
+  d:/jicamasdk/uclibc/include/bits/posix_opt.h \
+  d:/jicamasdk/uclibc/include/bits/confname.h \
+  d:/jicamasdk/uclibc/include/bits/getopt.h \
+  d:/jicamasdk/xwin/exports/include/X11/extensions/Xrender.h \
+  d:/jicamasdk/xwin/exports/include/X11/extensions/render.h \
+  d:/jicamasdk/xwin/exports/include/fontconfig/fcprivate.h \
+  d:/jicamasdk/xwin/exports/include/fontconfig/fcfreetype.h
+
+xftint.h:
+
+../config.h:
+
+d:/jicamasdk/uclibc/include/stdio.h:
+
+d:/jicamasdk/uclibc/include/features.h:
+
+d:/jicamasdk/uclibc/include/sys/cdefs.h:
+
+d:/jicamasdk/uclibc/include/bits/uClibc_config.h:
+
+d:/jicamasdk/uclibc/include/stddef.h:
+
+d:/jicamasdk/uclibc/include/bits/types.h:
+
+d:/jicamasdk/uclibc/include/bits/kernel_types.h:
+
+d:/jicamasdk/uclibc/include/sys/types.h:
+
+d:/jicamasdk/uclibc/include/time.h:
+
+d:/jicamasdk/uclibc/include/endian.h:
+
+d:/jicamasdk/uclibc/include/bits/endian.h:
+
+d:/jicamasdk/uclibc/include/sys/select.h:
+
+d:/jicamasdk/uclibc/include/bits/select.h:
+
+d:/jicamasdk/uclibc/include/bits/sigset.h:
+
+d:/jicamasdk/uclibc/include/bits/time.h:
+
+d:/jicamasdk/uclibc/include/sys/sysmacros.h:
+
+d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h:
+
+d:/jicamasdk/uclibc/include/wchar.h:
+
+d:/jicamasdk/uclibc/include/bits/wchar.h:
+
+d:/jicamasdk/uclibc/include/stdarg.h:
+
+d:/jicamasdk/uclibc/include/bits/stdio_lim.h:
+
+d:/jicamasdk/uclibc/include/stdlib.h:
+
+d:/jicamasdk/uclibc/include/alloca.h:
+
+d:/jicamasdk/uclibc/include/string.h:
+
+d:/jicamasdk/uclibc/include/ctype.h:
+
+d:/jicamasdk/uclibc/include/bits/uClibc_touplow.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xlib.h:
+
+d:/jicamasdk/xwin/exports/include/X11/X.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xfuncproto.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xosdefs.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xutil.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xmd.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xlibint.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xproto.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xprotostr.h:
+
+d:/jicamasdk/uclibc/include/errno.h:
+
+d:/jicamasdk/uclibc/include/bits/errno.h:
+
+d:/jicamasdk/uclibc/include/bits/errno_values.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xfuncs.h:
+
+../include/X11/Xft/Xft.h:
+
+d:/jicamasdk/uclibc/include/freetype2/ft2build.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftheader.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/internal/internal.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/freetype.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftconfig.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftoption.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/config/ftstdlib.h:
+
+d:/jicamasdk/uclibc/include/limits.h:
+
+d:/jicamasdk/uclibc/include/bits/wordsize.h:
+
+d:/jicamasdk/uclibc/include/bits/posix1_lim.h:
+
+d:/jicamasdk/uclibc/include/bits/local_lim.h:
+
+d:/jicamasdk/uclibc/include/linux/limits.h:
+
+d:/jicamasdk/uclibc/include/bits/posix2_lim.h:
+
+d:/jicamasdk/uclibc/include/setjmp.h:
+
+d:/jicamasdk/uclibc/include/bits/setjmp.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/fterrors.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/ftmoderr.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/fterrdef.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/fttypes.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/ftsystem.h:
+
+d:/jicamasdk/uclibc/include/freetype2/freetype/ftimage.h:
+
+d:/jicamasdk/xwin/exports/include/fontconfig/fontconfig.h:
+
+d:/jicamasdk/uclibc/include/sys/stat.h:
+
+d:/jicamasdk/uclibc/include/bits/stat.h:
+
+d:/jicamasdk/uclibc/include/unistd.h:
+
+d:/jicamasdk/uclibc/include/bits/posix_opt.h:
+
+d:/jicamasdk/uclibc/include/bits/confname.h:
+
+d:/jicamasdk/uclibc/include/bits/getopt.h:
+
+d:/jicamasdk/xwin/exports/include/X11/extensions/Xrender.h:
+
+d:/jicamasdk/xwin/exports/include/X11/extensions/render.h:
+
+d:/jicamasdk/xwin/exports/include/fontconfig/fcprivate.h:
+
+d:/jicamasdk/xwin/exports/include/fontconfig/fcfreetype.h:

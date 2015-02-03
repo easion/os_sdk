@@ -1,0 +1,132 @@
+libXaw7_la-XawI18n.lo libXaw7_la-XawI18n.lo: XawI18n.c ../config.h \
+  d:/jicamasdk/xwin/exports/include/X11/IntrinsicP.h \
+  d:/jicamasdk/xwin/exports/include/X11/Intrinsic.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/xwin/exports/include/X11/X.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xfuncproto.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xosdefs.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xutil.h \
+  d:/jicamasdk/xwin/exports/include/X11/Xresource.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/xwin/exports/include/X11/Core.h \
+  d:/jicamasdk/xwin/exports/include/X11/Composite.h \
+  d:/jicamasdk/xwin/exports/include/X11/Constraint.h \
+  d:/jicamasdk/xwin/exports/include/X11/Object.h \
+  d:/jicamasdk/xwin/exports/include/X11/RectObj.h \
+  d:/jicamasdk/xwin/exports/include/X11/CoreP.h \
+  d:/jicamasdk/xwin/exports/include/X11/CompositeP.h \
+  d:/jicamasdk/xwin/exports/include/X11/ConstrainP.h \
+  d:/jicamasdk/xwin/exports/include/X11/ObjectP.h \
+  d:/jicamasdk/xwin/exports/include/X11/RectObjP.h XawI18n.h \
+  d:/jicamasdk/uclibc/include/wctype.h \
+  d:/jicamasdk/uclibc/include/wchar.h d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/wchar.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/ctype.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_touplow.h
+
+../config.h:
+
+d:/jicamasdk/xwin/exports/include/X11/IntrinsicP.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Intrinsic.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xlib.h:
+
+d:/jicamasdk/uclibc/include/sys/types.h:
+
+d:/jicamasdk/uclibc/include/features.h:
+
+d:/jicamasdk/uclibc/include/sys/cdefs.h:
+
+d:/jicamasdk/uclibc/include/bits/uClibc_config.h:
+
+d:/jicamasdk/uclibc/include/bits/types.h:
+
+d:/jicamasdk/uclibc/include/stddef.h:
+
+d:/jicamasdk/uclibc/include/bits/kernel_types.h:
+
+d:/jicamasdk/uclibc/include/time.h:
+
+d:/jicamasdk/uclibc/include/endian.h:
+
+d:/jicamasdk/uclibc/include/bits/endian.h:
+
+d:/jicamasdk/uclibc/include/sys/select.h:
+
+d:/jicamasdk/uclibc/include/bits/select.h:
+
+d:/jicamasdk/uclibc/include/bits/sigset.h:
+
+d:/jicamasdk/uclibc/include/bits/time.h:
+
+d:/jicamasdk/uclibc/include/sys/sysmacros.h:
+
+d:/jicamasdk/xwin/exports/include/X11/X.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xfuncproto.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xosdefs.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xutil.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Xresource.h:
+
+d:/jicamasdk/uclibc/include/string.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Core.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Composite.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Constraint.h:
+
+d:/jicamasdk/xwin/exports/include/X11/Object.h:
+
+d:/jicamasdk/xwin/exports/include/X11/RectObj.h:
+
+d:/jicamasdk/xwin/exports/include/X11/CoreP.h:
+
+d:/jicamasdk/xwin/exports/include/X11/CompositeP.h:
+
+d:/jicamasdk/xwin/exports/include/X11/ConstrainP.h:
+
+d:/jicamasdk/xwin/exports/include/X11/ObjectP.h:
+
+d:/jicamasdk/xwin/exports/include/X11/RectObjP.h:
+
+XawI18n.h:
+
+d:/jicamasdk/uclibc/include/wctype.h:
+
+d:/jicamasdk/uclibc/include/wchar.h:
+
+d:/jicamasdk/uclibc/include/stdio.h:
+
+d:/jicamasdk/uclibc/include/stdarg.h:
+
+d:/jicamasdk/uclibc/include/bits/wchar.h:
+
+d:/jicamasdk/uclibc/include/stdlib.h:
+
+d:/jicamasdk/uclibc/include/alloca.h:
+
+d:/jicamasdk/uclibc/include/ctype.h:
+
+d:/jicamasdk/uclibc/include/bits/uClibc_touplow.h:
