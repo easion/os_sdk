@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/demo/hide
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+hide.c
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+316745fd24d2f6ad2c76e7bcb6ffa72f
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+8979f0383af41d43e1b3a4d3530e6042
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

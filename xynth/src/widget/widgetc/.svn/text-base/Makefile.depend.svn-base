@@ -1,0 +1,42 @@
+widgetc.o: widgetc.c ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../posix/include/sys/types.h \
+  ../../../../posix/include/sys/stat.h \
+  ../../../../posix/include/sys/time.h ../../../../libc/include/time.h \
+  ../../../../posix/include/unistd.h \
+  ../../../../posix/include/sys/resource.h \
+  ../../../../posix/include/sys/wait.h ../../../../posix/include/signal.h \
+  ../../../../posix/include/ucontext.h \
+  ../../../../posix/include/sys/ucontext.h \
+  ../../../../posix/include/getopt.h list.h xml.h code.h header.h
+list.o: list.c ../../lib/xynth.h ../../lib/list.c \
+  ../../../../libc/include/stdlib.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stddef.h ../../lib/xynth_.h
+code.o: code.c ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h list.h xml.h code.h
+header.o: header.c ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h list.h xml.h header.h
+xml.o: xml.c ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h list.h xml.h ../../lib/xml.c \
+  ../../lib/xynth_.h ../../../../posix/include/sys/types.h \
+  ../../../../posix/include/sys/stat.h \
+  ../../../../posix/include/sys/time.h ../../../../libc/include/time.h \
+  ../../../../posix/include/unistd.h \
+  ../../../../posix/include/sys/resource.h \
+  ../../../../posix/include/sys/wait.h ../../../../posix/include/signal.h \
+  ../../../../posix/include/ucontext.h \
+  ../../../../posix/include/sys/ucontext.h \
+  ../../../../posix/include/getopt.h ../../lib/expat/expat.h \
+  ../../lib/expat/expat_external.h

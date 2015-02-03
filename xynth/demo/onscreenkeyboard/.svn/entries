@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/demo/onscreenkeyboard
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+473d48cf6a4fc5a1fd2d056e9ee1b248
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+onscreenkeyboard.c
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+73d74671d31d829cedf58e8388391efa
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

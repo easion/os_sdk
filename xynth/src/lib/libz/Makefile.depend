@@ -1,0 +1,211 @@
+adler32.o: adler32.c zlib.h zconf.h
+compress.o: compress.c zlib.h zconf.h
+crc32.o: crc32.c zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/limits.h \
+  d:/jicamasdk/uclibc/include/bits/wordsize.h \
+  d:/jicamasdk/uclibc/include/bits/posix1_lim.h \
+  d:/jicamasdk/uclibc/include/bits/local_lim.h \
+  d:/jicamasdk/uclibc/include/linux/limits.h \
+  d:/jicamasdk/uclibc/include/bits/posix2_lim.h crc32.h
+gzio.o: gzio.c d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h
+uncompr.o: uncompr.c zlib.h zconf.h
+deflate.o: deflate.c deflate.h zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h
+trees.o: trees.c deflate.h zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/ctype.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_touplow.h trees.h
+zutil.o: zutil.c zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h
+inflate.o: inflate.c zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h inftrees.h inflate.h \
+  inffast.h inffixed.h
+infback.o: infback.c zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h inftrees.h inflate.h \
+  inffast.h inffixed.h
+inftrees.o: inftrees.c zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h inftrees.h
+inffast.o: inffast.c zutil.h zlib.h zconf.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h inftrees.h inflate.h \
+  inffast.h

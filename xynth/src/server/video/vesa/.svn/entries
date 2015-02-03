@@ -1,0 +1,67 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/src/server/video/vesa
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+lrmi-0.10
+dir
+
+kbd.c
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+ecac026cb33c3a77daf5cf6d71d9e0b5
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+vesa.h
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+96629a2d88d852cb189c36033372cd15
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+server.c
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+f07d7e15c89f9b3a2b2b7512e1454c28
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

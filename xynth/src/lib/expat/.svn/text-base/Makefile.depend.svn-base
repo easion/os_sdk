@@ -1,0 +1,11 @@
+xmlparse.o: xmlparse.c ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/assert.h \
+  expat_config.h expat.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h expat_external.h internal.h xmltok.h \
+  xmlrole.h
+xmltok.o: xmltok.c ../../../../libc/include/stddef.h expat_config.h \
+  expat_external.h internal.h xmltok.h nametab.h xmltok_impl.h ascii.h \
+  xmltok_impl.c asciitab.h utf8tab.h iasciitab.h latin1tab.h xmltok_ns.c
+xmlrole.o: xmlrole.c ../../../../libc/include/stddef.h expat_config.h \
+  expat_external.h internal.h xmlrole.h xmltok.h ascii.h

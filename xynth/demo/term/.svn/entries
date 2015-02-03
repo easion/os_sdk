@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/demo/term
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-24T22:34:09.269053Z
+357
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+term.c
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+f2af86351c74275c403fd869de9cfe6e
+2008-04-24T22:34:09.269053Z
+357
+mwhitworth
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+16b251187d30e2bfbd7bd8b1c696d9c2
+2008-04-15T20:55:30.882311Z
+260
+mwhitworth
+

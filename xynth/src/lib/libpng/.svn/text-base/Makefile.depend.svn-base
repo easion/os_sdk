@@ -1,0 +1,120 @@
+png.o: png.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngerror.o: pngerror.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngget.o: pngget.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngmem.o: pngmem.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngpread.o: pngpread.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngread.o: pngread.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngrio.o: pngrio.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngrtran.o: pngrtran.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngrutil.o: pngrutil.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngset.o: pngset.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngtrans.o: pngtrans.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngwio.o: pngwio.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngwrite.o: pngwrite.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngwtran.o: pngwtran.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h
+pngwutil.o: pngwutil.c png.h ../libz/zlib.h ../libz/zconf.h pngconf.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../posix/include/sys/types.h \
+  ../../../../libc/include/setjmp.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/math.h ../../../../libc/include/inttypes.h \
+  ../../../../libc/include/time.h

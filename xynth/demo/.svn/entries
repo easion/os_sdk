@@ -1,0 +1,94 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/demo
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-24T22:34:09.269053Z
+357
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+load
+dir
+
+timer
+dir
+
+child
+dir
+
+simple
+dir
+
+onscreenkeyboard
+dir
+
+xynthlogout
+dir
+
+temp
+dir
+
+object
+dir
+
+term
+dir
+
+desktop
+dir
+
+hide
+dir
+
+Makefile.depend
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+mines
+dir
+
+widgetx
+dir
+
+img
+dir
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+c7a03f085698331f195f851601ec4664
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

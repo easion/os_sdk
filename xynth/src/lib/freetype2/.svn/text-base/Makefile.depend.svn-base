@@ -1,0 +1,236 @@
+ftbase.o: ftbase.c include/ft2build.h include/freetype/config/ftheader.h \
+  include/freetype/internal/internal.h ftcalc.c \
+  include/freetype/internal/ftcalc.h include/freetype/freetype.h \
+  include/freetype/config/ftconfig.h include/freetype/config/ftoption.h \
+  include/freetype/config/ftstdlib.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/ctype.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../libc/include/setjmp.h \
+  include/freetype/fterrors.h include/freetype/ftmoderr.h \
+  include/freetype/fterrdef.h include/freetype/fttypes.h \
+  include/freetype/ftsystem.h include/freetype/ftimage.h \
+  include/freetype/internal/ftdebug.h include/freetype/internal/ftobjs.h \
+  include/freetype/ftrender.h include/freetype/ftmodapi.h \
+  include/freetype/ftglyph.h include/freetype/ftsizes.h \
+  include/freetype/ftlcdfil.h include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h \
+  ftdbgmem.c ftgloadr.c ftnames.c include/freetype/ftsnames.h \
+  include/freetype/internal/tttypes.h include/freetype/tttables.h \
+  include/freetype/ftmm.h include/freetype/t1tables.h \
+  include/freetype/internal/ftstream.h ftobjs.c include/freetype/ftlist.h \
+  include/freetype/ftoutln.h include/freetype/internal/ftvalid.h \
+  include/freetype/internal/ftrfork.h include/freetype/internal/sfnt.h \
+  include/freetype/ttnameid.h include/freetype/internal/services/svsfnt.h \
+  include/freetype/internal/services/svpostnm.h \
+  include/freetype/internal/services/svgldict.h \
+  include/freetype/internal/services/svttcmap.h \
+  include/freetype/internal/services/svkern.h \
+  include/freetype/internal/services/svtteng.h ftoutln.c \
+  include/freetype/fttrigon.h ftrfork.c ftstream.c fttrigon.c ftutil.c
+ftbitmap.o: ftbitmap.c include/ft2build.h \
+  include/freetype/config/ftheader.h include/freetype/internal/internal.h \
+  include/freetype/ftbitmap.h include/freetype/freetype.h \
+  include/freetype/config/ftconfig.h include/freetype/config/ftoption.h \
+  include/freetype/config/ftstdlib.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/ctype.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../libc/include/setjmp.h \
+  include/freetype/fterrors.h include/freetype/ftmoderr.h \
+  include/freetype/fterrdef.h include/freetype/fttypes.h \
+  include/freetype/ftsystem.h include/freetype/ftimage.h \
+  include/freetype/internal/ftobjs.h include/freetype/ftrender.h \
+  include/freetype/ftmodapi.h include/freetype/ftglyph.h \
+  include/freetype/ftsizes.h include/freetype/ftlcdfil.h \
+  include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h
+ftdebug.o: ftdebug.c include/ft2build.h \
+  include/freetype/config/ftheader.h include/freetype/internal/internal.h \
+  include/freetype/freetype.h include/freetype/config/ftconfig.h \
+  include/freetype/config/ftoption.h include/freetype/config/ftstdlib.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/limits.h \
+  ../../../../libc/include/ctype.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/setjmp.h include/freetype/fterrors.h \
+  include/freetype/ftmoderr.h include/freetype/fterrdef.h \
+  include/freetype/fttypes.h include/freetype/ftsystem.h \
+  include/freetype/ftimage.h include/freetype/internal/ftdebug.h
+ftglyph.o: ftglyph.c include/ft2build.h \
+  include/freetype/config/ftheader.h include/freetype/internal/internal.h \
+  include/freetype/ftglyph.h include/freetype/freetype.h \
+  include/freetype/config/ftconfig.h include/freetype/config/ftoption.h \
+  include/freetype/config/ftstdlib.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/ctype.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../libc/include/setjmp.h \
+  include/freetype/fterrors.h include/freetype/ftmoderr.h \
+  include/freetype/fterrdef.h include/freetype/fttypes.h \
+  include/freetype/ftsystem.h include/freetype/ftimage.h \
+  include/freetype/ftoutln.h include/freetype/ftbitmap.h \
+  include/freetype/internal/ftobjs.h include/freetype/ftrender.h \
+  include/freetype/ftmodapi.h include/freetype/ftsizes.h \
+  include/freetype/ftlcdfil.h include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h
+ftinit.o: ftinit.c include/ft2build.h include/freetype/config/ftheader.h \
+  include/freetype/internal/internal.h include/freetype/config/ftconfig.h \
+  include/freetype/config/ftoption.h include/freetype/config/ftstdlib.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/limits.h \
+  ../../../../libc/include/ctype.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/setjmp.h include/freetype/internal/ftobjs.h \
+  include/freetype/ftrender.h include/freetype/ftmodapi.h \
+  include/freetype/freetype.h include/freetype/fterrors.h \
+  include/freetype/ftmoderr.h include/freetype/fterrdef.h \
+  include/freetype/fttypes.h include/freetype/ftsystem.h \
+  include/freetype/ftimage.h include/freetype/ftglyph.h \
+  include/freetype/ftsizes.h include/freetype/ftlcdfil.h \
+  include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h \
+  include/freetype/internal/ftdebug.h include/freetype/config/ftmodule.h
+ftsystem.o: ftsystem.c include/ft2build.h \
+  include/freetype/config/ftheader.h include/freetype/internal/internal.h \
+  include/freetype/config/ftconfig.h include/freetype/config/ftoption.h \
+  include/freetype/config/ftstdlib.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/ctype.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../libc/include/setjmp.h \
+  include/freetype/internal/ftdebug.h include/freetype/freetype.h \
+  include/freetype/fterrors.h include/freetype/ftmoderr.h \
+  include/freetype/fterrdef.h include/freetype/fttypes.h \
+  include/freetype/ftsystem.h include/freetype/ftimage.h \
+  include/freetype/internal/ftstream.h include/freetype/internal/ftobjs.h \
+  include/freetype/ftrender.h include/freetype/ftmodapi.h \
+  include/freetype/ftglyph.h include/freetype/ftsizes.h \
+  include/freetype/ftlcdfil.h include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h
+autofit.o: autofit.c include/ft2build.h \
+  include/freetype/config/ftheader.h include/freetype/internal/internal.h \
+  afangles.c aftypes.h include/freetype/freetype.h \
+  include/freetype/config/ftconfig.h include/freetype/config/ftoption.h \
+  include/freetype/config/ftstdlib.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/ctype.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../libc/include/setjmp.h \
+  include/freetype/fterrors.h include/freetype/ftmoderr.h \
+  include/freetype/fterrdef.h include/freetype/fttypes.h \
+  include/freetype/ftsystem.h include/freetype/ftimage.h \
+  include/freetype/ftoutln.h include/freetype/internal/ftobjs.h \
+  include/freetype/ftrender.h include/freetype/ftmodapi.h \
+  include/freetype/ftglyph.h include/freetype/ftsizes.h \
+  include/freetype/ftlcdfil.h include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h \
+  include/freetype/internal/ftdebug.h afglobal.c afglobal.h afdummy.h \
+  aflatin.h afhints.h afcjk.h aferrors.h afhints.c \
+  include/freetype/internal/ftcalc.h afdummy.c aflatin.c afcjk.c \
+  afloader.c afloader.h afmodule.c afmodule.h
+sfnt.o: sfnt.c include/ft2build.h include/freetype/config/ftheader.h \
+  include/freetype/internal/internal.h ttload.c \
+  include/freetype/internal/ftdebug.h include/freetype/config/ftconfig.h \
+  include/freetype/config/ftoption.h include/freetype/config/ftstdlib.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/limits.h \
+  ../../../../libc/include/ctype.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/setjmp.h include/freetype/freetype.h \
+  include/freetype/fterrors.h include/freetype/ftmoderr.h \
+  include/freetype/fterrdef.h include/freetype/fttypes.h \
+  include/freetype/ftsystem.h include/freetype/ftimage.h \
+  include/freetype/internal/ftstream.h include/freetype/internal/ftobjs.h \
+  include/freetype/ftrender.h include/freetype/ftmodapi.h \
+  include/freetype/ftglyph.h include/freetype/ftsizes.h \
+  include/freetype/ftlcdfil.h include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h \
+  include/freetype/tttags.h ttload.h include/freetype/internal/tttypes.h \
+  include/freetype/tttables.h include/freetype/ftmm.h \
+  include/freetype/t1tables.h sferrors.h ttmtx.c ttmtx.h ttcmap.c \
+  include/freetype/internal/ftvalid.h ttcmap.h \
+  include/freetype/internal/services/svttcmap.h ttkern.c ttkern.h \
+  sfobjs.c sfobjs.h include/freetype/internal/sfnt.h \
+  include/freetype/ttnameid.h \
+  include/freetype/internal/services/svpscmap.h ttbdf.h \
+  include/freetype/ftbdf.h sfdriver.c sfdriver.h ttsbit.h ttpost.h \
+  include/freetype/internal/services/svbdf.h \
+  include/freetype/internal/services/svgldict.h \
+  include/freetype/internal/services/svpostnm.h \
+  include/freetype/internal/services/svsfnt.h ttsbit.c ttpost.c ttbdf.c
+smooth.o: smooth.c include/ft2build.h include/freetype/config/ftheader.h \
+  include/freetype/internal/internal.h ftgrays.c ftgrays.h \
+  include/freetype/ftimage.h include/freetype/internal/ftobjs.h \
+  include/freetype/ftrender.h include/freetype/ftmodapi.h \
+  include/freetype/freetype.h include/freetype/config/ftconfig.h \
+  include/freetype/config/ftoption.h include/freetype/config/ftstdlib.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/limits.h \
+  ../../../../libc/include/ctype.h ../../../../libc/include/string.h \
+  ../../../../libc/include/stdio.h ../../../../libc/include/stdarg.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stdlib.h \
+  ../../../../libc/include/setjmp.h include/freetype/fterrors.h \
+  include/freetype/ftmoderr.h include/freetype/fterrdef.h \
+  include/freetype/fttypes.h include/freetype/ftsystem.h \
+  include/freetype/ftglyph.h include/freetype/ftsizes.h \
+  include/freetype/ftlcdfil.h include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h \
+  include/freetype/internal/ftdebug.h include/freetype/ftoutln.h \
+  ftsmerrs.h ftsmooth.c ftsmooth.h
+truetype.o: truetype.c include/ft2build.h \
+  include/freetype/config/ftheader.h include/freetype/internal/internal.h \
+  ttdriver.c include/freetype/internal/ftdebug.h \
+  include/freetype/config/ftconfig.h include/freetype/config/ftoption.h \
+  include/freetype/config/ftstdlib.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/ctype.h \
+  ../../../../libc/include/string.h ../../../../libc/include/stdio.h \
+  ../../../../libc/include/stdarg.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stdlib.h ../../../../libc/include/setjmp.h \
+  include/freetype/freetype.h include/freetype/fterrors.h \
+  include/freetype/ftmoderr.h include/freetype/fterrdef.h \
+  include/freetype/fttypes.h include/freetype/ftsystem.h \
+  include/freetype/ftimage.h include/freetype/internal/ftstream.h \
+  include/freetype/internal/ftobjs.h include/freetype/ftrender.h \
+  include/freetype/ftmodapi.h include/freetype/ftglyph.h \
+  include/freetype/ftsizes.h include/freetype/ftlcdfil.h \
+  include/freetype/internal/ftmemory.h \
+  include/freetype/internal/ftgloadr.h \
+  include/freetype/internal/ftdriver.h \
+  include/freetype/internal/autohint.h include/freetype/internal/ftserv.h \
+  include/freetype/internal/sfnt.h include/freetype/internal/tttypes.h \
+  include/freetype/tttables.h include/freetype/ftmm.h \
+  include/freetype/t1tables.h include/freetype/ttnameid.h \
+  include/freetype/internal/services/svxf86nm.h \
+  include/freetype/internal/services/svmm.h \
+  include/freetype/internal/services/svtteng.h ttdriver.h ttgload.h \
+  ttobjs.h ttinterp.h ttgxvar.h tterrors.h ttpload.c \
+  include/freetype/tttags.h ttpload.h ttgload.c \
+  include/freetype/internal/ftcalc.h include/freetype/ftoutln.h ttobjs.c \
+  include/freetype/ttunpat.h ttinterp.c include/freetype/fttrigon.h \
+  ttgxvar.c

@@ -1,0 +1,129 @@
+fbcompose.o: fbcompose.c config.h pixman-xserver-compat.h icint.h \
+  config.h pixman.h ../../../../libc/include/stdint.h \
+  ../../../../libc/include/inttypes.h pixman-remap.h \
+  ../../../../libc/include/stdlib.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/limits.h icimage.h icrop.h renderedge.h \
+  fbpict.h pixregionint.h ../../../../libc/include/assert.h \
+  ../../../../libc/include/math.h
+fbedge.o: fbedge.c ../../../../libc/include/string.h \
+  ../../../../libc/include/stddef.h pixman-xserver-compat.h icint.h \
+  config.h pixman.h ../../../../libc/include/stdint.h \
+  ../../../../libc/include/inttypes.h pixman-remap.h \
+  ../../../../libc/include/stdlib.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/limits.h icimage.h icrop.h renderedge.h \
+  fbedgeimp.h
+fbpict.o: fbpict.c config.h pixman-xserver-compat.h icint.h config.h \
+  pixman.h ../../../../libc/include/stdint.h \
+  ../../../../libc/include/inttypes.h pixman-remap.h \
+  ../../../../libc/include/stdlib.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/limits.h icimage.h icrop.h renderedge.h \
+  fbpict.h fbmmx.h
+fbtrap.o: fbtrap.c pixman-xserver-compat.h icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h renderedge.h
+icblt.o: icblt.c pixman-xserver-compat.h icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h renderedge.h
+icbltone.o: icbltone.c pixman-xserver-compat.h icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h renderedge.h
+iccolor.o: iccolor.c icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h
+icformat.o: icformat.c icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h
+icimage.o: icimage.c pixman-xserver-compat.h icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h renderedge.h
+icpixels.o: icpixels.c pixman-xserver-compat.h icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h renderedge.h
+icrect.o: icrect.c icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h
+icstipple.o: icstipple.c pixman-xserver-compat.h icint.h config.h \
+  pixman.h ../../../../libc/include/stdint.h \
+  ../../../../libc/include/inttypes.h pixman-remap.h \
+  ../../../../libc/include/stdlib.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/limits.h icimage.h icrop.h renderedge.h
+ictransform.o: ictransform.c icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h
+ictrap.o: ictrap.c icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h
+ictri.o: ictri.c icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h
+icutil.o: icutil.c pixman-xserver-compat.h icint.h config.h pixman.h \
+  ../../../../libc/include/stdint.h ../../../../libc/include/inttypes.h \
+  pixman-remap.h ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/string.h ../../../../libc/include/limits.h \
+  icimage.h icrop.h renderedge.h
+pixregion.o: pixregion.c ../../../../libc/include/stdlib.h \
+  ../../../../librtl/syscalls.h ../../../../librtl/memory.h \
+  ../../../../librtl/sysdefs.h ../../../../libc/include/stddef.h \
+  ../../../../libc/include/limits.h ../../../../libc/include/string.h \
+  pixregionint.h pixman.h config.h ../../../../libc/include/stdint.h \
+  ../../../../libc/include/inttypes.h pixman-remap.h
+renderedge.o: renderedge.c pixman-xserver-compat.h icint.h config.h \
+  pixman.h ../../../../libc/include/stdint.h \
+  ../../../../libc/include/inttypes.h pixman-remap.h \
+  ../../../../libc/include/stdlib.h ../../../../librtl/syscalls.h \
+  ../../../../librtl/memory.h ../../../../librtl/sysdefs.h \
+  ../../../../libc/include/stddef.h ../../../../libc/include/string.h \
+  ../../../../libc/include/limits.h icimage.h icrop.h renderedge.h

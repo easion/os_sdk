@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/demo/object
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+object.c
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+69677b684d0dbdabc93c04b7fef95136
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+5221c17f9f51fef8d03af46d7fee360e
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

@@ -1,0 +1,233 @@
+event.o: event.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+id.o: id.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+kbd.o: kbd.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h kbd_map.h
+mouse.o: mouse.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h cursor.h
+priority.o: priority.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+single.o: single.c
+server.o: server.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h ../../../posix/include/fcntl.h \
+  ../../../posix/include/sys/stat.h ../../../posix/include/sys/shm.h \
+  ../../../posix/include/sys/ipc.h
+socket.o: socket.c ../../../posix/include/sys/stat.h \
+  ../../../posix/include/sys/time.h ../../../libc/include/time.h \
+  ../../../libc/include/stdio.h ../../../libc/include/stddef.h \
+  ../../../libc/include/string.h ../../../libc/include/stdarg.h \
+  ../../../librtl/syscalls.h ../../../librtl/memory.h \
+  ../../../librtl/sysdefs.h ../../../posix/include/sys/types.h \
+  ../lib/xynth_.h ../../../libc/include/errno.h \
+  ../../../libc/include/stdlib.h ../../../posix/include/unistd.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+start.o: start.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+surface.o: surface.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+theme.o: theme.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h ../../../posix/include/dlfcn.h
+window.o: window.c ../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+window_handler.o: window_handler.c ../lib/xynth_.h \
+  ../../../libc/include/stdio.h ../../../libc/include/stddef.h \
+  ../../../libc/include/string.h ../../../libc/include/stdarg.h \
+  ../../../librtl/syscalls.h ../../../librtl/memory.h \
+  ../../../librtl/sysdefs.h ../../../libc/include/errno.h \
+  ../../../libc/include/stdlib.h ../../../posix/include/unistd.h \
+  ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+window_move_resize.o: window_move_resize.c ../lib/xynth_.h \
+  ../../../libc/include/stdio.h ../../../libc/include/stddef.h \
+  ../../../libc/include/string.h ../../../libc/include/stdarg.h \
+  ../../../librtl/syscalls.h ../../../librtl/memory.h \
+  ../../../librtl/sysdefs.h ../../../libc/include/errno.h \
+  ../../../libc/include/stdlib.h ../../../posix/include/unistd.h \
+  ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h ../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h
+video/vga/server.o: video/vga/server.c video/vga/../../../lib/xynth_.h \
+  ../../../libc/include/stdio.h ../../../libc/include/stddef.h \
+  ../../../libc/include/string.h ../../../libc/include/stdarg.h \
+  ../../../librtl/syscalls.h ../../../librtl/memory.h \
+  ../../../librtl/sysdefs.h ../../../libc/include/errno.h \
+  ../../../libc/include/stdlib.h ../../../posix/include/unistd.h \
+  ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h video/vga/../../../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h video/vga/vga.h
+video/bochs/server.o: video/bochs/server.c \
+  video/bochs/../../../lib/xynth_.h ../../../libc/include/stdio.h \
+  ../../../libc/include/stddef.h ../../../libc/include/string.h \
+  ../../../libc/include/stdarg.h ../../../librtl/syscalls.h \
+  ../../../librtl/memory.h ../../../librtl/sysdefs.h \
+  ../../../libc/include/errno.h ../../../libc/include/stdlib.h \
+  ../../../posix/include/unistd.h ../../../posix/include/sys/types.h \
+  ../../../posix/include/sys/resource.h ../../../posix/include/sys/time.h \
+  ../../../libc/include/time.h ../../../posix/include/sys/wait.h \
+  ../../../posix/include/signal.h ../../../posix/include/ucontext.h \
+  ../../../posix/include/sys/ucontext.h ../../../posix/include/getopt.h \
+  ../../../libc/include/ctype.h video/bochs/../../../lib/xynth.h \
+  ../../../posix/include/sys/poll.h ../../../posix/include/sys/socket.h \
+  ../../../posix/include/sys/select.h ../../../posix/include/sys/un.h \
+  ../../../posix/include/netinet/in.h ../../../posix/include/arpa/inet.h \
+  server.h

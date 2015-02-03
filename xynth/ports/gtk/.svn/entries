@@ -1,0 +1,55 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/ports/gtk
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+gtk+-2.10.x-xynth.diff
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+072f2dd1a23896c06bd72488866a81e6
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+gtk+-2.4.14-xynth.diff
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+17c9468e806c52e2a1e952d6aad26b90
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+gtk+-2.10.x
+dir
+

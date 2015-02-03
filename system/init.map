@@ -1,0 +1,843 @@
+Archive member included because of file (symbol)
+
+d:/jicamasdk/uclibc/lib/\libc.a(__uClibc_main.o)
+                              d:/jicamasdk/uclibc/lib/crt1.o (__uClibc_start_main)
+d:/jicamasdk/uclibc/lib/\libc.a(errno.o)
+                              init.o (errno)
+d:/jicamasdk/uclibc/lib/\libc.a(perror.o)
+                              init.o (perror)
+d:/jicamasdk/uclibc/lib/\libc.a(puts.o)
+                              init.o (puts)
+d:/jicamasdk/uclibc/lib/\libc.a(_stdio_init.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(puts.o) (stdout)
+d:/jicamasdk/uclibc/lib/\libc.a(fprintf.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(perror.o) (fprintf)
+d:/jicamasdk/uclibc/lib/\libc.a(printf.o)
+                              init.o (printf)
+d:/jicamasdk/uclibc/lib/\libc.a(sprintf.o)
+                              init.o (sprintf)
+d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(fprintf.o) (vfprintf)
+d:/jicamasdk/uclibc/lib/\libc.a(_fpmaxtostr.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_fpmaxtostr)
+d:/jicamasdk/uclibc/lib/\libc.a(memset.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_fpmaxtostr.o) (memset)
+d:/jicamasdk/uclibc/lib/\libc.a(strcasecmp.o)
+                              init.o (strcasecmp)
+d:/jicamasdk/uclibc/lib/\libc.a(strlen.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (strlen)
+d:/jicamasdk/uclibc/lib/\libc.a(strnlen.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (strnlen)
+d:/jicamasdk/uclibc/lib/\libc.a(strerror.o)
+                              init.o (strerror)
+d:/jicamasdk/uclibc/lib/\libc.a(_susv3_strerror_r.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(strerror.o) (_susv3_strerror_r)
+d:/jicamasdk/uclibc/lib/\libc.a(_string_syserrmsgs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_susv3_strerror_r.o) (_string_syserrmsgs)
+d:/jicamasdk/uclibc/lib/\libc.a(_glibc_strerror_r.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(perror.o) (_glibc_strerror_r)
+d:/jicamasdk/uclibc/lib/\libc.a(isatty.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_stdio_init.o) (isatty)
+d:/jicamasdk/uclibc/lib/\libc.a(sigaction.o)
+                              init.o (sigaction)
+d:/jicamasdk/uclibc/lib/\libc.a(atol.o)
+                              init.o (atoi)
+d:/jicamasdk/uclibc/lib/\libc.a(strtol.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(atol.o) (strtol)
+d:/jicamasdk/uclibc/lib/\libc.a(_stdlib_strto_l.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(strtol.o) (_stdlib_strto_l)
+d:/jicamasdk/uclibc/lib/\libc.a(exit.o)
+                              init.o (exit)
+d:/jicamasdk/uclibc/lib/\libc.a(setenv.o)
+                              init.o (putenv)
+d:/jicamasdk/uclibc/lib/\libc.a(malloc.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(setenv.o) (malloc)
+d:/jicamasdk/uclibc/lib/\libc.a(free.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(setenv.o) (free)
+d:/jicamasdk/uclibc/lib/\libc.a(realloc.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(setenv.o) (realloc)
+d:/jicamasdk/uclibc/lib/\libc.a(heap_alloc.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(malloc.o) (__heap_alloc)
+d:/jicamasdk/uclibc/lib/\libc.a(heap_alloc_at.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(realloc.o) (__heap_alloc_at)
+d:/jicamasdk/uclibc/lib/\libc.a(heap_free.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(malloc.o) (__heap_free)
+d:/jicamasdk/uclibc/lib/\libc.a(getcwd.o)
+                              init.o (getcwd)
+d:/jicamasdk/uclibc/lib/\libc.a(wait.o)
+                              init.o (wait)
+d:/jicamasdk/uclibc/lib/\libc.a(_exit.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(exit.o) (_exit)
+d:/jicamasdk/uclibc/lib/\libc.a(sbrk.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(malloc.o) (sbrk)
+d:/jicamasdk/uclibc/lib/\libc.a(__libc_fork.o)
+                              init.o (fork)
+d:/jicamasdk/uclibc/lib/\libc.a(__libc_read.o)
+                              init.o (read)
+d:/jicamasdk/uclibc/lib/\libc.a(__libc_write.o)
+                              init.o (write)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_open.o)
+                              init.o (open)
+d:/jicamasdk/uclibc/lib/\libc.a(__libc_close.o)
+                              init.o (close)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_execve.o)
+                              init.o (execve)
+d:/jicamasdk/uclibc/lib/\libc.a(__libc_getpid.o)
+                              init.o (getpid)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_setuid.o)
+                              init.o (setuid)
+d:/jicamasdk/uclibc/lib/\libc.a(dup.o)
+                              init.o (dup)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_ioctl.o)
+                              init.o (ioctl)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_stat.o)
+                              init.o (stat)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_wait4.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(wait.o) (wait4)
+d:/jicamasdk/uclibc/lib/\libc.a(uname.o)
+                              init.o (uname)
+d:/jicamasdk/uclibc/lib/\libc.a(__syscall_rt_sigaction.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(sigaction.o) (__syscall_rt_sigaction)
+d:/jicamasdk/uclibc/lib/\libc.a(brk.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(sbrk.o) (___brk_addr)
+d:/jicamasdk/uclibc/lib/\libc.a(dynamic.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(__uClibc_main.o) (__init_library)
+d:/jicamasdk/uclibc/lib/\libc.a(wcrtomb.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (wcrtomb)
+d:/jicamasdk/uclibc/lib/\libc.a(wcsrtombs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (wcsrtombs)
+d:/jicamasdk/uclibc/lib/\libc.a(__wcsnrtombs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(wcrtomb.o) (__wcsnrtombs)
+d:/jicamasdk/uclibc/lib/\libc.a(strcasecmp_l.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(strcasecmp.o) (__strcasecmp_l)
+d:/jicamasdk/uclibc/lib/\libc.a(_stdlib_strto_l_l.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_stdlib_strto_l.o) (_stdlib_strto_l_l)
+d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_fpmaxtostr.o) (__curlocale_var)
+d:/jicamasdk/uclibc/lib/\libc.a(fflush.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_stdio_init.o) (fflush_unlocked)
+d:/jicamasdk/uclibc/lib/\libc.a(fputc.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(puts.o) (fputc_unlocked)
+d:/jicamasdk/uclibc/lib/\libc.a(fputs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(puts.o) (fputs_unlocked)
+d:/jicamasdk/uclibc/lib/\libc.a(fwrite.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(fputc.o) (fwrite_unlocked)
+d:/jicamasdk/uclibc/lib/\libc.a(_stdio_fwrite.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_stdio_fwrite)
+d:/jicamasdk/uclibc/lib/\libc.a(_stdio_lseek.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_stdio_fwrite.o) (_stdio_lseek)
+d:/jicamasdk/uclibc/lib/\libc.a(_uintmaxtostr.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_uintmaxtostr)
+d:/jicamasdk/uclibc/lib/\libc.a(vsnprintf.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(sprintf.o) (vsnprintf)
+d:/jicamasdk/uclibc/lib/\libc.a(_store_inttype.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_store_inttype)
+d:/jicamasdk/uclibc/lib/\libc.a(_load_inttype.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_load_inttype)
+d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_init.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_ppfs_init)
+d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_prepargs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_ppfs_prepargs)
+d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_setargs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_ppfs_setargs)
+d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_parsespec.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o) (_ppfs_parsespec)
+d:/jicamasdk/uclibc/lib/\libc.a(memcpy.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_susv3_strerror_r.o) (memcpy)
+d:/jicamasdk/uclibc/lib/\libc.a(strchr.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(setenv.o) (strchr)
+d:/jicamasdk/uclibc/lib/\libc.a(strncmp.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(setenv.o) (strncmp)
+d:/jicamasdk/uclibc/lib/\libc.a(strndup.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(setenv.o) (strndup)
+d:/jicamasdk/uclibc/lib/\libc.a(calloc.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o) (calloc)
+d:/jicamasdk/uclibc/lib/\libc.a(xstatconv.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(__syscall_stat.o) (__xstat_conv)
+d:/jicamasdk/uclibc/lib/\libc.a(__libc_lseek.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_stdio_lseek.o) (lseek)
+d:/jicamasdk/uclibc/lib/\libc.a(__locale_mbrtowc_l.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o) (__locale_mbrtowc_l)
+d:/jicamasdk/uclibc/lib/\libc.a(locale_data.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o) (__locale_mmap)
+d:/jicamasdk/uclibc/lib/\libc.a(mbsrtowcs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_init.o) (mbsrtowcs)
+d:/jicamasdk/uclibc/lib/\libc.a(_wchar_utf8sntowcs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(__locale_mbrtowc_l.o) (_wchar_utf8sntowcs)
+d:/jicamasdk/uclibc/lib/\libc.a(_wchar_wcsntoutf8s.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(__wcsnrtombs.o) (_wchar_wcsntoutf8s)
+d:/jicamasdk/uclibc/lib/\libc.a(__mbsnrtowcs.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(mbsrtowcs.o) (__mbsnrtowcs)
+d:/jicamasdk/uclibc/lib/\libc.a(tolower_l.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(strcasecmp_l.o) (__tolower_l)
+d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_b.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o) (__C_ctype_b)
+d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_tolower.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o) (__C_ctype_tolower)
+d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_toupper.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o) (__C_ctype_toupper)
+d:/jicamasdk/uclibc/lib/\libc.a(__ctype_b_loc.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_parsespec.o) (__ctype_b_loc)
+d:/jicamasdk/uclibc/lib/\libc.a(fseek.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(_stdio_fwrite.o) (fseek)
+d:/jicamasdk/uclibc/lib/\libc.a(_stdio_adjpos.o)
+                              d:/jicamasdk/uclibc/lib/\libc.a(fseek.o) (_stdio_adjpos)
+
+Allocating common symbols
+Common symbol       size              file
+
+environ             0x4               init.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .text set to 0x1000
+Address of section .text set to 0x1000
+LOAD d:/jicamasdk/uclibc/lib/crt1.o
+LOAD init.o
+LOAD d:/jicamasdk/uclibc/lib/\libm.a
+LOAD d:/jicamasdk/uclibc/lib/\libnetbas.a
+LOAD d:/jicamasdk/uclibc/lib/\libc.a
+LOAD d:/jicamasdk/uclibc/lib/\libgcc.a
+                0x08048074                . = (0x8048000 + SIZEOF_HEADERS)
+
+.interp
+ *(.interp)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.tdata
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+
+.rela.tdata
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+
+.rel.tbss
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+
+.rela.tbss
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x00001000     0x66fb
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00001000       0x25 d:/jicamasdk/uclibc/lib/crt1.o
+                0x00001000                _start
+ *fill*         0x00001025        0x3 90909090
+ .text          0x00001028      0x645 init.o
+                0x000014ec                test_file_system
+                0x00001468                sigh
+                0x00001574                tell
+                0x00001558                netbas_setup
+                0x0000143c                sigact
+                0x00001028                main
+                0x000014b0                load_modules
+                0x0000159c                report
+ *fill*         0x0000166d        0x3 90909090
+ .text          0x00001670       0xd3 d:/jicamasdk/uclibc/lib/\libc.a(__uClibc_main.o)
+                0x00001670                __uClibc_init
+                0x00001728                __uClibc_main
+                0x000016a5                __uClibc_start_main
+ *fill*         0x00001743        0x1 90909090
+ .text          0x00001744       0x5b d:/jicamasdk/uclibc/lib/\libc.a(perror.o)
+                0x00001744                perror
+ *fill*         0x0000179f        0x1 90909090
+ .text          0x000017a0       0x43 d:/jicamasdk/uclibc/lib/\libc.a(puts.o)
+                0x000017a0                puts
+ *fill*         0x000017e3        0x1 90909090
+ .text          0x000017e4       0x6d d:/jicamasdk/uclibc/lib/\libc.a(_stdio_init.o)
+                0x000017e4                _stdio_term
+                0x000017f9                _stdio_init
+ *fill*         0x00001851        0x3 90909090
+ .text          0x00001854       0x28 d:/jicamasdk/uclibc/lib/\libc.a(fprintf.o)
+                0x00001854                fprintf
+ .text          0x0000187c       0x2b d:/jicamasdk/uclibc/lib/\libc.a(printf.o)
+                0x0000187c                printf
+ *fill*         0x000018a7        0x1 90909090
+ .text          0x000018a8       0x27 d:/jicamasdk/uclibc/lib/\libc.a(sprintf.o)
+                0x000018a8                sprintf
+ *fill*         0x000018cf        0x1 90909090
+ .text          0x000018d0      0x965 d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o)
+                0x00002085                vfprintf
+ *fill*         0x00002235        0x3 90909090
+ .text          0x00002238      0x9c9 d:/jicamasdk/uclibc/lib/\libc.a(_fpmaxtostr.o)
+                0x00002238                _fpmaxtostr
+ *fill*         0x00002c01        0x3 90909090
+ .text          0x00002c04       0x25 d:/jicamasdk/uclibc/lib/\libc.a(memset.o)
+                0x00002c04                memset
+ *fill*         0x00002c29        0x3 90909090
+ .text          0x00002c2c       0x21 d:/jicamasdk/uclibc/lib/\libc.a(strcasecmp.o)
+                0x00002c2c                strcasecmp
+ *fill*         0x00002c4d        0x3 90909090
+ .text          0x00002c50       0x26 d:/jicamasdk/uclibc/lib/\libc.a(strlen.o)
+                0x00002c50                strlen
+ *fill*         0x00002c76        0x2 90909090
+ .text          0x00002c78       0x29 d:/jicamasdk/uclibc/lib/\libc.a(strnlen.o)
+                0x00002c78                strnlen
+ *fill*         0x00002ca1        0x3 90909090
+ .text          0x00002ca4       0x22 d:/jicamasdk/uclibc/lib/\libc.a(strerror.o)
+                0x00002ca4                strerror
+ *fill*         0x00002cc6        0x2 90909090
+ .text          0x00002cc8       0xee d:/jicamasdk/uclibc/lib/\libc.a(_susv3_strerror_r.o)
+                0x00002cc8                _susv3_strerror_r
+ *fill*         0x00002db6        0x2 90909090
+ .text          0x00002db8       0x1f d:/jicamasdk/uclibc/lib/\libc.a(_glibc_strerror_r.o)
+                0x00002db8                __strerror_r
+                0x00002db8                _glibc_strerror_r
+ *fill*         0x00002dd7        0x1 90909090
+ .text          0x00002dd8       0x21 d:/jicamasdk/uclibc/lib/\libc.a(isatty.o)
+                0x00002dd8                isatty
+ *fill*         0x00002df9        0x7 90909090
+ .text          0x00002e00      0x160 d:/jicamasdk/uclibc/lib/\libc.a(sigaction.o)
+                0x00002e00                __libc_sigaction
+                0x00002e00                sigaction
+ .text          0x00002f60       0x1a d:/jicamasdk/uclibc/lib/\libc.a(atol.o)
+                0x00002f60                atol
+                0x00002f60                atoi
+ *fill*         0x00002f7a        0x2 90909090
+ .text          0x00002f7c       0x1b d:/jicamasdk/uclibc/lib/\libc.a(strtol.o)
+                0x00002f7c                strtol
+ *fill*         0x00002f97        0x1 90909090
+ .text          0x00002f98       0x26 d:/jicamasdk/uclibc/lib/\libc.a(_stdlib_strto_l.o)
+                0x00002f98                _stdlib_strto_l
+ *fill*         0x00002fbe        0x2 90909090
+ .text          0x00002fc0       0x48 d:/jicamasdk/uclibc/lib/\libc.a(exit.o)
+                0x00002fc0                exit
+ .text          0x00003008      0x414 d:/jicamasdk/uclibc/lib/\libc.a(setenv.o)
+                0x00003291                unsetenv
+                0x00003008                __add_to_environ
+                0x0000339e                putenv
+                0x00003356                clearenv
+                0x00003276                setenv
+ .text          0x0000341c      0x13b d:/jicamasdk/uclibc/lib/\libc.a(malloc.o)
+                0x00003500                malloc
+ *fill*         0x00003557        0x1 90909090
+ .text          0x00003558      0x11e d:/jicamasdk/uclibc/lib/\libc.a(free.o)
+                0x00003619                free
+ *fill*         0x00003676        0x2 90909090
+ .text          0x00003678      0x13a d:/jicamasdk/uclibc/lib/\libc.a(realloc.o)
+                0x00003678                realloc
+ *fill*         0x000037b2        0x2 90909090
+ .text          0x000037b4      0x10b d:/jicamasdk/uclibc/lib/\libc.a(heap_alloc.o)
+                0x000037b4                __heap_alloc
+ *fill*         0x000038bf        0x1 90909090
+ .text          0x000038c0      0x102 d:/jicamasdk/uclibc/lib/\libc.a(heap_alloc_at.o)
+                0x000038c0                __heap_alloc_at
+ *fill*         0x000039c2        0x2 90909090
+ .text          0x000039c4      0x1e5 d:/jicamasdk/uclibc/lib/\libc.a(heap_free.o)
+                0x000039c4                __heap_free
+ *fill*         0x00003ba9        0x3 90909090
+ .text          0x00003bac      0x108 d:/jicamasdk/uclibc/lib/\libc.a(getcwd.o)
+                0x00003bac                getcwd
+ .text          0x00003cb4       0x1f d:/jicamasdk/uclibc/lib/\libc.a(wait.o)
+                0x00003cb4                wait
+                0x00003cb4                __libc_wait
+ *fill*         0x00003cd3        0x1 90909090
+ .text          0x00003cd4       0x38 d:/jicamasdk/uclibc/lib/\libc.a(_exit.o)
+                0x00003cd4                _exit
+ .text          0x00003d0c       0x6b d:/jicamasdk/uclibc/lib/\libc.a(sbrk.o)
+                0x00003d0c                sbrk
+ *fill*         0x00003d77        0x1 90909090
+ .text          0x00003d78       0x2f d:/jicamasdk/uclibc/lib/\libc.a(__libc_fork.o)
+                0x00003d78                fork
+                0x00003d78                __libc_fork
+ *fill*         0x00003da7        0x1 90909090
+ .text          0x00003da8       0x41 d:/jicamasdk/uclibc/lib/\libc.a(__libc_read.o)
+                0x00003da8                __libc_read
+                0x00003da8                read
+ *fill*         0x00003de9        0x3 90909090
+ .text          0x00003dec       0x41 d:/jicamasdk/uclibc/lib/\libc.a(__libc_write.o)
+                0x00003dec                __write
+                0x00003dec                write
+                0x00003dec                __libc_write
+ *fill*         0x00003e2d        0x3 90909090
+ .text          0x00003e30       0xa6 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_open.o)
+                0x00003e6f                creat
+                0x00003e30                __libc_open
+                0x00003e30                open
+ *fill*         0x00003ed6        0x2 90909090
+ .text          0x00003ed8       0x3b d:/jicamasdk/uclibc/lib/\libc.a(__libc_close.o)
+                0x00003ed8                __libc_close
+                0x00003ed8                close
+ *fill*         0x00003f13        0x1 90909090
+ .text          0x00003f14       0x41 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_execve.o)
+                0x00003f14                execve
+ *fill*         0x00003f55        0x3 90909090
+ .text          0x00003f58       0x2f d:/jicamasdk/uclibc/lib/\libc.a(__libc_getpid.o)
+                0x00003f58                __getpid
+                0x00003f58                getpid
+                0x00003f58                __libc_getpid
+ *fill*         0x00003f87        0x1 90909090
+ .text          0x00003f88       0x85 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_setuid.o)
+                0x00003f88                setuid
+ *fill*         0x0000400d        0x3 90909090
+ .text          0x00004010       0x3b d:/jicamasdk/uclibc/lib/\libc.a(dup.o)
+                0x00004010                dup
+ *fill*         0x0000404b        0x1 90909090
+ .text          0x0000404c       0x74 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_ioctl.o)
+                0x0000408d                ioctl
+                0x0000404c                __syscall_ioctl
+ .text          0x000040c0       0x71 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_stat.o)
+                0x000040f9                stat
+                0x000040c0                __syscall_stat
+ *fill*         0x00004131        0x3 90909090
+ .text          0x00004134       0x62 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_wait4.o)
+                0x00004134                wait4
+ *fill*         0x00004196        0x2 90909090
+ .text          0x00004198       0x3b d:/jicamasdk/uclibc/lib/\libc.a(uname.o)
+                0x00004198                uname
+ *fill*         0x000041d3        0x1 90909090
+ .text          0x000041d4       0x46 d:/jicamasdk/uclibc/lib/\libc.a(__syscall_rt_sigaction.o)
+                0x000041d4                __syscall_rt_sigaction
+ *fill*         0x0000421a        0x2 90909090
+ .text          0x0000421c       0x4b d:/jicamasdk/uclibc/lib/\libc.a(brk.o)
+                0x0000421c                brk
+ *fill*         0x00004267        0x1 90909090
+ .text          0x00004268      0x35d d:/jicamasdk/uclibc/lib/\libc.a(dynamic.o)
+                0x00004321                unload_library
+                0x00004347                dynamic_symbol
+                0x00004268                load_library
+                0x000043b3                get_dynamic_dependencies
+                0x0000438c                get_dynamic_module_info
+                0x000044c2                __init_library
+ *fill*         0x000045c5        0x3 90909090
+ .text          0x000045c8       0x61 d:/jicamasdk/uclibc/lib/\libc.a(wcrtomb.o)
+                0x000045c8                wcrtomb
+ *fill*         0x00004629        0x3 90909090
+ .text          0x0000462c       0x21 d:/jicamasdk/uclibc/lib/\libc.a(wcsrtombs.o)
+                0x0000462c                wcsrtombs
+ *fill*         0x0000464d        0x3 90909090
+ .text          0x00004650      0x205 d:/jicamasdk/uclibc/lib/\libc.a(__wcsnrtombs.o)
+                0x00004650                wcsnrtombs
+                0x00004650                __wcsnrtombs
+ *fill*         0x00004855        0x3 90909090
+ .text          0x00004858       0x67 d:/jicamasdk/uclibc/lib/\libc.a(strcasecmp_l.o)
+                0x00004858                strcasecmp_l
+                0x00004858                __strcasecmp_l
+ *fill*         0x000048bf        0x1 90909090
+ .text          0x000048c0      0x1ec d:/jicamasdk/uclibc/lib/\libc.a(_stdlib_strto_l_l.o)
+                0x000048c0                _stdlib_strto_l_l
+ .text          0x00004aac      0xc73 d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o)
+                0x000055b6                _locale_init_l
+                0x00004e7a                _locale_set_l
+                0x00005706                _locale_init
+ *fill*         0x0000571f        0x1 90909090
+ .text          0x00005720       0xb5 d:/jicamasdk/uclibc/lib/\libc.a(fflush.o)
+                0x00005720                fflush
+                0x00005720                fflush_unlocked
+ *fill*         0x000057d5        0x3 90909090
+ .text          0x000057d8       0x38 d:/jicamasdk/uclibc/lib/\libc.a(fputc.o)
+                0x000057d8                fputc
+                0x000057d8                fputc_unlocked
+ .text          0x00005810       0x47 d:/jicamasdk/uclibc/lib/\libc.a(fputs.o)
+                0x00005810                fputs_unlocked
+                0x00005810                fputs
+ *fill*         0x00005857        0x1 90909090
+ .text          0x00005858       0x8e d:/jicamasdk/uclibc/lib/\libc.a(fwrite.o)
+                0x00005858                fwrite_unlocked
+                0x00005858                fwrite
+ *fill*         0x000058e6        0x2 90909090
+ .text          0x000058e8      0x391 d:/jicamasdk/uclibc/lib/\libc.a(_stdio_fwrite.o)
+                0x00005956                _stdio_fwrite
+ *fill*         0x00005c79        0x3 90909090
+ .text          0x00005c7c       0x45 d:/jicamasdk/uclibc/lib/\libc.a(_stdio_lseek.o)
+                0x00005c7c                _stdio_lseek
+ *fill*         0x00005cc1        0x3 90909090
+ .text          0x00005cc4      0x2e5 d:/jicamasdk/uclibc/lib/\libc.a(_uintmaxtostr.o)
+                0x00005cc4                _uintmaxtostr
+ *fill*         0x00005fa9        0x3 90909090
+ .text          0x00005fac       0x85 d:/jicamasdk/uclibc/lib/\libc.a(vsnprintf.o)
+                0x00005fac                vsnprintf
+ *fill*         0x00006031        0x3 90909090
+ .text          0x00006034       0x5c d:/jicamasdk/uclibc/lib/\libc.a(_store_inttype.o)
+                0x00006034                _store_inttype
+ .text          0x00006090       0xb9 d:/jicamasdk/uclibc/lib/\libc.a(_load_inttype.o)
+                0x00006090                _load_inttype
+ *fill*         0x00006149        0x3 90909090
+ .text          0x0000614c      0x107 d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_init.o)
+                0x0000614c                _ppfs_init
+ *fill*         0x00006253        0x1 90909090
+ .text          0x00006254       0x5c d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_prepargs.o)
+                0x00006254                _ppfs_prepargs
+ .text          0x000062b0      0x259 d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_setargs.o)
+                0x000062b0                _ppfs_setargs
+ *fill*         0x00006509        0x3 90909090
+ .text          0x0000650c      0x65d d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_parsespec.o)
+                0x000065aa                _ppfs_parsespec
+ *fill*         0x00006b69        0x3 90909090
+ .text          0x00006b6c       0x3f d:/jicamasdk/uclibc/lib/\libc.a(memcpy.o)
+                0x00006b6c                memcpy
+ *fill*         0x00006bab        0x1 90909090
+ .text          0x00006bac       0x2f d:/jicamasdk/uclibc/lib/\libc.a(strchr.o)
+                0x00006bac                index
+                0x00006bac                strchr
+ *fill*         0x00006bdb        0x1 90909090
+ .text          0x00006bdc       0x3e d:/jicamasdk/uclibc/lib/\libc.a(strncmp.o)
+                0x00006bdc                strncmp
+ *fill*         0x00006c1a        0x2 90909090
+ .text          0x00006c1c       0x57 d:/jicamasdk/uclibc/lib/\libc.a(strndup.o)
+                0x00006c1c                strndup
+ *fill*         0x00006c73        0x1 90909090
+ .text          0x00006c74       0x6e d:/jicamasdk/uclibc/lib/\libc.a(calloc.o)
+                0x00006c74                calloc
+ *fill*         0x00006ce2        0x2 90909090
+ .text          0x00006ce4       0xab d:/jicamasdk/uclibc/lib/\libc.a(xstatconv.o)
+                0x00006ce4                __xstat_conv
+ *fill*         0x00006d8f        0x1 90909090
+ .text          0x00006d90       0x41 d:/jicamasdk/uclibc/lib/\libc.a(__libc_lseek.o)
+                0x00006d90                lseek
+                0x00006d90                __libc_lseek
+ *fill*         0x00006dd1        0x3 90909090
+ .text          0x00006dd4      0x105 d:/jicamasdk/uclibc/lib/\libc.a(__locale_mbrtowc_l.o)
+                0x00006dd4                __locale_mbrtowc_l
+ *fill*         0x00006ed9        0x3 90909090
+ .text          0x00006edc       0x34 d:/jicamasdk/uclibc/lib/\libc.a(mbsrtowcs.o)
+                0x00006edc                mbsrtowcs
+ .text          0x00006f10      0x25b d:/jicamasdk/uclibc/lib/\libc.a(_wchar_utf8sntowcs.o)
+                0x00006f10                _wchar_utf8sntowcs
+ *fill*         0x0000716b        0x1 90909090
+ .text          0x0000716c      0x189 d:/jicamasdk/uclibc/lib/\libc.a(_wchar_wcsntoutf8s.o)
+                0x0000716c                _wchar_wcsntoutf8s
+ *fill*         0x000072f5        0x3 90909090
+ .text          0x000072f8      0x1fd d:/jicamasdk/uclibc/lib/\libc.a(__mbsnrtowcs.o)
+                0x000072f8                mbsnrtowcs
+                0x000072f8                __mbsnrtowcs
+ *fill*         0x000074f5        0x3 90909090
+ .text          0x000074f8       0x33 d:/jicamasdk/uclibc/lib/\libc.a(tolower_l.o)
+                0x000074f8                __tolower_l
+                0x000074f8                tolower_l
+ *fill*         0x0000752b        0x1 90909090
+ .text          0x0000752c        0xa d:/jicamasdk/uclibc/lib/\libc.a(__ctype_b_loc.o)
+                0x0000752c                __ctype_b_loc
+ *fill*         0x00007536        0x2 90909090
+ .text          0x00007538       0xc7 d:/jicamasdk/uclibc/lib/\libc.a(fseek.o)
+                0x00007538                fseeko
+                0x00007538                fseek
+ *fill*         0x000075ff        0x1 90909090
+ .text          0x00007600       0xfb d:/jicamasdk/uclibc/lib/\libc.a(_stdio_adjpos.o)
+                0x00007600                _stdio_adjpos
+ *(.gnu.warning)
+
+.fini
+ *(.fini)
+                0x000076fb                PROVIDE (__etext, .)
+                0x000076fb                PROVIDE (_etext, .)
+                0x000076fb                PROVIDE (etext, .)
+
+.rodata         0x00007700    0x40040
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00007700      0x185 init.o
+                                0x19e (size before relaxing)
+ *fill*         0x00007885       0x1b 00
+ .rodata.str1.32
+                0x000078a0       0x7f init.o
+ .rodata        0x0000791f        0xb d:/jicamasdk/uclibc/lib/\libc.a(perror.o)
+ .rodata        0x0000792a       0x20 d:/jicamasdk/uclibc/lib/\libc.a(vfprintf.o)
+ *fill*         0x0000794a       0x16 00
+ .rodata        0x00007960       0xec d:/jicamasdk/uclibc/lib/\libc.a(_fpmaxtostr.o)
+ .rodata        0x00007a4c        0xe d:/jicamasdk/uclibc/lib/\libc.a(_susv3_strerror_r.o)
+ *fill*         0x00007a5a        0x6 00
+ .rodata        0x00007a60      0xb5a d:/jicamasdk/uclibc/lib/\libc.a(_string_syserrmsgs.o)
+                0x00007a60                _string_syserrmsgs
+ .rodata        0x000085ba       0x45 d:/jicamasdk/uclibc/lib/\libc.a(dynamic.o)
+ *fill*         0x000085ff        0x1 00
+ .rodata        0x00008600       0x4e d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o)
+ *fill*         0x0000864e       0x12 00
+ .rodata        0x00008660       0x21 d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_init.o)
+ *fill*         0x00008681        0x1 00
+ .rodata        0x00008682       0x7e d:/jicamasdk/uclibc/lib/\libc.a(_ppfs_parsespec.o)
+ .rodata        0x00008700    0x3e738 d:/jicamasdk/uclibc/lib/\libc.a(locale_data.o)
+ *fill*         0x00046e38        0x8 00
+ .rodata        0x00046e40      0x300 d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_b.o)
+                0x00046e40                __C_ctype_b_data
+ .rodata        0x00047140      0x300 d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_tolower.o)
+                0x00047140                __C_ctype_tolower_data
+ .rodata        0x00047440      0x300 d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_toupper.o)
+                0x00047440                __C_ctype_toupper_data
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+                0x00047740                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00048000                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+                0x00048000                . = ALIGN (0x4)
+                0x00048000                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x00048000                PROVIDE (__preinit_array_end, .)
+                0x00048000                PROVIDE (__init_array_start, .)
+
+.init_array
+ *(.init_array)
+                0x00048000                PROVIDE (__init_array_end, .)
+                0x00048000                PROVIDE (__fini_array_start, .)
+
+.fini_array
+ *(.fini_array)
+                0x00048000                PROVIDE (__fini_array_end, .)
+
+.data           0x00048000      0x3fc
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00048000      0x230 init.o
+ *fill*         0x00048230       0x10 00
+ .data          0x00048240       0x94 d:/jicamasdk/uclibc/lib/\libc.a(_stdio_init.o)
+                0x000482c8                stdout
+                0x000482d0                _stdio_openlist
+                0x000482c4                stdin
+                0x000482cc                stderr
+ *fill*         0x000482d4        0xc 00
+ .data          0x000482e0      0x104 d:/jicamasdk/uclibc/lib/\libc.a(malloc.o)
+                0x000483e0                __malloc_heap
+ .data          0x000483e4        0x8 d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o)
+                0x000483e8                __curlocale_var
+                0x000483e4                __global_locale
+ .data          0x000483ec        0x4 d:/jicamasdk/uclibc/lib/\libc.a(locale_data.o)
+                0x000483ec                __locale_mmap
+ .data          0x000483f0        0x4 d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_b.o)
+                0x000483f0                __C_ctype_b
+ .data          0x000483f4        0x4 d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_tolower.o)
+                0x000483f4                __C_ctype_tolower
+ .data          0x000483f8        0x4 d:/jicamasdk/uclibc/lib/\libc.a(__C_ctype_toupper.o)
+                0x000483f8                __C_ctype_toupper
+
+.data1
+ *(.data1)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.dynamic
+ *(.dynamic)
+
+.ctors
+ *crtbegin*.o(.ctors)
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin*.o(.dtors)
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.got
+ *(.got.plt)
+ *(.got)
+                0x000483fc                _edata = .
+                0x000483fc                PROVIDE (edata, .)
+                0x000483fc                __bss_start = .
+
+.bss            0x00048400     0x2bb0
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00048400       0x14 init.o
+ .bss           0x00048414       0x10 d:/jicamasdk/uclibc/lib/\libc.a(__uClibc_main.o)
+                0x00048414                __environ
+                0x00048420                __app_fini
+                0x00048418                __progname
+ .bss           0x00048424        0x8 d:/jicamasdk/uclibc/lib/\libc.a(errno.o)
+                0x00048428                _h_errno
+                0x00048424                errno
+                0x00048428                h_errno
+                0x00048424                _errno
+ *fill*         0x0004842c       0x14 00
+ .bss           0x00048440     0x2000 d:/jicamasdk/uclibc/lib/\libc.a(_stdio_init.o)
+ .bss           0x0004a440       0x32 d:/jicamasdk/uclibc/lib/\libc.a(strerror.o)
+ *fill*         0x0004a472        0x2 00
+ .bss           0x0004a474        0x4 d:/jicamasdk/uclibc/lib/\libc.a(exit.o)
+                0x0004a474                __exit_cleanup
+ .bss           0x0004a478        0x4 d:/jicamasdk/uclibc/lib/\libc.a(setenv.o)
+ .bss           0x0004a47c        0x4 d:/jicamasdk/uclibc/lib/\libc.a(brk.o)
+                0x0004a47c                ___brk_addr
+ .bss           0x0004a480      0xb24 d:/jicamasdk/uclibc/lib/\libc.a(_locale_init.o)
+ .bss           0x0004afa4        0x4 d:/jicamasdk/uclibc/lib/\libc.a(mbsrtowcs.o)
+ .bss           0x0004afa8        0x4 d:/jicamasdk/uclibc/lib/\libc.a(__mbsnrtowcs.o)
+ *(COMMON)
+ COMMON         0x0004afac        0x4 init.o
+                                  0x0 (size before relaxing)
+                0x0004afac                environ
+                0x0004afb0                . = ALIGN (0x4)
+                0x0004afb0                . = ALIGN (0x4)
+                0x0004afb0                _end = .
+                0x0004afb0                PROVIDE (end, .)
+                0x0004afb0                . = DATA_SEGMENT_END (.)
+
+.stab           0x00000000     0x1980
+ *(.stab)
+ .stab          0x00000000     0x1980 init.o
+
+.stabstr        0x00000000     0x289e
+ *(.stabstr)
+ .stabstr       0x00000000     0x289e init.o
+                                  0x0 (size before relaxing)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x12
+ *(.comment)
+ .comment       0x00000000       0x12 init.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(init elf32-i386)

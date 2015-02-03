@@ -1,0 +1,114 @@
+widgetc.o: widgetc.c d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/sys/stat.h \
+  d:/jicamasdk/uclibc/include/bits/stat.h \
+  d:/jicamasdk/uclibc/include/unistd.h \
+  d:/jicamasdk/uclibc/include/bits/posix_opt.h \
+  d:/jicamasdk/uclibc/include/bits/confname.h \
+  d:/jicamasdk/uclibc/include/bits/getopt.h list.h xml.h code.h header.h
+list.o: list.c ../../lib/xynth.h ../../lib/list.c \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h ../../lib/xynth_.h
+code.o: code.c d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/string.h list.h xml.h code.h
+header.o: header.c d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/string.h list.h xml.h header.h
+xml.o: xml.c d:/jicamasdk/uclibc/include/stdio.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_stdio.h \
+  d:/jicamasdk/uclibc/include/stdarg.h \
+  d:/jicamasdk/uclibc/include/bits/stdio_lim.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/alloca.h \
+  d:/jicamasdk/uclibc/include/string.h list.h xml.h ../../lib/xml.c \
+  ../../lib/xynth_.h d:/jicamasdk/uclibc/include/sys/stat.h \
+  d:/jicamasdk/uclibc/include/bits/stat.h \
+  d:/jicamasdk/uclibc/include/unistd.h \
+  d:/jicamasdk/uclibc/include/bits/posix_opt.h \
+  d:/jicamasdk/uclibc/include/bits/confname.h \
+  d:/jicamasdk/uclibc/include/bits/getopt.h ../../lib/expat/expat.h \
+  ../../lib/expat/expat_external.h ../../lib/expat/expat_config.h

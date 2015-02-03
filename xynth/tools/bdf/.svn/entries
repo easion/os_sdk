@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/tools/bdf
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+bdf2c.c
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+e9ea175a0592554d564a55f28a731bd1
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+bdf2h.c
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+ca687d64c8e67d47c702383e7147973d
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

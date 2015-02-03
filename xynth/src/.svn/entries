@@ -1,0 +1,73 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/src
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-25T22:37:15.157138Z
+366
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+python
+dir
+
+widget
+dir
+
+themes
+dir
+
+lib
+dir
+
+server
+dir
+
+configs
+dir
+
+fonts
+dir
+
+Makefile.depend
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+b10d63aac25982f212533277f1b3b163
+2008-04-15T20:57:14.193923Z
+263
+mwhitworth
+

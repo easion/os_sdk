@@ -1,0 +1,43 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/ports/kaffe
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+xynth
+dir
+
+kaffe-1.1.7-xynth.diff
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+2d2c529c1013ceb0879361fb3c0bb4af
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

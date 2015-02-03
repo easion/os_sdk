@@ -1,0 +1,40 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/src/server/video/bochs
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-25T22:37:15.157138Z
+366
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+server.c
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+c93e58f920265851d3251d0caf6c66e9
+2008-04-25T22:37:15.157138Z
+366
+mwhitworth
+

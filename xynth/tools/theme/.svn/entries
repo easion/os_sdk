@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/tools/theme
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+theme.c
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+180db6ae48a1e4a1177c20a580a5d51b
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:17.000000Z
+aed4748fe90be7d856190374a91246b9
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+

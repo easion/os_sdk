@@ -1,0 +1,24 @@
+xmlparse.o: xmlparse.c d:/jicamasdk/uclibc/include/stddef.h \
+  d:/jicamasdk/uclibc/include/string.h \
+  d:/jicamasdk/uclibc/include/features.h \
+  d:/jicamasdk/uclibc/include/sys/cdefs.h \
+  d:/jicamasdk/uclibc/include/bits/uClibc_config.h \
+  d:/jicamasdk/uclibc/include/assert.h expat_config.h expat.h \
+  d:/jicamasdk/uclibc/include/stdlib.h \
+  d:/jicamasdk/uclibc/include/sys/types.h \
+  d:/jicamasdk/uclibc/include/bits/types.h \
+  d:/jicamasdk/uclibc/include/bits/kernel_types.h \
+  d:/jicamasdk/uclibc/include/time.h d:/jicamasdk/uclibc/include/endian.h \
+  d:/jicamasdk/uclibc/include/bits/endian.h \
+  d:/jicamasdk/uclibc/include/sys/select.h \
+  d:/jicamasdk/uclibc/include/bits/select.h \
+  d:/jicamasdk/uclibc/include/bits/sigset.h \
+  d:/jicamasdk/uclibc/include/bits/time.h \
+  d:/jicamasdk/uclibc/include/sys/sysmacros.h \
+  d:/jicamasdk/uclibc/include/alloca.h expat_external.h internal.h \
+  xmltok.h xmlrole.h
+xmltok.o: xmltok.c d:/jicamasdk/uclibc/include/stddef.h expat_config.h \
+  expat_external.h internal.h xmltok.h nametab.h xmltok_impl.h ascii.h \
+  xmltok_impl.c asciitab.h utf8tab.h iasciitab.h latin1tab.h xmltok_ns.c
+xmlrole.o: xmlrole.c d:/jicamasdk/uclibc/include/stddef.h expat_config.h \
+  expat_external.h internal.h xmlrole.h xmltok.h ascii.h

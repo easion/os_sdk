@@ -1,0 +1,61 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/src/server/video
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-25T22:37:15.157138Z
+366
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+helper
+dir
+
+gp2x
+dir
+
+svga
+dir
+
+pspdev
+dir
+
+sdl
+dir
+
+gdi
+dir
+
+caca
+dir
+
+fb
+dir
+
+vga
+dir
+
+bochs
+dir
+
+vesa
+dir
+

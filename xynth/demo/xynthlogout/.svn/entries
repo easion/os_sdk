@@ -1,0 +1,52 @@
+8
+
+dir
+370
+svn://www.whitix.org/svn/projects/Whitix/trunk/user/xynth/demo/xynthlogout
+svn://www.whitix.org/svn/projects
+
+
+
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b78593bc-9a46-0410-ab22-9eae6d42681f
+
+xynthlogout.c
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+8a7e61fc00aba3b3bcc0797353b8deef
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
+Makefile
+file
+
+
+
+
+2008-04-27T16:52:15.000000Z
+7540eb8b7be7b73df33a6b9c8681c81e
+2008-04-13T22:12:14.274647Z
+245
+mwhitworth
+
