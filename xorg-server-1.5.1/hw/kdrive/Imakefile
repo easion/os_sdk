@@ -1,0 +1,40 @@
+XCOMM $XConsortium: Imakefile /main/10 1996/12/02 10:20:33 lehors $
+XCOMM $XFree86: xc/programs/Xserver/hw/kdrive/Imakefile,v 1.8 2001/05/29 04:54:10 keithp Exp $
+KDRIVE=.
+#include "Kdrive.tmpl"
+
+#if BuildRender
+RENDERSRCS=kpict.c
+RENDEROBJS=kpict.o
+#endif
+
+#if BuildXvExt
+XVSRCS=kxv.c
+XVOBJS=kxv.o 
+#endif
+
+#if XipaqServer
+DEFINES = -DXIPAQ
+#endif
+
+#kshadow.c  kshadow.o kaa.o kaa.c vga.c  kinfo.c knoop.c ktest.c  kcurscol.c
+
+SRCS = kcmap.c kcolor.c kdrive.c kinput.c kmap.c kmode.c 
+
+#$(RENDERSRCS) $(XVSRCS)\	kasync.c
+
+#vga.o kinfo.o  knoop.o ktest.o kcurscol.o kinfo.o kmap.o kcolor.o  kasync.o
+
+OBJS = kcmap.o kcolor.o kdrive.o kinput.o kinfo.o kmap.o kmode.o
+
+#$(RENDEROBJS) $(XVOBJS)
+
+INCLUDES = $(KDINCS)
+
+NormalLibraryObjectRule()
+NormalLibraryTarget(kdrive,$(OBJS))
+
+SpecialCObjectRule(kdrive,,$(EXT_DEFINES))
+
+InstallManPage(Xkdrive,$(MANDIR))
+DependTarget()
